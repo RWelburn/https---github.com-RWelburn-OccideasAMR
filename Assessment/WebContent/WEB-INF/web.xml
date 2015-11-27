@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="WebApp_ID" version="2.4" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+<display-name>Assessment</display-name>
+<welcome-file-list>
+<welcome-file>index.html</welcome-file>
+<welcome-file>index.htm</welcome-file>
+<welcome-file>main.jsp</welcome-file>
+<welcome-file>index.jsp</welcome-file>
+<welcome-file>default.html</welcome-file>
+<welcome-file>default.htm</welcome-file>
+<welcome-file>default.jsp</welcome-file>
+</welcome-file-list>
+<servlet>
+	<servlet-name>ValidateServlet</servlet-name>
+	<servlet-class>com.researchit.servlets.ValidateServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ValidateServlet</servlet-name>
+	<url-pattern>/ValidateServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>ControllerServlet</servlet-name>
+	<servlet-class>com.researchit.servlets.ControllerServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ControllerServlet</servlet-name>
+	<url-pattern>/ControllerServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>MainServlet</servlet-name>
+	<servlet-class>com.researchit.servlets.MainServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>MainServlet</servlet-name>
+	<url-pattern>/MainServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+	<display-name>ImageStream</display-name>
+	<servlet-name>ImageStream</servlet-name>
+	<servlet-class>com.researchit.servlets.ImageStream</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ImageStream</servlet-name>
+	<url-pattern>/ImageStream</url-pattern>
+</servlet-mapping>
+<servlet>
+	<display-name>ProgressUpdate</display-name>
+	<servlet-name>ProgressUpdate</servlet-name>
+	<servlet-class>com.researchit.servlets.ProgressUpdate</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ProgressUpdate</servlet-name>
+	<url-pattern>/ProgressUpdate</url-pattern>
+</servlet-mapping>
+</web-app>

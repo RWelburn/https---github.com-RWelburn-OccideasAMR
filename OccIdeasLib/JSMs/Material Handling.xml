@@ -1,0 +1,3288 @@
+<jsm>
+  <id>437</id>
+  <name>Material Handling</name>
+  <description>truck loading/unloading personnel, transport and handling of material</description>
+  <questions>
+    <com.researchit.Question>
+      <id>5927</id>
+      <name>Material Handling load/unload vehicle</name>
+      <description>Did you load and unload the vehicles yourself?</description>
+      <jsmID>437</jsmID>
+      <sequence>0</sequence>
+      <possibleAnswers>
+        <com.researchit.PossibleAnswer>
+          <id>3719</id>
+          <name>Yes</name>
+          <description>Yes</description>
+          <sequence>0</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>65424</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42490</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3722</id>
+          <name>No</name>
+          <description>No</description>
+          <sequence>1</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>65425</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42490</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+      </possibleAnswers>
+      <agents/>
+      <parentID>100</parentID>
+      <interviewID></interviewID>
+      <jsmStructureQuestionID>42490</jsmStructureQuestionID>
+      <warning></warning>
+      <multiple>false</multiple>
+      <minimised>false</minimised>
+      <notes>NULL</notes>
+      <typeID>1</typeID>
+      <jsmName></jsmName>
+      <errorMessage></errorMessage>
+      <viewWithParent>false</viewWithParent>
+    </com.researchit.Question>
+    <com.researchit.Question>
+      <id>5928</id>
+      <name>Material handling goods carried</name>
+      <description>What materials or goods did you mainly carry?</description>
+      <jsmID>437</jsmID>
+      <sequence>1</sequence>
+      <possibleAnswers>
+        <com.researchit.PossibleAnswer>
+          <id>4261</id>
+          <name>Petroleum products</name>
+          <description>Petroleum products</description>
+          <sequence>0</sequence>
+          <jsmName></jsmName>
+          <childQuestions>
+            <com.researchit.Question>
+              <id>5929</id>
+              <name>material handling petrolium products</name>
+              <description>What did you usually carry?</description>
+              <jsmID>437</jsmID>
+              <sequence>0</sequence>
+              <possibleAnswers>
+                <com.researchit.PossibleAnswer>
+                  <id>4262</id>
+                  <name>Petroleum</name>
+                  <description>Petroleum</description>
+                  <sequence>0</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>65427</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42492</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3900</id>
+                  <name>Diesel</name>
+                  <description>Diesel</description>
+                  <sequence>1</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>65428</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42492</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3743</id>
+                  <name>Other</name>
+                  <description>Other</description>
+                  <sequence>2</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>65429</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42492</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+              </possibleAnswers>
+              <agents/>
+              <parentID>65426</parentID>
+              <interviewID></interviewID>
+              <jsmStructureQuestionID>42492</jsmStructureQuestionID>
+              <warning></warning>
+              <multiple>false</multiple>
+              <minimised>false</minimised>
+              <notes>NULL</notes>
+              <typeID>1</typeID>
+              <jsmName></jsmName>
+              <errorMessage></errorMessage>
+              <viewWithParent>false</viewWithParent>
+            </com.researchit.Question>
+          </childQuestions>
+          <jsmQuestionPossibleAnswerStructureID>65426</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42491</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>4263</id>
+          <name>Wood/lumber/logs</name>
+          <description>Wood/lumber/logs</description>
+          <sequence>1</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>65430</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42491</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>4264</id>
+          <name>Chemical</name>
+          <description>Chemical</description>
+          <sequence>2</sequence>
+          <jsmName></jsmName>
+          <childQuestions>
+            <com.researchit.Question>
+              <id>5931</id>
+              <name>material handling chemical</name>
+              <description>Please describe</description>
+              <jsmID>437</jsmID>
+              <sequence>0</sequence>
+              <possibleAnswers>
+                <com.researchit.PossibleAnswer>
+                  <id>3730</id>
+                  <name>[free text]</name>
+                  <description>[free text]</description>
+                  <sequence>0</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>65432</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42493</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+              </possibleAnswers>
+              <agents/>
+              <parentID>65431</parentID>
+              <interviewID></interviewID>
+              <jsmStructureQuestionID>42493</jsmStructureQuestionID>
+              <warning></warning>
+              <multiple>false</multiple>
+              <minimised>false</minimised>
+              <notes>NULL</notes>
+              <typeID>1</typeID>
+              <jsmName></jsmName>
+              <errorMessage></errorMessage>
+              <viewWithParent>false</viewWithParent>
+            </com.researchit.Question>
+          </childQuestions>
+          <jsmQuestionPossibleAnswerStructureID>65431</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42491</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>4265</id>
+          <name>Ores, such coal, bauxite, iron ore</name>
+          <description>Ores, such coal, bauxite, iron ore</description>
+          <sequence>3</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>65433</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42491</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>4266</id>
+          <name>livestock (live animals)</name>
+          <description>livestock (live animals)</description>
+          <sequence>4</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>65434</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42491</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>4267</id>
+          <name>grains/fruit/vegetables</name>
+          <description>grains/fruit/vegetables</description>
+          <sequence>5</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>65435</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42491</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>4268</id>
+          <name>manufactured products</name>
+          <description>manufactured products</description>
+          <sequence>6</sequence>
+          <jsmName></jsmName>
+          <childQuestions>
+            <com.researchit.Question>
+              <id>5932</id>
+              <name>material handling manufactured products</name>
+              <description>Please describe</description>
+              <jsmID>437</jsmID>
+              <sequence>0</sequence>
+              <possibleAnswers>
+                <com.researchit.PossibleAnswer>
+                  <id>3730</id>
+                  <name>[free text]</name>
+                  <description>[free text]</description>
+                  <sequence>0</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>65437</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42494</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+              </possibleAnswers>
+              <agents/>
+              <parentID>65436</parentID>
+              <interviewID></interviewID>
+              <jsmStructureQuestionID>42494</jsmStructureQuestionID>
+              <warning></warning>
+              <multiple>false</multiple>
+              <minimised>false</minimised>
+              <notes>NULL</notes>
+              <typeID>1</typeID>
+              <jsmName></jsmName>
+              <errorMessage></errorMessage>
+              <viewWithParent>false</viewWithParent>
+            </com.researchit.Question>
+          </childQuestions>
+          <jsmQuestionPossibleAnswerStructureID>65436</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42491</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3743</id>
+          <name>Other</name>
+          <description>Other</description>
+          <sequence>7</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>65438</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42491</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+      </possibleAnswers>
+      <agents>
+        <com.researchit.Agent>
+          <id>101</id>
+          <name>Aliphatic Solvents</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Aliphatic &#xd;
+ hydrocarbon &lt;BR&gt;  gases		0 - &amp;lt;100ppm	100 - 1000ppm	&amp;gt;1000ppm</description>
+          <parentID>96</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>98</id>
+          <name>Benzene</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Benzene&amp;nbsp;		0 - &amp;lt;0.05ppm&amp;nbsp;	0.05 - 0.5ppm&amp;nbsp;	&amp;gt;0.5ppm&lt;BR&gt;</description>
+          <parentID>96</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>100</id>
+          <name>Chlorinated Solvents</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Carbon tetra&lt;BR&gt; chloride		0 - &amp;lt;0.5ppm	0.5 - &amp;lt;5ppm	&amp;gt;5ppm&lt;BR&gt;Trichlorethylene	0 - &amp;lt;5ppm		5 - &amp;lt;50ppm	&amp;gt;50ppm</description>
+          <parentID>96</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>99</id>
+          <name>Other Aromatic Solvents</name>
+          <description>			TLV-TWA Exposure levels&lt;br&gt;Examples		Low		Medium		High&lt;br&gt;Toluene			0 - &amp;lt;5ppm	5 - &amp;lt;50ppm	&amp;gt;50ppm&amp;nbsp; &lt;br&gt;Xylene			0 - &amp;lt;10ppm	10 - &amp;lt;100ppm	&amp;gt;100ppm&lt;br&gt;&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+</description>
+          <parentID>96</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>110</id>
+          <name>Cotton Dust</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Cottin dust&amp;nbsp;	0 - &amp;lt;0.02mg/m3&amp;nbsp;	0.02 - &amp;lt;0.2mg/m3&amp;nbsp;	&amp;gt;0.2mg/m3&lt;BR&gt;</description>
+          <parentID>107</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>109</id>
+          <name>Grain Dust</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Grain dust &#xd;
+ (oat, &lt;BR&gt;  wheat, barley)	0 - &amp;lt;0.04mg/m3&amp;nbsp;	0.4 - &amp;lt;4mg/m3&amp;nbsp;	&amp;gt;4mg/m3</description>
+          <parentID>107</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>111</id>
+          <name>Other Organic Dust</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Meat, vegetable&lt;BR&gt;</description>
+          <parentID>107</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>108</id>
+          <name>Wood Dust</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples			Low		Medium		High&#xd;
+Red cedar wood dust	0 - &amp;lt;0.05mg/m3&amp;nbsp;	0.05 - &amp;lt;0.5mg/m3&amp;nbsp;	&amp;gt;0.5mg/m3&#xd;
+Wood dust  &lt;BR&gt; (except red cedar)&amp;nbsp;	0 - &amp;lt;0.1mg/m3 &amp;nbsp;	0.1 - &amp;lt;1mg/m3 &amp;nbsp;	&amp;gt;1mg/m3</description>
+          <parentID>107</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>123</id>
+          <name>Mineral Fertilizers</name>
+          <description>Mineral Fertilizers</description>
+          <parentID>122</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>124</id>
+          <name>Natural Fertilizers</name>
+          <description>Natural Fertilizers</description>
+          <parentID>122</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>148</id>
+          <name>Silica</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Crystalline silica	0 - &amp;lt;0.005mg/m3&amp;nbsp;	0.005 - &amp;lt;0.05mg/m3	&amp;gt;0.05mg/m3&lt;BR&gt;</description>
+          <parentID>145</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+      </agents>
+      <parentID>100</parentID>
+      <interviewID></interviewID>
+      <jsmStructureQuestionID>42491</jsmStructureQuestionID>
+      <warning></warning>
+      <multiple>false</multiple>
+      <minimised>false</minimised>
+      <notes>NULL</notes>
+      <typeID>1</typeID>
+      <jsmName></jsmName>
+      <errorMessage></errorMessage>
+      <viewWithParent>false</viewWithParent>
+    </com.researchit.Question>
+    <com.researchit.Question>
+      <id>5934</id>
+      <name>material handling material packaging</name>
+      <description>How were the materials or goods packaged?</description>
+      <jsmID>437</jsmID>
+      <sequence>2</sequence>
+      <possibleAnswers>
+        <com.researchit.PossibleAnswer>
+          <id>4269</id>
+          <name>bulk or loose</name>
+          <description>bulk or loose</description>
+          <sequence>0</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>65439</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42495</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>4270</id>
+          <name>plastic bags</name>
+          <description>plastic bags</description>
+          <sequence>1</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>65440</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42495</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>4271</id>
+          <name>sealed containers</name>
+          <description>sealed containers</description>
+          <sequence>2</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>65441</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42495</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>4272</id>
+          <name>pressurized cylinders</name>
+          <description>pressurized cylinders</description>
+          <sequence>3</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>65442</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42495</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>4273</id>
+          <name>boxes</name>
+          <description>boxes</description>
+          <sequence>4</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>65443</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42495</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>4274</id>
+          <name>burlap bags/hessian sacks/paper bags</name>
+          <description>burlap bags/hessian sacks/paper bags</description>
+          <sequence>5</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>65444</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42495</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>4275</id>
+          <name>not packaged (e.g. timber)</name>
+          <description>not packaged (e.g. timber)</description>
+          <sequence>6</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>65445</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42495</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3743</id>
+          <name>Other</name>
+          <description>Other</description>
+          <sequence>7</sequence>
+          <jsmName></jsmName>
+          <childQuestions>
+            <com.researchit.Question>
+              <id>5935</id>
+              <name>material handling other</name>
+              <description>Please describe</description>
+              <jsmID>437</jsmID>
+              <sequence>0</sequence>
+              <possibleAnswers>
+                <com.researchit.PossibleAnswer>
+                  <id>3730</id>
+                  <name>[free text]</name>
+                  <description>[free text]</description>
+                  <sequence>0</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>65447</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42496</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+              </possibleAnswers>
+              <agents/>
+              <parentID>65446</parentID>
+              <interviewID></interviewID>
+              <jsmStructureQuestionID>42496</jsmStructureQuestionID>
+              <warning></warning>
+              <multiple>false</multiple>
+              <minimised>false</minimised>
+              <notes>NULL</notes>
+              <typeID>1</typeID>
+              <jsmName></jsmName>
+              <errorMessage></errorMessage>
+              <viewWithParent>false</viewWithParent>
+            </com.researchit.Question>
+          </childQuestions>
+          <jsmQuestionPossibleAnswerStructureID>65446</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42495</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+      </possibleAnswers>
+      <agents>
+        <com.researchit.Agent>
+          <id>101</id>
+          <name>Aliphatic Solvents</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Aliphatic &#xd;
+ hydrocarbon &lt;BR&gt;  gases		0 - &amp;lt;100ppm	100 - 1000ppm	&amp;gt;1000ppm</description>
+          <parentID>96</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>98</id>
+          <name>Benzene</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Benzene&amp;nbsp;		0 - &amp;lt;0.05ppm&amp;nbsp;	0.05 - 0.5ppm&amp;nbsp;	&amp;gt;0.5ppm&lt;BR&gt;</description>
+          <parentID>96</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>100</id>
+          <name>Chlorinated Solvents</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Carbon tetra&lt;BR&gt; chloride		0 - &amp;lt;0.5ppm	0.5 - &amp;lt;5ppm	&amp;gt;5ppm&lt;BR&gt;Trichlorethylene	0 - &amp;lt;5ppm		5 - &amp;lt;50ppm	&amp;gt;50ppm</description>
+          <parentID>96</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>99</id>
+          <name>Other Aromatic Solvents</name>
+          <description>			TLV-TWA Exposure levels&lt;br&gt;Examples		Low		Medium		High&lt;br&gt;Toluene			0 - &amp;lt;5ppm	5 - &amp;lt;50ppm	&amp;gt;50ppm&amp;nbsp; &lt;br&gt;Xylene			0 - &amp;lt;10ppm	10 - &amp;lt;100ppm	&amp;gt;100ppm&lt;br&gt;&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+</description>
+          <parentID>96</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>148</id>
+          <name>Silica</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Crystalline silica	0 - &amp;lt;0.005mg/m3&amp;nbsp;	0.005 - &amp;lt;0.05mg/m3	&amp;gt;0.05mg/m3&lt;BR&gt;</description>
+          <parentID>145</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+      </agents>
+      <parentID>100</parentID>
+      <interviewID></interviewID>
+      <jsmStructureQuestionID>42495</jsmStructureQuestionID>
+      <warning></warning>
+      <multiple>false</multiple>
+      <minimised>false</minimised>
+      <notes>NULL</notes>
+      <typeID>1</typeID>
+      <jsmName></jsmName>
+      <errorMessage></errorMessage>
+      <viewWithParent>false</viewWithParent>
+    </com.researchit.Question>
+    <com.researchit.Question>
+      <id>5936</id>
+      <name>material handling loading/unloading method</name>
+      <description>How was the loading and unloading usually done?</description>
+      <jsmID>437</jsmID>
+      <sequence>3</sequence>
+      <possibleAnswers>
+        <com.researchit.PossibleAnswer>
+          <id>4276</id>
+          <name>hand, handcart or handtruck, or other mechanical device</name>
+          <description>hand, handcart or handtruck, or other mechanical device</description>
+          <sequence>0</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>65448</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42497</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>4277</id>
+          <name>front loader</name>
+          <description>front loader</description>
+          <sequence>1</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>65449</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42497</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>4278</id>
+          <name>forklift</name>
+          <description>forklift</description>
+          <sequence>2</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>65450</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42497</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>4279</id>
+          <name>conveyor belt</name>
+          <description>conveyor belt</description>
+          <sequence>3</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>65451</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42497</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>4280</id>
+          <name>hose or fill tube</name>
+          <description>hose or fill tube</description>
+          <sequence>4</sequence>
+          <jsmName></jsmName>
+          <childQuestions>
+            <com.researchit.Question>
+              <id>5937</id>
+              <name>material handling hose or fill tube</name>
+              <description>When you loaded the truck using a hose or fill tube, was the loading usually done:</description>
+              <jsmID>437</jsmID>
+              <sequence>0</sequence>
+              <possibleAnswers>
+                <com.researchit.PossibleAnswer>
+                  <id>4281</id>
+                  <name>from the top of the tanker with an open hatch</name>
+                  <description>from the top of the tanker with an open hatch</description>
+                  <sequence>0</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>65453</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42498</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>4282</id>
+                  <name>from the top of the tanker with a closed hatch</name>
+                  <description>from the top of the tanker with a closed hatch</description>
+                  <sequence>1</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>65454</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42498</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>4283</id>
+                  <name>underneath the tanker</name>
+                  <description>underneath the tanker</description>
+                  <sequence>2</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>65455</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42498</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3738</id>
+                  <name>Some other way</name>
+                  <description>Some other way</description>
+                  <sequence>3</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions>
+                    <com.researchit.Question>
+                      <id>5938</id>
+                      <name>material handling loading some other way</name>
+                      <description>Please describe</description>
+                      <jsmID>437</jsmID>
+                      <sequence>0</sequence>
+                      <possibleAnswers>
+                        <com.researchit.PossibleAnswer>
+                          <id>3730</id>
+                          <name>[free text]</name>
+                          <description>[free text]</description>
+                          <sequence>0</sequence>
+                          <jsmName></jsmName>
+                          <childQuestions/>
+                          <jsmQuestionPossibleAnswerStructureID>65457</jsmQuestionPossibleAnswerStructureID>
+                          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                          <jsmQuestionStructureID>42499</jsmQuestionStructureID>
+                          <interviewID></interviewID>
+                          <actualAnswer></actualAnswer>
+                          <showChildQuestions>true</showChildQuestions>
+                        </com.researchit.PossibleAnswer>
+                      </possibleAnswers>
+                      <agents/>
+                      <parentID>65456</parentID>
+                      <interviewID></interviewID>
+                      <jsmStructureQuestionID>42499</jsmStructureQuestionID>
+                      <warning></warning>
+                      <multiple>false</multiple>
+                      <minimised>false</minimised>
+                      <notes>NULL</notes>
+                      <typeID>1</typeID>
+                      <jsmName></jsmName>
+                      <errorMessage></errorMessage>
+                      <viewWithParent>false</viewWithParent>
+                    </com.researchit.Question>
+                  </childQuestions>
+                  <jsmQuestionPossibleAnswerStructureID>65456</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42498</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+              </possibleAnswers>
+              <agents>
+                <com.researchit.Agent>
+                  <id>101</id>
+                  <name>Aliphatic Solvents</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Aliphatic &#xd;
+ hydrocarbon &lt;BR&gt;  gases		0 - &amp;lt;100ppm	100 - 1000ppm	&amp;gt;1000ppm</description>
+                  <parentID>96</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>98</id>
+                  <name>Benzene</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Benzene&amp;nbsp;		0 - &amp;lt;0.05ppm&amp;nbsp;	0.05 - 0.5ppm&amp;nbsp;	&amp;gt;0.5ppm&lt;BR&gt;</description>
+                  <parentID>96</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>99</id>
+                  <name>Other Aromatic Solvents</name>
+                  <description>			TLV-TWA Exposure levels&lt;br&gt;Examples		Low		Medium		High&lt;br&gt;Toluene			0 - &amp;lt;5ppm	5 - &amp;lt;50ppm	&amp;gt;50ppm&amp;nbsp; &lt;br&gt;Xylene			0 - &amp;lt;10ppm	10 - &amp;lt;100ppm	&amp;gt;100ppm&lt;br&gt;&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+</description>
+                  <parentID>96</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+              </agents>
+              <parentID>65452</parentID>
+              <interviewID></interviewID>
+              <jsmStructureQuestionID>42498</jsmStructureQuestionID>
+              <warning></warning>
+              <multiple>false</multiple>
+              <minimised>false</minimised>
+              <notes>NULL</notes>
+              <typeID>1</typeID>
+              <jsmName></jsmName>
+              <errorMessage></errorMessage>
+              <viewWithParent>false</viewWithParent>
+            </com.researchit.Question>
+            <com.researchit.Question>
+              <id>5109</id>
+              <name>How many weeks a year?</name>
+              <description>How many weeks a year?</description>
+              <jsmID>437</jsmID>
+              <sequence>1</sequence>
+              <possibleAnswers>
+                <com.researchit.PossibleAnswer>
+                  <id>3720</id>
+                  <name>[number 0-52]</name>
+                  <description>[number 0-52]</description>
+                  <sequence>0</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions>
+                    <com.researchit.Question>
+                      <id>5110</id>
+                      <name>hours a week</name>
+                      <description>On average, how many hours a week?</description>
+                      <jsmID>437</jsmID>
+                      <sequence>0</sequence>
+                      <possibleAnswers>
+                        <com.researchit.PossibleAnswer>
+                          <id>3721</id>
+                          <name>[number 1-100]</name>
+                          <description>[number 1-100]</description>
+                          <sequence>0</sequence>
+                          <jsmName></jsmName>
+                          <childQuestions/>
+                          <jsmQuestionPossibleAnswerStructureID>65459</jsmQuestionPossibleAnswerStructureID>
+                          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                          <jsmQuestionStructureID>42501</jsmQuestionStructureID>
+                          <interviewID></interviewID>
+                          <actualAnswer></actualAnswer>
+                          <showChildQuestions>true</showChildQuestions>
+                        </com.researchit.PossibleAnswer>
+                      </possibleAnswers>
+                      <agents>
+                        <com.researchit.Agent>
+                          <id>101</id>
+                          <name>Aliphatic Solvents</name>
+                          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Aliphatic &#xd;
+ hydrocarbon &lt;BR&gt;  gases		0 - &amp;lt;100ppm	100 - 1000ppm	&amp;gt;1000ppm</description>
+                          <parentID>96</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                        <com.researchit.Agent>
+                          <id>98</id>
+                          <name>Benzene</name>
+                          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Benzene&amp;nbsp;		0 - &amp;lt;0.05ppm&amp;nbsp;	0.05 - 0.5ppm&amp;nbsp;	&amp;gt;0.5ppm&lt;BR&gt;</description>
+                          <parentID>96</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                        <com.researchit.Agent>
+                          <id>100</id>
+                          <name>Chlorinated Solvents</name>
+                          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Carbon tetra&lt;BR&gt; chloride		0 - &amp;lt;0.5ppm	0.5 - &amp;lt;5ppm	&amp;gt;5ppm&lt;BR&gt;Trichlorethylene	0 - &amp;lt;5ppm		5 - &amp;lt;50ppm	&amp;gt;50ppm</description>
+                          <parentID>96</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                        <com.researchit.Agent>
+                          <id>99</id>
+                          <name>Other Aromatic Solvents</name>
+                          <description>			TLV-TWA Exposure levels&lt;br&gt;Examples		Low		Medium		High&lt;br&gt;Toluene			0 - &amp;lt;5ppm	5 - &amp;lt;50ppm	&amp;gt;50ppm&amp;nbsp; &lt;br&gt;Xylene			0 - &amp;lt;10ppm	10 - &amp;lt;100ppm	&amp;gt;100ppm&lt;br&gt;&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+</description>
+                          <parentID>96</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                        <com.researchit.Agent>
+                          <id>148</id>
+                          <name>Silica</name>
+                          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Crystalline silica	0 - &amp;lt;0.005mg/m3&amp;nbsp;	0.005 - &amp;lt;0.05mg/m3	&amp;gt;0.05mg/m3&lt;BR&gt;</description>
+                          <parentID>145</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                      </agents>
+                      <parentID>65458</parentID>
+                      <interviewID></interviewID>
+                      <jsmStructureQuestionID>42501</jsmStructureQuestionID>
+                      <warning></warning>
+                      <multiple>false</multiple>
+                      <minimised>false</minimised>
+                      <notes>NULL</notes>
+                      <typeID>3</typeID>
+                      <jsmName></jsmName>
+                      <errorMessage></errorMessage>
+                      <viewWithParent>true</viewWithParent>
+                    </com.researchit.Question>
+                  </childQuestions>
+                  <jsmQuestionPossibleAnswerStructureID>65458</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42500</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+              </possibleAnswers>
+              <agents>
+                <com.researchit.Agent>
+                  <id>101</id>
+                  <name>Aliphatic Solvents</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Aliphatic &#xd;
+ hydrocarbon &lt;BR&gt;  gases		0 - &amp;lt;100ppm	100 - 1000ppm	&amp;gt;1000ppm</description>
+                  <parentID>96</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>98</id>
+                  <name>Benzene</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Benzene&amp;nbsp;		0 - &amp;lt;0.05ppm&amp;nbsp;	0.05 - 0.5ppm&amp;nbsp;	&amp;gt;0.5ppm&lt;BR&gt;</description>
+                  <parentID>96</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>100</id>
+                  <name>Chlorinated Solvents</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Carbon tetra&lt;BR&gt; chloride		0 - &amp;lt;0.5ppm	0.5 - &amp;lt;5ppm	&amp;gt;5ppm&lt;BR&gt;Trichlorethylene	0 - &amp;lt;5ppm		5 - &amp;lt;50ppm	&amp;gt;50ppm</description>
+                  <parentID>96</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>99</id>
+                  <name>Other Aromatic Solvents</name>
+                  <description>			TLV-TWA Exposure levels&lt;br&gt;Examples		Low		Medium		High&lt;br&gt;Toluene			0 - &amp;lt;5ppm	5 - &amp;lt;50ppm	&amp;gt;50ppm&amp;nbsp; &lt;br&gt;Xylene			0 - &amp;lt;10ppm	10 - &amp;lt;100ppm	&amp;gt;100ppm&lt;br&gt;&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+</description>
+                  <parentID>96</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>148</id>
+                  <name>Silica</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Crystalline silica	0 - &amp;lt;0.005mg/m3&amp;nbsp;	0.005 - &amp;lt;0.05mg/m3	&amp;gt;0.05mg/m3&lt;BR&gt;</description>
+                  <parentID>145</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+              </agents>
+              <parentID>65452</parentID>
+              <interviewID></interviewID>
+              <jsmStructureQuestionID>42500</jsmStructureQuestionID>
+              <warning></warning>
+              <multiple>false</multiple>
+              <minimised>false</minimised>
+              <notes>NULL</notes>
+              <typeID>3</typeID>
+              <jsmName></jsmName>
+              <errorMessage></errorMessage>
+              <viewWithParent>true</viewWithParent>
+            </com.researchit.Question>
+          </childQuestions>
+          <jsmQuestionPossibleAnswerStructureID>65452</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42497</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3743</id>
+          <name>Other</name>
+          <description>Other</description>
+          <sequence>5</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>65460</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42497</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+      </possibleAnswers>
+      <agents>
+        <com.researchit.Agent>
+          <id>101</id>
+          <name>Aliphatic Solvents</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Aliphatic &#xd;
+ hydrocarbon &lt;BR&gt;  gases		0 - &amp;lt;100ppm	100 - 1000ppm	&amp;gt;1000ppm</description>
+          <parentID>96</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>98</id>
+          <name>Benzene</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Benzene&amp;nbsp;		0 - &amp;lt;0.05ppm&amp;nbsp;	0.05 - 0.5ppm&amp;nbsp;	&amp;gt;0.5ppm&lt;BR&gt;</description>
+          <parentID>96</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>100</id>
+          <name>Chlorinated Solvents</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Carbon tetra&lt;BR&gt; chloride		0 - &amp;lt;0.5ppm	0.5 - &amp;lt;5ppm	&amp;gt;5ppm&lt;BR&gt;Trichlorethylene	0 - &amp;lt;5ppm		5 - &amp;lt;50ppm	&amp;gt;50ppm</description>
+          <parentID>96</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>99</id>
+          <name>Other Aromatic Solvents</name>
+          <description>			TLV-TWA Exposure levels&lt;br&gt;Examples		Low		Medium		High&lt;br&gt;Toluene			0 - &amp;lt;5ppm	5 - &amp;lt;50ppm	&amp;gt;50ppm&amp;nbsp; &lt;br&gt;Xylene			0 - &amp;lt;10ppm	10 - &amp;lt;100ppm	&amp;gt;100ppm&lt;br&gt;&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+</description>
+          <parentID>96</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>148</id>
+          <name>Silica</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Crystalline silica	0 - &amp;lt;0.005mg/m3&amp;nbsp;	0.005 - &amp;lt;0.05mg/m3	&amp;gt;0.05mg/m3&lt;BR&gt;</description>
+          <parentID>145</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+      </agents>
+      <parentID>100</parentID>
+      <interviewID></interviewID>
+      <jsmStructureQuestionID>42497</jsmStructureQuestionID>
+      <warning></warning>
+      <multiple>false</multiple>
+      <minimised>false</minimised>
+      <notes>NULL</notes>
+      <typeID>1</typeID>
+      <jsmName></jsmName>
+      <errorMessage></errorMessage>
+      <viewWithParent>false</viewWithParent>
+    </com.researchit.Question>
+  </questions>
+  <possibleAnswers>
+    <com.researchit.PossibleAnswer>
+      <id>3719</id>
+      <name>Yes</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65424</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3722</id>
+      <name>No</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65425</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4261</id>
+      <name>Petroleum products</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65426</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4263</id>
+      <name>Wood/lumber/logs</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65430</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4264</id>
+      <name>Chemical</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65431</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4265</id>
+      <name>Ores, such coal, bauxite, iron ore</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65433</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4266</id>
+      <name>livestock (live animals)</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65434</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4267</id>
+      <name>grains/fruit/vegetables</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65435</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4268</id>
+      <name>manufactured products</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65436</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3743</id>
+      <name>Other</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65438</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4262</id>
+      <name>Petroleum</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65427</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3900</id>
+      <name>Diesel</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65428</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3743</id>
+      <name>Other</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65429</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65432</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65437</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4269</id>
+      <name>bulk or loose</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65439</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4270</id>
+      <name>plastic bags</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65440</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4271</id>
+      <name>sealed containers</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65441</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4272</id>
+      <name>pressurized cylinders</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65442</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4273</id>
+      <name>boxes</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65443</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4274</id>
+      <name>burlap bags/hessian sacks/paper bags</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65444</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4275</id>
+      <name>not packaged (e.g. timber)</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65445</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3743</id>
+      <name>Other</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65446</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65447</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4276</id>
+      <name>hand, handcart or handtruck, or other mechanical device</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65448</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4277</id>
+      <name>front loader</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65449</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4278</id>
+      <name>forklift</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65450</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4279</id>
+      <name>conveyor belt</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65451</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4280</id>
+      <name>hose or fill tube</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65452</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3743</id>
+      <name>Other</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65460</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4281</id>
+      <name>from the top of the tanker with an open hatch</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65453</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4282</id>
+      <name>from the top of the tanker with a closed hatch</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65454</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4283</id>
+      <name>underneath the tanker</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65455</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3738</id>
+      <name>Some other way</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65456</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65457</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3720</id>
+      <name>[number 0-52]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65458</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3721</id>
+      <name>[number 1-100]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>65459</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+  </possibleAnswers>
+  <agents>
+    <com.researchit.Agent>
+      <id>98</id>
+      <name>Benzene</name>
+      <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Benzene&amp;nbsp;		0 - &amp;lt;0.05ppm&amp;nbsp;	0.05 - 0.5ppm&amp;nbsp;	&amp;gt;0.5ppm&lt;BR&gt;</description>
+      <parentID>96</parentID>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+    <com.researchit.Agent>
+      <id>99</id>
+      <name>Other Aromatic Solvents</name>
+      <description>			TLV-TWA Exposure levels&lt;br&gt;Examples		Low		Medium		High&lt;br&gt;Toluene			0 - &amp;lt;5ppm	5 - &amp;lt;50ppm	&amp;gt;50ppm&amp;nbsp; &lt;br&gt;Xylene			0 - &amp;lt;10ppm	10 - &amp;lt;100ppm	&amp;gt;100ppm&lt;br&gt;&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+</description>
+      <parentID>96</parentID>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+    <com.researchit.Agent>
+      <id>100</id>
+      <name>Chlorinated Solvents</name>
+      <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Carbon tetra&lt;BR&gt; chloride		0 - &amp;lt;0.5ppm	0.5 - &amp;lt;5ppm	&amp;gt;5ppm&lt;BR&gt;Trichlorethylene	0 - &amp;lt;5ppm		5 - &amp;lt;50ppm	&amp;gt;50ppm</description>
+      <parentID>96</parentID>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+    <com.researchit.Agent>
+      <id>101</id>
+      <name>Aliphatic Solvents</name>
+      <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Aliphatic &#xd;
+ hydrocarbon &lt;BR&gt;  gases		0 - &amp;lt;100ppm	100 - 1000ppm	&amp;gt;1000ppm</description>
+      <parentID>96</parentID>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+    <com.researchit.Agent>
+      <id>108</id>
+      <name>Wood Dust</name>
+      <description>			TLV-TWA Exposure levels&#xd;
+Examples			Low		Medium		High&#xd;
+Red cedar wood dust	0 - &amp;lt;0.05mg/m3&amp;nbsp;	0.05 - &amp;lt;0.5mg/m3&amp;nbsp;	&amp;gt;0.5mg/m3&#xd;
+Wood dust  &lt;BR&gt; (except red cedar)&amp;nbsp;	0 - &amp;lt;0.1mg/m3 &amp;nbsp;	0.1 - &amp;lt;1mg/m3 &amp;nbsp;	&amp;gt;1mg/m3</description>
+      <parentID>107</parentID>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+    <com.researchit.Agent>
+      <id>109</id>
+      <name>Grain Dust</name>
+      <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Grain dust &#xd;
+ (oat, &lt;BR&gt;  wheat, barley)	0 - &amp;lt;0.04mg/m3&amp;nbsp;	0.4 - &amp;lt;4mg/m3&amp;nbsp;	&amp;gt;4mg/m3</description>
+      <parentID>107</parentID>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+    <com.researchit.Agent>
+      <id>110</id>
+      <name>Cotton Dust</name>
+      <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Cottin dust&amp;nbsp;	0 - &amp;lt;0.02mg/m3&amp;nbsp;	0.02 - &amp;lt;0.2mg/m3&amp;nbsp;	&amp;gt;0.2mg/m3&lt;BR&gt;</description>
+      <parentID>107</parentID>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+    <com.researchit.Agent>
+      <id>111</id>
+      <name>Other Organic Dust</name>
+      <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Meat, vegetable&lt;BR&gt;</description>
+      <parentID>107</parentID>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+    <com.researchit.Agent>
+      <id>123</id>
+      <name>Mineral Fertilizers</name>
+      <description>Mineral Fertilizers</description>
+      <parentID>122</parentID>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+    <com.researchit.Agent>
+      <id>124</id>
+      <name>Natural Fertilizers</name>
+      <description>Natural Fertilizers</description>
+      <parentID>122</parentID>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+    <com.researchit.Agent>
+      <id>148</id>
+      <name>Silica</name>
+      <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Crystalline silica	0 - &amp;lt;0.005mg/m3&amp;nbsp;	0.005 - &amp;lt;0.05mg/m3	&amp;gt;0.05mg/m3&lt;BR&gt;</description>
+      <parentID>145</parentID>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+  </agents>
+  <rules>
+    <com.researchit.expert.ExpertRule>
+      <id>36051</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35620</id>
+          <name>Material_handling_goods_carried-Petrolium_products</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41163</id>
+              <name></name>
+              <description></description>
+              <factId>35620</factId>
+              <questionId>5928</questionId>
+              <answerId>4261</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>98</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36052</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35621</id>
+          <name>Material_handling_goods_carried-Petrolium_products</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41164</id>
+              <name></name>
+              <description></description>
+              <factId>35621</factId>
+              <questionId>5928</questionId>
+              <answerId>4261</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>101</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36053</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35622</id>
+          <name>Material_handling_goods_carried-Petrolium_products</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41165</id>
+              <name></name>
+              <description></description>
+              <factId>35622</factId>
+              <questionId>5928</questionId>
+              <answerId>4261</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>99</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36054</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35623</id>
+          <name>Material_handling_goods_carried-Wood/lumber/logs</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41166</id>
+              <name></name>
+              <description></description>
+              <factId>35623</factId>
+              <questionId>5928</questionId>
+              <answerId>4263</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>108</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36055</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35624</id>
+          <name>Material_handling_goods_carried-Chemical</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41167</id>
+              <name></name>
+              <description></description>
+              <factId>35624</factId>
+              <questionId>5928</questionId>
+              <answerId>4264</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>123</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36056</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35625</id>
+          <name>Material_handling_goods_carried-Chemical</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41168</id>
+              <name></name>
+              <description></description>
+              <factId>35625</factId>
+              <questionId>5928</questionId>
+              <answerId>4264</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>124</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36057</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35626</id>
+          <name>Material_handling_goods_carried-Chemical</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41169</id>
+              <name></name>
+              <description></description>
+              <factId>35626</factId>
+              <questionId>5928</questionId>
+              <answerId>4264</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>98</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>2</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36058</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35627</id>
+          <name>Material_handling_goods_carried-Chemical</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41170</id>
+              <name></name>
+              <description></description>
+              <factId>35627</factId>
+              <questionId>5928</questionId>
+              <answerId>4264</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>101</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>2</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36059</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35628</id>
+          <name>Material_handling_goods_carried-Chemical</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41171</id>
+              <name></name>
+              <description></description>
+              <factId>35628</factId>
+              <questionId>5928</questionId>
+              <answerId>4264</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>99</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>2</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36060</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35629</id>
+          <name>Material_handling_goods_carried-Chemical</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41172</id>
+              <name></name>
+              <description></description>
+              <factId>35629</factId>
+              <questionId>5928</questionId>
+              <answerId>4264</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>100</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36061</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35630</id>
+          <name>Material_handling_goods_carried-Ores,_such_coal,_bauxite,_iron_ore</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41173</id>
+              <name></name>
+              <description></description>
+              <factId>35630</factId>
+              <questionId>5928</questionId>
+              <answerId>4265</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>111</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36062</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35631</id>
+          <name>Material_handling_goods_carried-Ores,_such_coal,_bauxite,_iron_ore</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41174</id>
+              <name></name>
+              <description></description>
+              <factId>35631</factId>
+              <questionId>5928</questionId>
+              <answerId>4265</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>148</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36063</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35632</id>
+          <name>Material_handling_goods_carried-livestock_(live_animals)</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41175</id>
+              <name></name>
+              <description></description>
+              <factId>35632</factId>
+              <questionId>5928</questionId>
+              <answerId>4266</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>108</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>2</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36064</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35633</id>
+          <name>Material_handling_goods_carried-livestock_(live_animals)</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41176</id>
+              <name></name>
+              <description></description>
+              <factId>35633</factId>
+              <questionId>5928</questionId>
+              <answerId>4266</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>109</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36065</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35634</id>
+          <name>Material_handling_goods_carried-livestock_(live_animals)</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41177</id>
+              <name></name>
+              <description></description>
+              <factId>35634</factId>
+              <questionId>5928</questionId>
+              <answerId>4266</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>111</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>2</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36066</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35635</id>
+          <name>Material_handling_goods_carried-grains/fruit/vegetables</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41178</id>
+              <name></name>
+              <description></description>
+              <factId>35635</factId>
+              <questionId>5928</questionId>
+              <answerId>4267</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>109</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>2</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36067</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35636</id>
+          <name>Material_handling_goods_carried-grains/fruit/vegetables</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41179</id>
+              <name></name>
+              <description></description>
+              <factId>35636</factId>
+              <questionId>5928</questionId>
+              <answerId>4267</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>111</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>3</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36068</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35637</id>
+          <name>Material_handling_goods_carried-manufactured_products</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41180</id>
+              <name></name>
+              <description></description>
+              <factId>35637</factId>
+              <questionId>5928</questionId>
+              <answerId>4268</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>98</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>3</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36069</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35638</id>
+          <name>Material_handling_goods_carried-manufactured_products</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41181</id>
+              <name></name>
+              <description></description>
+              <factId>35638</factId>
+              <questionId>5928</questionId>
+              <answerId>4268</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>101</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>3</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36070</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35639</id>
+          <name>Material_handling_goods_carried-manufactured_products</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41182</id>
+              <name></name>
+              <description></description>
+              <factId>35639</factId>
+              <questionId>5928</questionId>
+              <answerId>4268</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>99</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>3</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36071</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35640</id>
+          <name>Material_handling_goods_carried-manufactured_products</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41183</id>
+              <name></name>
+              <description></description>
+              <factId>35640</factId>
+              <questionId>5928</questionId>
+              <answerId>4268</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>100</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>2</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36072</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35641</id>
+          <name>Material_handling_goods_carried-manufactured_products</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41184</id>
+              <name></name>
+              <description></description>
+              <factId>35641</factId>
+              <questionId>5928</questionId>
+              <answerId>4268</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>148</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>2</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36073</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35642</id>
+          <name>Material_handling_goods_carried-other</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41185</id>
+              <name></name>
+              <description></description>
+              <factId>35642</factId>
+              <questionId>5928</questionId>
+              <answerId>3743</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>148</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>3</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36074</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35643</id>
+          <name>Material_handling_goods_carried-other</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41186</id>
+              <name></name>
+              <description></description>
+              <factId>35643</factId>
+              <questionId>5928</questionId>
+              <answerId>3743</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>123</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>2</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36075</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35644</id>
+          <name>Material_handling_goods_carried-other</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41187</id>
+              <name></name>
+              <description></description>
+              <factId>35644</factId>
+              <questionId>5928</questionId>
+              <answerId>3743</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>124</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>2</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36076</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35645</id>
+          <name>Material_handling_goods_carried-other</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41188</id>
+              <name></name>
+              <description></description>
+              <factId>35645</factId>
+              <questionId>5928</questionId>
+              <answerId>3743</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>108</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>3</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36077</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35646</id>
+          <name>Material_handling_goods_carried-other</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41189</id>
+              <name></name>
+              <description></description>
+              <factId>35646</factId>
+              <questionId>5928</questionId>
+              <answerId>3743</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>109</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>3</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36078</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35647</id>
+          <name>Material_handling_goods_carried-other</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41190</id>
+              <name></name>
+              <description></description>
+              <factId>35647</factId>
+              <questionId>5928</questionId>
+              <answerId>3743</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>110</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36079</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35648</id>
+          <name>Material_handling_goods_carried-other</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41191</id>
+              <name></name>
+              <description></description>
+              <factId>35648</factId>
+              <questionId>5928</questionId>
+              <answerId>3743</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>111</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>4</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36080</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35649</id>
+          <name>Material_handling_goods_carried-other</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41192</id>
+              <name></name>
+              <description></description>
+              <factId>35649</factId>
+              <questionId>5928</questionId>
+              <answerId>3743</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>98</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>4</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36081</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35650</id>
+          <name>Material_handling_goods_carried-other</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41193</id>
+              <name></name>
+              <description></description>
+              <factId>35650</factId>
+              <questionId>5928</questionId>
+              <answerId>3743</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>101</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>4</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36082</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35651</id>
+          <name>Material_handling_goods_carried-other</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41194</id>
+              <name></name>
+              <description></description>
+              <factId>35651</factId>
+              <questionId>5928</questionId>
+              <answerId>3743</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>99</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>4</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36083</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35652</id>
+          <name>Material_handling_goods_carried-other</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41195</id>
+              <name></name>
+              <description></description>
+              <factId>35652</factId>
+              <questionId>5928</questionId>
+              <answerId>3743</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>100</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>3</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36084</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>7</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35653</id>
+          <name>material_handling_hose_or_fill_tube-from_the_top_of_the_tanker_with_an_open_hatch</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41196</id>
+              <name></name>
+              <description></description>
+              <factId>35653</factId>
+              <questionId>5937</questionId>
+              <answerId>4281</answerId>
+              <type>NULL</type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+        <com.researchit.expert.ExpertFact>
+          <id>35654</id>
+          <name>Material_handling_goods_carried-Petrolium_products</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41197</id>
+              <name></name>
+              <description></description>
+              <factId>35654</factId>
+              <questionId>5928</questionId>
+              <answerId>4261</answerId>
+              <type>NULL</type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>98</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36085</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>7</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35655</id>
+          <name>material_handling_hose_or_fill_tube-from_the_top_of_the_tanker_with_an_open_hatch</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41198</id>
+              <name></name>
+              <description></description>
+              <factId>35655</factId>
+              <questionId>5937</questionId>
+              <answerId>4281</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>101</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36086</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>7</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35656</id>
+          <name>material_handling_hose_or_fill_tube-from_the_top_of_the_tanker_with_an_open_hatch</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41199</id>
+              <name></name>
+              <description></description>
+              <factId>35656</factId>
+              <questionId>5937</questionId>
+              <answerId>4281</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>99</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36087</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>8</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35657</id>
+          <name>material_handling_hose_or_fill_tube-from_the_top_of_the_tanker_with_a_closed_hatch</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41200</id>
+              <name></name>
+              <description></description>
+              <factId>35657</factId>
+              <questionId>5937</questionId>
+              <answerId>4282</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>98</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36088</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>9</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35658</id>
+          <name>material_handling_hose_or_fill_tube-underneath_the_tanker</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41201</id>
+              <name></name>
+              <description></description>
+              <factId>35658</factId>
+              <questionId>5937</questionId>
+              <answerId>4283</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>98</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>36089</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>10</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>35659</id>
+          <name>material_handling_hose_or_fill_tube-some_other_way</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>41202</id>
+              <name></name>
+              <description></description>
+              <factId>35659</factId>
+              <questionId>5937</questionId>
+              <answerId>3738</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>98</agentId>
+      <jsmId>437</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+  </rules>
+  <interviewStartNote>NULL</interviewStartNote>
+  <interviewEndNote>NULL</interviewEndNote>
+  <questionCount>-1</questionCount>
+  <possibleAnswerCount>-1</possibleAnswerCount>
+  <associateModule>true</associateModule>
+  <readOnly>false</readOnly>
+  <credits>NULL</credits>
+  <jobHistoryAssessedCount>-1</jobHistoryAssessedCount>
+  <jsmTypeId>0</jsmTypeId>
+  <comments></comments>
+  <searchCount>0</searchCount>
+  <jsmAssociates></jsmAssociates>
+  <forumLink></forumLink>
+  <studyId></studyId>
+</jsm>

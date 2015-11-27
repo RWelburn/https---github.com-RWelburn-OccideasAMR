@@ -1,0 +1,909 @@
+<jsm>
+  <id>405</id>
+  <name>Clean Hands</name>
+  <description>For mechanics, drivers, painters, farmers, forestry, gas station attendants, labourers, printerers, rubber workers, railway workers</description>
+  <questions>
+    <com.researchit.Question>
+      <id>5595</id>
+      <name>Clean hands products</name>
+      <description>What did you usually use to clean your hands at work?</description>
+      <jsmID>405</jsmID>
+      <sequence>0</sequence>
+      <possibleAnswers>
+        <com.researchit.PossibleAnswer>
+          <id>4095</id>
+          <name>soap</name>
+          <description>soap</description>
+          <sequence>0</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>62636</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41176</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>4096</id>
+          <name>hand cleaner to remove oil (other than soap)</name>
+          <description>hand cleaner to remove oil (other than soap)</description>
+          <sequence>1</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>62637</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41176</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>4097</id>
+          <name>turpentine, mineral spirits or paint thinner</name>
+          <description>turpentine, mineral spirits or paint thinner</description>
+          <sequence>2</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>62638</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41176</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3957</id>
+          <name>Petrol</name>
+          <description>Petrol</description>
+          <sequence>3</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>62639</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41176</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3900</id>
+          <name>Diesel</name>
+          <description>Diesel</description>
+          <sequence>4</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>62640</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41176</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>4098</id>
+          <name>GenKlene, trichloroethane</name>
+          <description>GenKlene, trichloroethane</description>
+          <sequence>5</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>62641</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41176</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>4099</id>
+          <name>white spirits</name>
+          <description>white spirits</description>
+          <sequence>6</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>62642</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41176</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3743</id>
+          <name>Other</name>
+          <description>Other</description>
+          <sequence>7</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>62643</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41176</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+      </possibleAnswers>
+      <agents>
+        <com.researchit.Agent>
+          <id>101</id>
+          <name>Aliphatic Solvents</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Aliphatic &#xd;
+ hydrocarbon &lt;BR&gt;  gases		0 - &amp;lt;100ppm	100 - 1000ppm	&amp;gt;1000ppm</description>
+          <parentID>96</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>98</id>
+          <name>Benzene</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Benzene&amp;nbsp;		0 - &amp;lt;0.05ppm&amp;nbsp;	0.05 - 0.5ppm&amp;nbsp;	&amp;gt;0.5ppm&lt;BR&gt;</description>
+          <parentID>96</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>100</id>
+          <name>Chlorinated Solvents</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Carbon tetra&lt;BR&gt; chloride		0 - &amp;lt;0.5ppm	0.5 - &amp;lt;5ppm	&amp;gt;5ppm&lt;BR&gt;Trichlorethylene	0 - &amp;lt;5ppm		5 - &amp;lt;50ppm	&amp;gt;50ppm</description>
+          <parentID>96</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>99</id>
+          <name>Other Aromatic Solvents</name>
+          <description>			TLV-TWA Exposure levels&lt;br&gt;Examples		Low		Medium		High&lt;br&gt;Toluene			0 - &amp;lt;5ppm	5 - &amp;lt;50ppm	&amp;gt;50ppm&amp;nbsp; &lt;br&gt;Xylene			0 - &amp;lt;10ppm	10 - &amp;lt;100ppm	&amp;gt;100ppm&lt;br&gt;&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+</description>
+          <parentID>96</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+      </agents>
+      <parentID>100</parentID>
+      <interviewID></interviewID>
+      <jsmStructureQuestionID>41176</jsmStructureQuestionID>
+      <warning></warning>
+      <multiple>false</multiple>
+      <minimised>false</minimised>
+      <notes>NULL</notes>
+      <typeID>1</typeID>
+      <jsmName></jsmName>
+      <errorMessage></errorMessage>
+      <viewWithParent>false</viewWithParent>
+    </com.researchit.Question>
+  </questions>
+  <possibleAnswers>
+    <com.researchit.PossibleAnswer>
+      <id>4095</id>
+      <name>soap</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>62636</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4096</id>
+      <name>hand cleaner to remove oil (other than soap)</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>62637</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4097</id>
+      <name>turpentine, mineral spirits or paint thinner</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>62638</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3957</id>
+      <name>Petrol</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>62639</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3900</id>
+      <name>Diesel</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>62640</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4098</id>
+      <name>GenKlene, trichloroethane</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>62641</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4099</id>
+      <name>white spirits</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>62642</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3743</id>
+      <name>Other</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>62643</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+  </possibleAnswers>
+  <agents>
+    <com.researchit.Agent>
+      <id>98</id>
+      <name>Benzene</name>
+      <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Benzene&amp;nbsp;		0 - &amp;lt;0.05ppm&amp;nbsp;	0.05 - 0.5ppm&amp;nbsp;	&amp;gt;0.5ppm&lt;BR&gt;</description>
+      <parentID>96</parentID>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+    <com.researchit.Agent>
+      <id>99</id>
+      <name>Other Aromatic Solvents</name>
+      <description>			TLV-TWA Exposure levels&lt;br&gt;Examples		Low		Medium		High&lt;br&gt;Toluene			0 - &amp;lt;5ppm	5 - &amp;lt;50ppm	&amp;gt;50ppm&amp;nbsp; &lt;br&gt;Xylene			0 - &amp;lt;10ppm	10 - &amp;lt;100ppm	&amp;gt;100ppm&lt;br&gt;&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+&#xd;
+</description>
+      <parentID>96</parentID>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+    <com.researchit.Agent>
+      <id>100</id>
+      <name>Chlorinated Solvents</name>
+      <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Carbon tetra&lt;BR&gt; chloride		0 - &amp;lt;0.5ppm	0.5 - &amp;lt;5ppm	&amp;gt;5ppm&lt;BR&gt;Trichlorethylene	0 - &amp;lt;5ppm		5 - &amp;lt;50ppm	&amp;gt;50ppm</description>
+      <parentID>96</parentID>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+    <com.researchit.Agent>
+      <id>101</id>
+      <name>Aliphatic Solvents</name>
+      <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Aliphatic &#xd;
+ hydrocarbon &lt;BR&gt;  gases		0 - &amp;lt;100ppm	100 - 1000ppm	&amp;gt;1000ppm</description>
+      <parentID>96</parentID>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+  </agents>
+  <rules>
+    <com.researchit.expert.ExpertRule>
+      <id>32972</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>32690</id>
+          <name>Clean_hands_products-hand_cleaner_to_remove_oil_other_than_soap</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>37785</id>
+              <name></name>
+              <description></description>
+              <factId>32690</factId>
+              <questionId>5595</questionId>
+              <answerId>4096</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>101</agentId>
+      <jsmId>405</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>32973</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>8</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>32691</id>
+          <name>Clean_hands_products-turpentine,_mineral_spirits_or_paint_thinner</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>37786</id>
+              <name></name>
+              <description></description>
+              <factId>32691</factId>
+              <questionId>5595</questionId>
+              <answerId>4097</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>101</agentId>
+      <jsmId>405</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>32974</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>8</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>32692</id>
+          <name>Clean_hands_products-petrol</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>37787</id>
+              <name></name>
+              <description></description>
+              <factId>32692</factId>
+              <questionId>5595</questionId>
+              <answerId>3957</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>101</agentId>
+      <jsmId>405</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>2</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>32975</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>8</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>32693</id>
+          <name>Clean_hands_products-diesel</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>37788</id>
+              <name></name>
+              <description></description>
+              <factId>32693</factId>
+              <questionId>5595</questionId>
+              <answerId>3900</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>101</agentId>
+      <jsmId>405</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>3</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>32976</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>8</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>32694</id>
+          <name>Clean_hands_products-white_spirits</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>37789</id>
+              <name></name>
+              <description></description>
+              <factId>32694</factId>
+              <questionId>5595</questionId>
+              <answerId>4099</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>101</agentId>
+      <jsmId>405</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>4</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>32977</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>32695</id>
+          <name>Clean_hands_products-Other</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>37790</id>
+              <name></name>
+              <description></description>
+              <factId>32695</factId>
+              <questionId>5595</questionId>
+              <answerId>3743</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>101</agentId>
+      <jsmId>405</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>2</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>32978</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>8</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>32696</id>
+          <name>Clean_hands_products-turpentine,_mineral_spirits_or_paint_thinner</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>37791</id>
+              <name></name>
+              <description></description>
+              <factId>32696</factId>
+              <questionId>5595</questionId>
+              <answerId>4097</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>99</agentId>
+      <jsmId>405</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>32979</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>8</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>32697</id>
+          <name>Clean_hands_products-petrol</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>37792</id>
+              <name></name>
+              <description></description>
+              <factId>32697</factId>
+              <questionId>5595</questionId>
+              <answerId>3957</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>99</agentId>
+      <jsmId>405</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>2</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>32980</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>8</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>32698</id>
+          <name>Clean_hands_products-diesel</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>37793</id>
+              <name></name>
+              <description></description>
+              <factId>32698</factId>
+              <questionId>5595</questionId>
+              <answerId>3900</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>99</agentId>
+      <jsmId>405</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>3</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>32981</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>9</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>32699</id>
+          <name>Clean_hands_products-white_spirits</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>37794</id>
+              <name></name>
+              <description></description>
+              <factId>32699</factId>
+              <questionId>5595</questionId>
+              <answerId>4099</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>99</agentId>
+      <jsmId>405</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>32982</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>32700</id>
+          <name>Clean_hands_products-Other</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>37795</id>
+              <name></name>
+              <description></description>
+              <factId>32700</factId>
+              <questionId>5595</questionId>
+              <answerId>3743</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>99</agentId>
+      <jsmId>405</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>32983</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>9</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>32701</id>
+          <name>Clean_hands_products-petrol</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>37796</id>
+              <name></name>
+              <description></description>
+              <factId>32701</factId>
+              <questionId>5595</questionId>
+              <answerId>3957</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>98</agentId>
+      <jsmId>405</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>32984</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>32702</id>
+          <name>Clean_hands_products-Other</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>37797</id>
+              <name></name>
+              <description></description>
+              <factId>32702</factId>
+              <questionId>5595</questionId>
+              <answerId>3743</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>98</agentId>
+      <jsmId>405</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>32985</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>8</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>32703</id>
+          <name>Clean_hands_products-GenKlene,_trichloroethane</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>37798</id>
+              <name></name>
+              <description></description>
+              <factId>32703</factId>
+              <questionId>5595</questionId>
+              <answerId>4098</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>100</agentId>
+      <jsmId>405</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>32986</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>32704</id>
+          <name>Clean_hands_products-Other</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>37799</id>
+              <name></name>
+              <description></description>
+              <factId>32704</factId>
+              <questionId>5595</questionId>
+              <answerId>3743</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>100</agentId>
+      <jsmId>405</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+  </rules>
+  <interviewStartNote>NULL</interviewStartNote>
+  <interviewEndNote>NULL</interviewEndNote>
+  <questionCount>-1</questionCount>
+  <possibleAnswerCount>-1</possibleAnswerCount>
+  <associateModule>true</associateModule>
+  <readOnly>false</readOnly>
+  <credits>NULL</credits>
+  <jobHistoryAssessedCount>-1</jobHistoryAssessedCount>
+  <jsmTypeId>0</jsmTypeId>
+  <comments></comments>
+  <searchCount>0</searchCount>
+  <jsmAssociates></jsmAssociates>
+  <forumLink></forumLink>
+  <studyId></studyId>
+</jsm>

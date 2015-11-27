@@ -1,0 +1,79 @@
+div.runwiz {
+	display:block;
+	visibility:visible;
+	position:absolute;top:100px;left:200px;
+	width:400px;height:400px;
+	border:1px black solid;
+	background:lightgrey;
+	z-index:1000;
+}
+div.nowiz {
+	display:block;
+	visibility:hidden;
+	position:absolute;top:100px;left:200px;
+	width:400px;height:400px;
+	border:1px black solid;
+	background:lightgrey;
+	z-index:0;
+}
+tr.wizardStepsRow {
+	height:120px;
+}
+#wizardStepContent {
+	display:block;
+	position:relative;top:5px;left:5px;
+	width:380px;height:300px;
+	border:1px black solid;
+	background:lightblue;
+
+}
+#wizardControls {
+	display:block;
+	position:relative;bottom:3px;
+	width:180px;height:20px;
+	border:1px black solid;
+	background:lightgreen;
+
+}
+.bp_invalid {
+	color:red;
+	background:lightgrey;
+}
+.bp_valid {
+	color:blue;
+	background:lightgrey;
+}
+#agents {
+	overflow: auto;
+	height:300px;
+	width:380px;
+}
+#ssjsms {
+	overflow: auto;
+	height:300px;
+	width:380px;
+}
+#savedssjsms {
+	overflow: auto;
+	height:300px;
+	width:380px;
+}
+#editjsms {
+	overflow: auto;
+	height:300px;
+	width:380px;
+}
+#editQuestion {
+	overflow: auto;
+	height:300px;
+	width:380px;
+}
+#divWizActionButtonsBar {
+	position: relative;
+	left: 200px;
+}
+#reviewfsms {
+	overflow: auto;
+	height:300px;
+	width:380px;
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="WebApp_ID" version="2.4" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+<display-name>Studies</display-name>
+<welcome-file-list>
+<welcome-file>main.jsp</welcome-file>
+</welcome-file-list>
+<servlet>
+	<servlet-name>ValidateServlet</servlet-name>
+	<servlet-class>com.researchit.servlets.ValidateServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ValidateServlet</servlet-name>
+	<url-pattern>/ValidateServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>ControllerServlet</servlet-name>
+	<servlet-class>com.researchit.servlets.ControllerServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ControllerServlet</servlet-name>
+	<url-pattern>/ControllerServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>MainServlet</servlet-name>
+	<servlet-class>com.researchit.servlets.MainServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>MainServlet</servlet-name>
+	<url-pattern>/MainServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+	<display-name>ImportStudyNotesServlet</display-name>
+	<servlet-name>ImportStudyNotesServlet</servlet-name>
+	<servlet-class>com.researchit.servlets.ImportStudyNotesServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ImportStudyNotesServlet</servlet-name>
+	<url-pattern>/ImportStudyNotesServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+	<display-name>ImportExcelJobHistoriesServlet</display-name>
+	<servlet-name>ImportExcelJobHistoriesServlet</servlet-name>
+	<servlet-class>com.researchit.servlets.ImportExcelJobHistoriesServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ImportExcelJobHistoriesServlet</servlet-name>
+	<url-pattern>/ImportExcelJobHistoriesServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+	<display-name>ImageStream</display-name>
+	<servlet-name>ImageStream</servlet-name>
+	<servlet-class>com.researchit.servlets.ImageStream</servlet-class>
+</servlet>
+<servlet>
+	<display-name>ProgressUpdate</display-name>
+	<servlet-name>ProgressUpdate</servlet-name>
+	<servlet-class>com.researchit.servlets.ProgressUpdate</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ImageStream</servlet-name>
+	<url-pattern>/ImageStream</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>ProgressUpdate</servlet-name>
+	<url-pattern>/ProgressUpdate</url-pattern>
+</servlet-mapping>
+<servlet>
+	<display-name>StudyWiz</display-name>
+	<servlet-name>StudyWiz</servlet-name>
+	<servlet-class>com.researchit.servlets.StudyWiz</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>StudyWiz</servlet-name>
+	<url-pattern>/StudyWiz</url-pattern>
+</servlet-mapping>
+</web-app>

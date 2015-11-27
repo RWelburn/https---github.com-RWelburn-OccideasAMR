@@ -1,0 +1,938 @@
+/* -----------------------------------------
+    USUAL STUFF
+----------------------------------------- */
+body {
+	background: #fff url(../newimages/body_bg.gif) repeat-x;
+}
+
+body.nopadding {
+	padding: 0px;
+	margin: 0px;
+	padding-top: 20px;
+}
+
+td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.7em;
+}
+
+td pre {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+input,select {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+a:link,a:visited,a:active {
+	color: #0a6991;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #06435d;
+	text-decoration: underline;
+}
+
+/* -----------------------------------------
+    GENERAL STYLES
+----------------------------------------- */
+a.help img.help {
+	border: none;
+}
+
+.highlight {
+	background-image: url("../newimages/lhsm.gif");
+	background-repeat: no-repeat;
+}
+
+/* 'loading' overlay */
+div.progressBar {
+	font-size: 1.85em;
+	position: absolute;
+	color: #2d9b4f;
+	background-color: #f8fcf9;
+	padding: 20px;
+	border: 1px solid #a8ecbd;
+	z-index: 2;
+	top: 130px;
+	left: 550px;
+	visibility: hidden;
+	opacity: 0.85;
+	filter: alpha(opacity = 85); /* IE's opacity*/
+}
+
+/* -----------------------------------------
+    TOP MENU
+----------------------------------------- */
+td.topmenuSelected {
+	border: 0;
+	background-color: #2484ab;
+	font-size: 1em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+table.topmenu {
+	width: 975px;
+	background: #fff;
+}
+
+td.topmenu {
+	border: 0px;
+}
+
+/* -----------------------------------------
+    2ND MENU
+----------------------------------------- */
+table.locationmenu {
+	width: 100%;
+	background-color: #2484ab;
+	border: 0;
+	padding-left: 5px;
+}
+
+/* -----------------------------------------
+   LEFT MENU
+----------------------------------------- */
+td.lhsMenu {
+	width: 150px;
+	background-color: #fefad3 !important;
+	border-left: 10px solid #2484ab;
+}
+
+.lhsMenu table.jsms {
+	background: #f3fafd;
+	border-bottom: 20px solid #f3fafd;
+	border-top: 10px solid #f3fafd;
+}
+
+.lhsMenu table.jsms td {
+	border: 0px;
+	line-height: 1.6;
+	padding: 2px 10px;
+}
+
+td.lhsStudyJSM {
+	background-color: #f3fafd !important;
+}
+
+td.lhsParticipant {
+	background-color: #f3fafd !important;
+}
+
+td.lhsParticipantSelected {
+	background-color: #f3fafd !important;
+}
+
+/* -----------------------------------------
+    JSMS
+----------------------------------------- */
+table.jsms {
+	width: 100%;
+	background-color: #fff;
+	border: 0;
+	border-collapse: collapse;
+	padding: 0px;
+	margin: 0px;
+}
+
+table.jsms td {
+	border-bottom: 1px solid #e4f0f5;
+}
+
+td.jsms {
+	padding: 0px;
+	margin: 0px;
+	background: transparent;
+}
+
+/* -----------------------------------------
+    OTHER TABLES
+----------------------------------------- */
+	/* table around everything */
+table.mainPage {
+	width: 975px;
+	border-bottom: 10px solid #2484ab;
+}
+
+table.mainPage td {
+	background-color: #2484ab;
+}
+
+table.mainPage td td {
+	background-color: transparent;
+}
+
+/* table around everything under menu */
+td.mainTable {
+	width: 785px;
+	padding-bottom: 20px;
+	background: transparent;
+	border: 0px;
+}
+
+table.mainTable {
+	width: 823px;
+	background-color: #2484ab;
+	border: 0px;
+	padding: 0px;
+}
+
+table.mainTable table {
+	width: 100%;
+	border-collapse: collapse !Important;
+}
+
+table.mainTable table table {
+	background: #fff;
+}
+
+/* top breadcrumb */
+table.navtitle {
+	background-color: #fefad3;
+	color: black;
+	border-style: solid;
+	border: 1px solid #ede7aa;
+}
+
+/* Sortable tables */
+table.sortable a.sortheader {
+	display: block;
+	background: #f4f9fb;
+}
+
+table.defaulttable {
+	width: 100%;
+}
+
+table.defaulttable tr {
+	width: 100%;
+	background-color: #fff;
+}
+
+/* -----------------------------------------
+    SEARCH RESULTS TABLE
+----------------------------------------- */
+	/* agents (search results, ?) */
+td.agents {
+	background-color: #fff;
+	border: 0;
+	border-bottom: 1px solid #cfe5ee;
+	padding: 3px 5px;
+}
+
+tr.agents {
+	background-color: #fff;
+}
+
+div.agents {
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	border: 0;
+}
+
+table.agents {
+	background-color: #fff;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	border: 0;
+}
+
+/* questions (search results, ? */
+table.questions {
+	background-color: #f6fafc;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+table.questions td {
+	border: 0px;
+	vertical-align: middle;
+	padding: 5px 0px;
+}
+
+td.questions {
+	background-color: #f6fafc;
+	border: 0px;
+}
+
+tr.questions {
+	background-color: #f6fafc;
+}
+
+/* answers (search results, ?) */
+table.possibleanswers {
+	background-color: #d3e6ee;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	border-collapse: collapse;
+}
+
+.possibleanswers {
+	background-color: #d3e6ee;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+td.possibleanswers {
+	background-color: #d3e6ee;
+	border: 0px;
+	vertical-align: top;
+}
+
+tr.possibleanswers {
+	background-color: #d3e6ee;
+	border: 0px;
+}
+
+.possibleanswersSearch {
+	background-color: #d3e6ee;
+	border: 0;
+}
+
+td.possibleanswerinput {
+	background-color: #d3e6ee;
+	border: 0px padding :   0px;
+	margin: 0px;
+	width: 15%;
+}
+
+table.questions {
+	background-color: #b1d2e0;
+	padding: 0px;
+	font-weight: bold;
+}
+
+.questions .possibleanswers {
+	background: #fff;
+}
+
+.questions .possibleanswers .questions {
+	background: #e5eff3;
+}
+
+.questions .possibleanswers .questions .possibleanswers .questions {
+	background: #f2f7f9;
+}
+
+.questions .possibleanswers .questions .possibleanswers .questions .possibleanswers .questions
+	{
+	background: #fff;
+}
+
+/* -----------------------------------------
+    LOGIN
+----------------------------------------- */
+table.login {
+	background-color: #f3fafd;
+	border: 0;
+}
+
+td.mainLoginTable {
+	width: 975px;
+	background-color: #2484ab;
+	border: 0px;
+}
+
+/* -----------------------------------------
+    AGENTS TAB
+----------------------------------------- */
+div.agentGroups {
+	float: left;
+	width: 15em;
+	background-color: #d3e6ee;
+	color: black;
+	font-weight: bold;
+	border: 0px;
+}
+
+td.agentGroups {
+	background-color: #d3e6ee;
+	color: black;
+	font-weight: bold;
+	border: 0px;
+}
+
+tr.agentHeader {
+	background-color: #d3e6ee;
+	font-weight: bold;
+}
+
+td.agentGroup {
+	padding: 10px;
+	background-color: #f4f9fb !important;
+	border: 1px solid #cfe5ee;
+	border-right: 0px !important;
+	border-left: 0px !important;
+}
+
+table.agents {
+	border-collapse: collapse;
+	margin-bottom: 10px;
+}
+
+table.agents td {
+	border-right: 1px solid #cfe5ee;
+	padding: 2px 5px;
+}
+
+td.agent {
+	background-color: transparent;
+	border: 1px solid #cfe5ee;
+}
+
+td.agent td {
+	border: 0px;
+}
+
+/* -----------------------------------------
+    JOBS TAB
+----------------------------------------- */ /* jobs */
+table.jobs {
+	background-color: #fff;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td.jobs {
+	background-color: transparent;
+	border: 1px solid #cee5ee;
+	padding: 8px 10px;
+}
+
+tr.jobs {
+	background-color: transparent;
+}
+
+/* -----------------------------------------
+    INTERVIEW > STUDIES TAB
+----------------------------------------- */ /* studies  */
+table.studies {
+	width: 100%;
+	background-color: #fff;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	border-collapse: collapse;
+}
+
+td.studies {
+	background-color: #fff !important;
+	border-bottom: 1px #cfe5ee solid;
+	padding: 3px 5px;
+}
+
+/* agents (above) */ /* participant(s)  */
+table.participants {
+	background-color: #fff;
+	border: 0px padding :   0px;
+	margin: 0px;
+	border-collapse: collapse;
+}
+
+td.participant {
+	background-color: transparent;
+	border-bottom: 1px solid #cfe5ee;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+td.participants {
+	background-color: transparent;
+	border-bottom: 1px solid #cfe5ee;
+	padding: 3px 5px;
+	margin: 0px;
+}
+
+/* -----------------------------------------
+    INTERVIEW > ASSESSMENTS TAB
+----------------------------------------- */
+div.assessmentWindow {
+	POSITION: absolute;
+	/* width: 32px; */ /* width: 80%; */
+	margin-top: 6px;
+	width: 575px;
+}
+
+table.occIDEASAssessment {
+	background-color: #fff;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+table.occIDEASAssessment table {
+	background-color: #fff;
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	border: 0px;
+	border-collapse: collapse;
+}
+
+table.occIDEASAssessment table td {
+	border: 1px solid #cfe5ee;
+	padding: 3px 5px;
+}
+
+table.occIDEASAssessment table td td {
+	border: 0px;
+}
+
+table.assessment { /* width: 20%; */
+	width: 200px !important;
+	padding: 0px;
+	margin: 0px;
+	background: #f3fafd;
+}
+
+/* -----------------------------------------
+    NO IDEA
+----------------------------------------- */
+a.jsmlink {
+	padding-left: 5px;
+}
+
+table.active {
+	background-color: #F4F1E7;
+}
+
+/* search  */
+.search {
+	border: 1px solid green;
+	/*border-collapse: collapse;*/
+}
+
+.agentSearch {
+	background-color: #b0b0ca;
+	border: 0px
+}
+
+.questionsSearch {
+	background-color: #dfecfc;
+}
+
+.jsmsSearch {
+	background-color: #ffffff;
+}
+
+/* job histories  */
+table.jobhistories {
+	width: 100%;
+	background-color: #fff;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	border-collapse: collapse;
+}
+
+td.jobhistories,table.jobhistories td {
+	background-color: #ffefd5;
+	border-bottom: 1px #cfe5ee solid;
+	padding: 3px 5px;
+	margin: 0px;
+}
+
+/* users  */
+table.users {
+	width: 100%;
+	background-color: #ffffff; /* light yellow*/
+	border: 0;
+	padding: 0px;
+	margin: 0px;
+}
+
+td.users {
+	background-color: #ffffff; /* light yellow*/
+	border-bottom: 1px #ead098 solid; /* dark yellow*/
+	padding: 0px;
+	margin: 0px;
+}
+
+th.users {
+	color: #B8860B;
+	background-color: #ffffff; /* light yellow*/
+	border-bottom: 1px #ead098 solid; /* dark yellow*/
+	padding: 0px;
+	margin: 0px;
+}
+
+/* warning */
+td.warning {
+	background-color: papayawhip;
+	border: 0px;
+}
+
+/* study notes */
+table.studynotes {
+	background-color: papayawhip;
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	border: 0px;
+}
+
+th.studynotes,td.studynotes {
+	background-color: papayawhip;
+	border: 0px;
+	color: #333;
+}
+
+table.highlightstudynotes,td.highlightstudynotes {
+	background-color: papayawhip;
+	border: 0px;
+	color: #333;
+}
+
+/* skipped warning */
+table.skippedWarning {
+	border: 0px;
+}
+
+td.skippedWarning {
+	border: 0px;
+}
+
+table.tableborder {
+	width: 100%;
+	border: 0;
+	background: #f3fafd;
+}
+
+table.tableborder table {
+	background: transparent;
+	border-collapse: collapse;
+}
+
+table.tableborder table td {
+	border-bottom: 1px solid #cfe5ee;
+	padding: 3px 5px;
+}
+
+a.closeWindow {
+	font-size: 1.5em;
+	padding-top: 0px;
+	padding-left: 3px;
+	padding-bottom: 1px;
+	padding-right: 3px;
+	color: crimson;
+	background-color: silver;
+	border: 0;
+}
+
+a.closeWindow:visited {
+	color: crimson;
+	text-decoration: none;
+}
+
+div.actionButtons {
+	POSITION: absolute;
+	width: 32px;
+}
+
+td.small {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.45em;
+}
+
+td.medium {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.75em;
+}
+
+td.shadow {
+	border-left: solid 2px black;
+}
+
+tr.windowTop {
+	color: white;
+	background-color: #90abcf;
+	font-weight: bold;
+}
+
+span.isMandatory {
+	color: red;
+	font-size: 0.85em;
+}
+
+td.isMandatory,td.errorMessage {
+	width: 100%;
+	text-align: center;
+}
+
+span.errorMessage {
+	color: red;
+	font-size: 0.85em;
+	text-decoration: blink;
+}
+
+table.participant {
+	width: 100%;
+	background-color: #eef5f8;
+	border: 0;
+}
+
+table.participant td {
+	padding: 3px 5px;
+}
+
+.newStudyTable {
+	background-color: #ddddff;
+	border: solid 1px silver;
+}
+
+table.mapJobTable {
+	width: 100%;
+	background-color: #b6ddb6;
+	border: solid 1px grey;
+}
+
+td.closeWindow {
+	border: 1px solid black;
+	color: red;
+}
+
+div.RolePermissionChecked {
+	float: left;
+	width: 20em;
+	background-color: #CC9;
+	color: black;
+	font-weight: bold;
+	border: 0px;
+}
+
+div.RolePermissionUnchecked {
+	float: left;
+	width: 20em;
+	background-color: #996;
+	color: white;
+	font-weight: bold;
+	border: 0px;
+}
+
+table.RolePermissions {
+	background-color: #CC9;
+	border: 0px;
+}
+
+div.uncheckedAgent {
+	float: left;
+	width: 15em;
+	background-color: #a7b9b5;
+	color: white;
+	font-weight: bold;
+	border: 0px;
+}
+
+div.checkedAgent {
+	float: left;
+	width: 15em;
+	background-color: #d6ede8;
+	color: black;
+	font-weight: bold;
+	border: 0px;
+}
+
+div.jobHistoryCalendar {
+	float: left;
+	width: 57em;
+	background-color: #bfd4cf;
+	color: black;
+	font-weight: bold;
+	border: 0px;
+}
+
+.importStudyTables {
+	background-color: #ddddff;
+	border: 0px;
+}
+
+td.locationMenu {
+	background-color: #2484ab;
+}
+
+font.jobHistory {
+	background-color: #ffefd5; /* light brown*/
+}
+
+font.question {
+	background-color: transparent;
+	font-weight: bold;
+}
+
+font.frequencyQuestion {
+	background-color: #fbf3af;
+}
+
+font.answer {
+	background-color: #ffffdd;
+}
+
+font.underline {
+	border-left: solid 1px #CC0000;
+}
+
+table.decisiontree td {
+	background-color: #f3f4f5; /*  */
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+table.decisiontree td.questions {
+	background-color: #dfecfc; /*  */
+	border-collapse: collapse;
+	border: 0px;
+}
+
+table.decisiontree td.possibleanswers {
+	background-color: #ffffdd; /*  */
+	border: 0px;
+	/
+}
+
+table.decisiontree {
+	width: 100%;
+	background-color: #b0b0ca; /*  */
+	border: 0px;
+}
+
+div.decisiontree {
+	float: left;
+	width: 20em;
+	background-color: #996;
+	color: white;
+	font-weight: bold;
+	border: 0px;
+}
+
+.searchHighlight {
+	BACKGROUND-COLOR: #fff893;
+}
+
+div.hiddenMessageBox {
+	position: absolute;
+	background-color: #c65c5c;
+	z-index: 2;
+	visibility: hidden;
+	opacity: 0.75;
+	filter: alpha(opacity = 75); /* IE's opacity*/
+}
+
+div.fullMessageBox {
+	position: absolute;
+	background-color: #c65c5c;
+	z-index: 2;
+	opacity: 0.75;
+	filter: alpha(opacity = 75); /* IE's opacity*/
+}
+
+td.fullMessageBox {
+	width: 400px;
+	font-size: 0.9em;
+	font-weight: bold;
+	border: 0px;
+}
+
+table.rules {
+	background-color: #b0b0ca; /*  */
+	border: 0px;
+}
+
+table.facts {
+	background-color: #b0b0ca; /*  */
+	border: 0px;
+}
+
+table.factrequirements {
+	background-color: #b0b0ca; /*  */
+	border: 0px;
+}
+
+tr.level {
+	background-color: #629889;
+	font-weight: bold;
+}
+
+tr.probability {
+	background-color: #407b6b;
+	font-weight: bold;
+}
+
+tr.frequency {
+	background-color: #a9d7cb;
+	font-weight: bold;
+}
+
+td.lbracket {
+	border: 0px;
+}
+
+td.rbracket {
+	border: 0px;
+}
+
+td.alert {
+	background-color: papayawhip;
+	border: 0px;
+}
+
+td.probablehigh {
+	background-color: #a24848;
+}
+
+td.probablemedium {
+	background-color: #a2488c;
+}
+
+td.probablelow {
+	background-color: #8248a2;
+}
+
+td.probableunknown {
+	background-color: #755c83;
+	color: #ffffff;
+}
+
+td.possibleunknown {
+	background-color: #478c68;
+}
+
+table.selfAdminMainPage {
+	border: 0px;
+	background-color: #ccffcc;
+}
+
+td.selfAdminMainPage {
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background-color: #ffffcc;
+}
+
+td.statement {
+	border: 0px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background-color: #fffaf0;
+}
+
+td.studytitle {
+	font-size: large;
+	color: #663300;
+	font-family: 'Arial Black';
+}

@@ -1,0 +1,53 @@
+ALTER TABLE `occideasMeso`.`participant` ADD COLUMN `amr_ref_id` varchar(255)  NOT NULL AFTER `cecupn`;
+
+
+
+ALTER TABLE `bcees`.`qxmlcolumn` ADD INDEX `refnum_index`(`reference_number`);
+ALTER TABLE `bcees`.`jhxmlcolumn` ADD INDEX `refnum_index`(`reference_number`);
+ALTER TABLE `bcees`.`paxmlcolumn` ADD INDEX `refnum_index`(`reference_number`);
+ALTER TABLE `bcees`.`rpxmlcolumn` ADD INDEX `refnum_index`(`reference_number`);
+
+
+ALTER TABLE `occideas`.`addresses` ADD COLUMN `from_month` varchar(20)  DEFAULT NULL,
+ ADD COLUMN `to_month` varchar(20)  DEFAULT NULL ,
+ ADD COLUMN `from_year` varchar(20)  DEFAULT NULL ,
+ ADD COLUMN `to_year` varchar(20)   DEFAULT NULL;
+ 
+ ALTER TABLE `occideas`.`jobhistory` ADD COLUMN `start_month` varchar(20)  DEFAULT NULL,
+ ADD COLUMN `end_month` varchar(20)  DEFAULT NULL ,
+ ADD COLUMN `start_year` varchar(20)  DEFAULT NULL ,
+ ADD COLUMN `end_year` varchar(20)   DEFAULT NULL;
+
+
+
+ALTER TABLE occideas.jobhistory
+ ADD start_month VARCHAR(10) AFTER finish_date,
+ ADD start_year VARCHAR(10),
+ ADD end_month VARCHAR(10),
+ ADD end_year VARCHAR(10);
+
+
+ALTER TABLE occideas.addresses
+ ADD from_month VARCHAR(10) AFTER to_date,
+ ADD from_year VARCHAR(10),
+ ADD to_month VARCHAR(10),
+ ADD to_year VARCHAR(10);
+ 
+ 
+DELETE FROM jsminterview;
+DELETE FROM jsminterviewanswers;
+DELETE FROM jobhistory;
+DELETE FROM addresses;
+DELETE FROM participant;
+DELETE FROM people;
+DELETE FROM study;
+DELETE FROM frozenjsm;
+DELETE FROM frozenjsmquestionsandpossibleanswers;
+DELETE FROM actionlogger;
+DELETE FROM histology;
+DELETE FROM jobtitle;
+DELETE FROM participant_questionnaire_data;
+DELETE FROM participantprogress;
+DELETE FROM reminders;
+DELETE FROM userjsms;
+ 

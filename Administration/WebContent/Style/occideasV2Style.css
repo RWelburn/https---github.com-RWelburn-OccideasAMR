@@ -1,0 +1,809 @@
+/* -----------------------------------------
+    USUAL STUFF
+----------------------------------------- */
+body {
+	background: #fff url(../ImageStream?ImageName=body_bg.jpg) ;
+}
+body.NoPadding {
+	padding: 0px;
+	margin: 0px;
+	padding-top: 10px;
+}
+td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+
+}
+td pre {
+	font-family: Courier New, monospace;
+	font-size: 1em;
+}
+input,select {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+a:link,a:visited,a:active {
+	color: #0a6991;
+	text-decoration: none;
+}
+a:hover {
+	color: #06435d;
+	text-decoration: underline;
+}
+td.small {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.65em;
+}
+/* -----------------------------------------
+    MAIN TABLES
+----------------------------------------- */
+/* table around everything */
+table.MainPage {
+	width: 975px;
+	height: 100%;
+	border-bottom: 65px solid #2484ab;
+}
+table.MainTable {
+	width: 100%;
+	height: 100%;
+	background-color: #2484ab;
+	border: 0px;
+	padding: 0px;
+}
+table.Content {
+	width: 100%;
+	height: 100%;
+	background-color: #fff8aa;
+	border-collapse: collapse;
+	border: 3px solid #fff8aa;
+}
+/* top breadcrumb */
+table.NavTitle {
+	background-color: #fefad3;
+	color: black;
+	border-style: solid;
+	border: 1px solid #ede7aa;
+	width: 100%;
+}
+
+/* -----------------------------------------
+    SELF ADMINISTERED PAGES
+----------------------------------------- */
+table.MainPageSelfAdmin {
+	width: 800px;
+	height: 100%;
+}
+table.MainTableSelfAdmin {
+	width: 700px;
+	height: 100%;
+	background-color: #2484ab;
+	border: 0px;
+	padding: 0px;
+}
+table.HeaderTableSelfAdmin {
+	width: 100%;
+	background-color: #eef7fc;
+	border: 0px;
+	padding: 0px;
+}
+table.HeaderTableSelfAdmin td.LeftCurve {
+	height: 67px;
+	background: url(ImageStream?ImageName=saHeaderCurve.jpg) no-repeat;
+}
+table.ContentTableSelfAdmin {
+	width: 100%;
+	height: 100%;
+	background-color: #eef7fc;
+	border: 0px;
+	padding: 0px;
+}
+/* -----------------------------------------
+    TOP MENUS
+----------------------------------------- */
+table.TopMenu {
+	width: 100%;
+	background-color: #e6f3fb;
+}
+table.LocationMenu {
+	width: 100%;
+	background-color: #2484ab;
+	
+}
+td.YellowTab {
+	height:20px;
+	width: 130px;
+	margin-top:5px;
+}
+a.TopMenu:link,a.TopMenu:visited,a.TopMenu:active {
+	color: #ffffff;
+	text-decoration: none;
+}
+a.TopMenu:hover {
+	color: #DFF6FF;
+	text-decoration: none;
+}
+table.TopMenu td {
+	color: #ffffff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+/* -----------------------------------------
+    LHS MENU
+----------------------------------------- */
+#LHSTabheader {
+    float:left;
+    width:100%;
+    background:#fefad3 url(../ImageStream?ImageName=bg.gif)
+      repeat-x bottom;
+    line-height:normal;
+    }
+#LHSTabheader ul {
+    margin:0;
+    padding:3px 3px 0;
+    list-style:none;
+    }
+#LHSTabheader li {
+    float:left;
+	background:url(../ImageStream?ImageName=left.gif)
+      no-repeat left top;
+    margin:0;
+    padding:0 0 0 5px;
+    }
+#LHSTabheader a {
+    display:block;
+	background:url(../ImageStream?ImageName=right.gif)
+      no-repeat right top;
+    padding:0px 3px 1px 0px;
+    }
+#LHSTabheader #current {
+    background-image:url(../ImageStream?ImageName=left_on.gif);
+    }
+#LHSTabheader #current a {
+    background-image:url(../ImageStream?ImageName=right_on.gif);
+	padding-bottom:2px;
+    }
+td.LHSMenu {
+	background-color: #fefad3;
+	text-align: left;
+	padding:2px 0px 0px 0px;
+	border: 0px;
+}
+table.LHSMenuTop  {
+	border-collapse: collapse;
+	padding-bottom: 0px;
+	width: 100%;
+}
+table.LHSMenuTop  tr{
+	height: 22px;
+	padding:0px 0px 0px 0px;
+}
+table.LHSMenuTop  td{
+	padding:0px 0px 0px 0px;
+}
+table.LHSMenuContent {
+	background-color: #e4f0f5;
+	border-top: 0px solid #47aade;
+	border-left: 1px solid #47aade;
+	border-right: 1px solid #47aade;
+	border-bottom: 1px solid #47aade;
+	width: 130px;
+}
+table.LHSMenuContent td.LHSMenuAgents {
+	background-color: #b6d0db;
+	padding-left: 10px;
+}
+table.LHSMenuContent td.studies {
+	background-color: #fff !important;
+	border-bottom: 1px #cfe5ee solid;
+	padding:3px 3px 3px 3px;
+}
+table.LHSMenuContent td {
+	border-bottom: 1px solid #e4f0f5;
+}
+a.LHSMenu:link,a.LHSMenu:visited,a.LHSMenu:active {
+	color: #47aade;
+	text-decoration: none;
+}
+a.LHSMenu:hover {
+	color: #06435d;
+	text-decoration: underline;
+}
+div.news {
+	margin: 0 10%;
+	background: #e4f0f5;
+}
+div.brief {
+	margin: 0 10%;
+	background: white;
+}
+/* -----------------------------------------
+    MAIN DISPLAY AREA
+----------------------------------------- */
+td.SearchButton{
+  font-family      : Verdana, Arial, Helvetica, sans-serif;
+  font-size        : 0.75em;
+}
+div.ProgressBar {
+	font-size: 1.85em;
+	position:absolute; 
+	color:red; 
+	background-color:beige; 
+	font-weight:bold; 
+	z-index:2;
+	visibility: hidden;
+}
+span.isMandatory {
+	color: red;
+	font-size: 0.85em;
+}
+span.warning {
+	color: red;
+}
+td.Content {
+	width: 100%;
+	background-color: #fefad3;
+	padding: 0px;
+	text-align: left;
+}
+table.ContentTable {
+	border-collapse: collapse;
+	background-color: #fefad3;
+	height:100%;
+	width: 100%;	
+}
+td.ContentTableMain {
+	background-color: #fefad3;
+	border: 0px solid #47aade;
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+	height: 100%;
+}
+div.MainDiv {
+	position:relative; 
+	 
+	width:100%; 
+}
+td.ContentTableActionButtons {
+	width: 12px;
+	background-color: #2484ab;
+}
+span.actionButtons {
+	color: #ffffff;
+}
+div.actionButtons {
+	position: absolute;
+	text-align: center; 
+	/*width: 956px;*/	
+	width: 500px;
+	background:url(../ImageStream?ImageName=actionbarbg.gif) no-repeat;
+}
+div.actionButtonsBar {
+	background-color: #2484ab; /*
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;	*/
+	height: 50px;
+}
+table.ContentList {
+	width: 100%;
+	background-color: #fff;
+	border-collapse: collapse;
+	padding: 0px;
+	margin: 0px;
+}
+table.InterviewReport {
+	width: 100%;
+	background-color: #fff;
+	border: 0;
+	border-collapse: collapse;
+	padding: 0px;
+	margin: 0px;
+}
+table.ContentList td {
+	border-bottom: 1px solid #e4f0f5;
+}
+table.EditView {
+	width: 100%;
+	background-color: #fff;
+	border: 0;
+	border-collapse: collapse;
+	padding: 0px;
+	margin: 0px;
+}
+table.EditView  td {
+	border-bottom: 1px solid #e4f0f5;
+}
+div.hiddenMessageBox {
+	position: absolute;
+	background-color: #c65c5c;
+	z-index: 2;
+	visibility: hidden;
+	opacity: 0.75;
+	filter: alpha(opacity = 75); /* IE's opacity*/
+	width: 150px;
+}
+div.fullMessageBox {
+	background-color: #c65c5c;
+}
+/* warning */
+td.warning {
+	background-color: papayawhip;
+	 
+	border-top: red 1px solid;
+    border-left: red 1px solid; 
+    border-bottom: red 1px solid;
+    border-right: red 1px solid;
+}
+/* -----------------------------------------
+    OBJECT STYLES
+----------------------------------------- */
+table.Login {
+	background-color: #FEFAD3;
+	border: 0px; 
+}
+tr.windowTop {
+	color: white;
+	background-color: #17698B;	
+	font-weight: bold;
+}
+
+table.Login .button {
+margin-right: 10px;
+}
+.Highlight {
+	background: #17698B;
+color: #fff !important;
+}
+.Highlight a {color: #fff !important;}
+.searchHighlight
+{
+	background-color: #fff893;
+}
+tr.ListHeader {
+	font-weight: bold;
+    background-color: #e7f4fc;	
+}
+
+/* -----------------------------------------
+    INTERVIEW STYLES
+----------------------------------------- */
+td.InterviewQuestion {
+    background-color: #e7f4fc;	
+    width:100%;	
+}
+table.InterviewQuestion {
+    background-color: #e7f4fc;	   	
+	font-weight: bold;
+	font-size: 14px;
+	text-align: left;
+}
+table.InterviewPossibleAnswer {
+    background-color: #e7f4fc;	
+    width:100%;	
+	font-weight: bold;
+	font-size: 14px;
+}
+td.InterviewPossibleAnswer {
+    background-color: #e7f4fc;	
+    width:500px;	/* check this */
+    padding-left:20px;
+}
+table.skippedWarning{	
+	border-top: 1px #ff0000 solid; 
+	border-bottom:1px #ff0000 solid; 
+	border-left:1px #ff0000 solid; 
+	border-right:1px #ff0000 solid; 
+}
+/* -----------------------------------------
+    JSM STYLES
+----------------------------------------- */
+td.KeyPhrase {
+	font-style: italic; 
+	font-weight: bold;
+
+    background-color: #e7f4fc;		
+}
+font.KeyPhrase {
+	font-style: italic; 
+    background-color: #e7f4fc;
+    font-weight: normal;		
+}
+font.KeyPhraseFreq {
+	font-style: italic; 
+	
+	font-weight: normal;
+    background-color: #dfd1c9;		
+}
+table.questions {
+	background-color: #b1d2e0;
+	font-weight: bold;
+}
+table.questions td {
+	vertical-align: middle;
+}
+
+td.questions {
+	background-color: #f6fafc;
+	border: 0px;
+}
+
+tr.questions {
+	background-color: #f6fafc;
+}
+/* answers (search results, ?) */
+table.possibleanswers {
+	background-color: #d3e6ee;
+	width: 100%;
+}
+
+.possibleanswers {
+	background-color: #d3e6ee;
+}
+
+td.possibleanswers {
+	background-color: #d3e6ee;
+}
+
+tr.possibleanswers {
+	background-color: #d3e6ee;
+	border: 0px;
+}
+.possibleanswersSearch {
+	background-color: #d3e6ee;
+	border: 0;
+}
+
+td.possibleanswerinput {
+	background-color: #d3e6ee;
+	margin: 0px;
+	width: 30px; /* find this */
+}
+
+.questions .possibleanswers {
+	background: #fff;
+}
+
+.questions .possibleanswers .questions {
+	background: #e5eff3;
+}
+
+.questions .possibleanswers .questions .possibleanswers .questions {
+	background: #f2f7f9;
+}
+
+.questions .possibleanswers .questions .possibleanswers .questions .possibleanswers .questions
+	{
+	background: #fff;
+}
+
+/* -----------------------------------------
+    RULE STYLES
+----------------------------------------- */
+.NONE {
+	background-color: #b5b5c9;
+}
+.PROBABLEHIGH {
+	background-color: #ff0000;
+}
+.PROBABLEMEDIUM {
+	background-color: #ff8000;
+}
+.PROBABLELOW {
+	background-color: #ffff80;
+	color: #000000;
+}
+.PROBABLEUNKNOWN {
+	background-color: #a305fd;
+	color: #ffffff;
+}
+.PROBABLEUNKNOWN a {
+	color: #ffffff;
+}
+.POSSIBLEUNKNOWN {
+	background-color: #0522ff;
+	color: #ffffff;
+}
+.POSSIBLEUNKNOWN a {
+	color: #ffffff;
+}
+.POSSIBLEHIGH {
+	background-color: #ff8080;
+}
+.POSSIBLEMEDIUM {
+	background-color: #ff80ff;
+}
+.POSSIBLELOW {
+	background-color: #80ffff;
+}
+.none {
+	background-color: #a8d4a3;
+}
+font.underline
+{	
+	border-left: solid 1px #CC0000; 
+}
+tr.probability {
+	background-color: #e5eff3;	
+	font-weight: bold;
+}
+tr.frequency {
+	background-color: #e5eff3;	
+	font-weight: bold;
+}
+tr.level {
+	background-color: #e5eff3;	
+	font-weight: bold;
+}
+/* -----------------------------------------
+    AGENTS TAB
+----------------------------------------- */
+div.agentGroups {
+	float: left;
+	
+	background-color: #d3e6ee;
+	color: black;
+	font-weight: bold;
+	border: 0px;
+}
+
+td.agentGroups {
+	background-color: #d3e6ee;
+	color: black;
+	font-weight: bold;
+	border: 0px;
+}
+
+td.agentGroup {
+	padding: 10px;
+	background-color: #f4f9fb !important;
+	border: 1px solid #cfe5ee;
+	border-right: 0px !important;
+	border-left: 0px !important;
+}
+td.AllJobHistorySummary {
+	background-color: #f4f9fb;
+	border: 1px solid #cfe5ee;
+	width: 380px;
+}
+
+table.agents {
+	border-collapse: collapse;
+	margin-bottom: 10px;
+}
+
+table.agents td {
+	border-right: 0px solid #cfe5ee;
+	padding: 2px 5px;
+}
+td.questionagents {
+	font-weight: normal;
+}
+td.agent {
+	background-color: transparent;
+	border: 1px solid #cfe5ee;
+}
+
+td.agent td {
+	border: 0px;
+}
+
+/* -----------------------------------------
+    JOBS TAB
+----------------------------------------- */ /* jobs */
+table.jobs {
+	background-color: #fff;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td.jobs {
+	background-color: transparent;
+	border: 1px solid #cee5ee;
+	padding: 8px 10px;
+}
+
+tr.jobs {
+	background-color: transparent;
+}
+
+/* -----------------------------------------
+    INTERVIEW > STUDIES TAB
+----------------------------------------- */ /* studies  */
+table.studies {
+	width: 100%;
+	background-color: #fff;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	border-collapse: collapse;
+}
+
+
+/* agents (above) */ /* participant(s)  */
+table.participants {
+	background-color: #fff;
+	border: 0px padding :   0px;
+	margin: 0px;
+	border-collapse: collapse;
+}
+
+td.participant {
+	background-color: transparent;
+	border-bottom: 1px solid #cfe5ee;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+td.participants {
+	background-color: transparent;
+	border-bottom: 1px solid #cfe5ee;
+	padding: 3px 5px;
+	margin: 0px;
+}
+
+/* -----------------------------------------
+    INTERVIEW > ASSESSMENTS TAB
+----------------------------------------- */
+div.assessmentWindow {
+	POSITION: absolute;
+	/* width: 32px; */ /* width: 80%; */
+	margin-top: 6px;
+	width: 350px;
+}
+
+table.occIDEASAssessment {
+	background-color: #fff;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+table.occIDEASAssessment table {
+	background-color: #fff;
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	border: 0px;
+	border-collapse: collapse;
+}
+
+table.occIDEASAssessment table td {
+	border: 1px solid #cfe5ee;
+	padding: 3px 5px;
+}
+
+table.occIDEASAssessment table td td {
+	border: 0px;
+}
+
+table.assessment { /* width: 20%; */
+	width: 200px !important;
+	padding: 0px;
+	margin: 0px;
+	background: #f3fafd;
+}
+
+
+.tableborder,  .tableborder td, .tableborder table{
+background-color: #fff;
+border: 0px;
+}
+div.InterviewReport {
+  	background-color:#ffffff; 
+ 	border-right: black thin double; 
+ 	border-top: black thin double; 
+ 	border-left: black thin double; 
+ 	border-bottom: black thin double;
+}
+div.FullView {
+	z-index: 2;
+  	position:absolute; 
+  	top: 12px;
+  	left: 2px;
+  	width:1024px; 
+  	height:768px; 
+  	background-color:#ffffff; 
+  	overflow:auto;
+ 	border-right: black thin double; 
+ 	border-top: black thin double; 
+ 	border-left: black thin double; 
+ 	border-bottom: black thin double;
+}
+td.RequiredAnswers {
+	background-color: #d3e6ee;
+	border: 1px;
+	text-align: center;
+}
+td.skippedWarning {	
+	background-color: #eed3d3; 
+}
+input.warning {
+	border-right: red 1px solid; 
+	border-top: red 1px solid;
+    border-left: red 1px solid; 
+    border-bottom: red 1px solid;	
+}
+select.warning {
+	color: red;	
+}
+/* -----------------------------------------
+    ROUND CORNER STYLE ELEMENTS
+----------------------------------------- */
+div#statement{ margin: 0 10%;  background: #d1d4b6}
+.rtop,.rbottom{display:block}
+.rtop *,.rbottom *{display:block;height: 1px;overflow: hidden}
+.r1{margin: 0 5px}
+.r2{margin: 0 3px}
+.r3{margin: 0 2px}
+.r4{margin: 0 1px;height: 2px}
+.rs1{margin: 0 2px}
+.rs2{margin: 0 1px}
+
+/* -----------------------------------------
+    Home Pages
+----------------------------------------- */
+div.demo {
+	margin: 0 10%;
+	background: #e8e6e6;
+}
+div.member {
+	margin: 0 10%;
+	background: #e8e6e6;
+}
+div.participant {
+	margin: 0 10%;
+	background: #e8e6e6;
+}
+div.LHSMenu {
+	padding: 10px 10px;
+}
+table.frontpages {
+	padding: 3px 3px 3px 3px;
+	margin: 0px 0px 0px 0px;
+	border: black 1px solid; 
+	width:100%; 
+	height:100%;
+	background: #ffffff;
+}
+table.loginpage {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	border: 0px;
+	width:100%; 
+	height:100%;
+	background: #ffffff;
+}table.ContentUserList {
+	width: 100%;
+	background-color: #fff;
+	border-collapse: collapse;
+	padding: 0px;
+	margin: 0px;
+}tr.SearchboxRow {
+	background-color: #e4f0f5;	
+}
+table.login {
+	padding: 3px 3px 3px 3px;
+}
+td.homepagemain {
+	height:365px;
+	vertical-align: top;
+	background: #ffffff;
+	border-right: #2484ab 1px solid;
+	border-top: #2484ab 1px solid;
+	border-left: #2484ab 1px solid;
+	border-bottom: #2484ab 1px solid;
+}
+td.LHSMenuHead {
+	width: 150px;
+	background-color: #fefad3;
+	height: 19px;
+	text-align: center;
+	font-weight: bold;
+	border-bottom-style: solid;
+	border-bottom-color: black;
+	border-bottom-width: 3px;
+}
+table.dbrule {
+	border: black 1px solid;
+}

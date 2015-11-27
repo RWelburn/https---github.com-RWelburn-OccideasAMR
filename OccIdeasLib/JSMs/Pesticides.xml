@@ -1,0 +1,4319 @@
+<jsm>
+  <id>413</id>
+  <name>Pesticides</name>
+  <description>ajsm for people who have used herbicides, insecticides or fumigants</description>
+  <questions>
+    <com.researchit.Question>
+      <id>5413</id>
+      <name>Pesticides apply herbicides</name>
+      <description>Did you apply herbicides or weed killers?</description>
+      <jsmID>413</jsmID>
+      <sequence>0</sequence>
+      <possibleAnswers>
+        <com.researchit.PossibleAnswer>
+          <id>3719</id>
+          <name>Yes</name>
+          <description>Yes</description>
+          <sequence>0</sequence>
+          <jsmName></jsmName>
+          <childQuestions>
+            <com.researchit.Question>
+              <id>5414</id>
+              <name>Pesticides herbicide weed type</name>
+              <description>What weed did you have to kill? </description>
+              <jsmID>413</jsmID>
+              <sequence>0</sequence>
+              <possibleAnswers>
+                <com.researchit.PossibleAnswer>
+                  <id>3730</id>
+                  <name>[free text]</name>
+                  <description>[free text]</description>
+                  <sequence>0</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63120</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41413</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3730</id>
+                  <name>[free text]</name>
+                  <description>[free text]</description>
+                  <sequence>1</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63121</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41413</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3730</id>
+                  <name>[free text]</name>
+                  <description>[free text]</description>
+                  <sequence>2</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63122</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41413</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+              </possibleAnswers>
+              <agents>
+                <com.researchit.Agent>
+                  <id>93</id>
+                  <name>PCBs</name>
+                  <description>Any of a family of industrial compounds produced by chlorination of biphenyl including all levels of chlorination.</description>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>116</id>
+                  <name>Other Herbicides</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+glyphosate&lt;BR&gt;</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>117</id>
+                  <name>Other Pesticides</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>115</id>
+                  <name>Phenoxy Herbicides</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+2,4-D&amp;nbsp;		0 - &amp;lt;1mg/m3 &amp;nbsp;	1 - &amp;lt;10mg/m3 &amp;nbsp;	10mg/m3&amp;nbsp; &lt;BR&gt;</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+              </agents>
+              <parentID>63119</parentID>
+              <interviewID></interviewID>
+              <jsmStructureQuestionID>41413</jsmStructureQuestionID>
+              <warning></warning>
+              <multiple>false</multiple>
+              <minimised>false</minimised>
+              <notes>Please specify up to 3 most frequent.</notes>
+              <typeID>1</typeID>
+              <jsmName></jsmName>
+              <errorMessage></errorMessage>
+              <viewWithParent>true</viewWithParent>
+            </com.researchit.Question>
+            <com.researchit.Question>
+              <id>5415</id>
+              <name>Pesticides mix herbicides</name>
+              <description>Did you mix or load any herbicides or weed killers?</description>
+              <jsmID>413</jsmID>
+              <sequence>1</sequence>
+              <possibleAnswers>
+                <com.researchit.PossibleAnswer>
+                  <id>3719</id>
+                  <name>Yes</name>
+                  <description>Yes</description>
+                  <sequence>0</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions>
+                    <com.researchit.Question>
+                      <id>5109</id>
+                      <name>How many weeks a year?</name>
+                      <description>How many weeks a year?</description>
+                      <jsmID>413</jsmID>
+                      <sequence>0</sequence>
+                      <possibleAnswers>
+                        <com.researchit.PossibleAnswer>
+                          <id>3720</id>
+                          <name>[number 0-52]</name>
+                          <description>[number 0-52]</description>
+                          <sequence>0</sequence>
+                          <jsmName></jsmName>
+                          <childQuestions>
+                            <com.researchit.Question>
+                              <id>5110</id>
+                              <name>hours a week</name>
+                              <description>On average, how many hours a week?</description>
+                              <jsmID>413</jsmID>
+                              <sequence>0</sequence>
+                              <possibleAnswers>
+                                <com.researchit.PossibleAnswer>
+                                  <id>3721</id>
+                                  <name>[number 1-100]</name>
+                                  <description>[number 1-100]</description>
+                                  <sequence>0</sequence>
+                                  <jsmName></jsmName>
+                                  <childQuestions/>
+                                  <jsmQuestionPossibleAnswerStructureID>63125</jsmQuestionPossibleAnswerStructureID>
+                                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                                  <jsmQuestionStructureID>41416</jsmQuestionStructureID>
+                                  <interviewID></interviewID>
+                                  <actualAnswer></actualAnswer>
+                                  <showChildQuestions>true</showChildQuestions>
+                                </com.researchit.PossibleAnswer>
+                              </possibleAnswers>
+                              <agents>
+                                <com.researchit.Agent>
+                                  <id>93</id>
+                                  <name>PCBs</name>
+                                  <description>Any of a family of industrial compounds produced by chlorination of biphenyl including all levels of chlorination.</description>
+                                  <typeID></typeID>
+                                  <questionAgentID></questionAgentID>
+                                  <studyId></studyId>
+                                </com.researchit.Agent>
+                                <com.researchit.Agent>
+                                  <id>116</id>
+                                  <name>Other Herbicides</name>
+                                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+glyphosate&lt;BR&gt;</description>
+                                  <parentID>112</parentID>
+                                  <typeID></typeID>
+                                  <questionAgentID></questionAgentID>
+                                  <studyId></studyId>
+                                </com.researchit.Agent>
+                                <com.researchit.Agent>
+                                  <id>117</id>
+                                  <name>Other Pesticides</name>
+                                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+                                  <parentID>112</parentID>
+                                  <typeID></typeID>
+                                  <questionAgentID></questionAgentID>
+                                  <studyId></studyId>
+                                </com.researchit.Agent>
+                                <com.researchit.Agent>
+                                  <id>115</id>
+                                  <name>Phenoxy Herbicides</name>
+                                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+2,4-D&amp;nbsp;		0 - &amp;lt;1mg/m3 &amp;nbsp;	1 - &amp;lt;10mg/m3 &amp;nbsp;	10mg/m3&amp;nbsp; &lt;BR&gt;</description>
+                                  <parentID>112</parentID>
+                                  <typeID></typeID>
+                                  <questionAgentID></questionAgentID>
+                                  <studyId></studyId>
+                                </com.researchit.Agent>
+                              </agents>
+                              <parentID>63124</parentID>
+                              <interviewID></interviewID>
+                              <jsmStructureQuestionID>41416</jsmStructureQuestionID>
+                              <warning></warning>
+                              <multiple>false</multiple>
+                              <minimised>false</minimised>
+                              <notes>NULL</notes>
+                              <typeID>3</typeID>
+                              <jsmName></jsmName>
+                              <errorMessage></errorMessage>
+                              <viewWithParent>true</viewWithParent>
+                            </com.researchit.Question>
+                          </childQuestions>
+                          <jsmQuestionPossibleAnswerStructureID>63124</jsmQuestionPossibleAnswerStructureID>
+                          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                          <jsmQuestionStructureID>41415</jsmQuestionStructureID>
+                          <interviewID></interviewID>
+                          <actualAnswer></actualAnswer>
+                          <showChildQuestions>true</showChildQuestions>
+                        </com.researchit.PossibleAnswer>
+                      </possibleAnswers>
+                      <agents>
+                        <com.researchit.Agent>
+                          <id>93</id>
+                          <name>PCBs</name>
+                          <description>Any of a family of industrial compounds produced by chlorination of biphenyl including all levels of chlorination.</description>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                        <com.researchit.Agent>
+                          <id>116</id>
+                          <name>Other Herbicides</name>
+                          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+glyphosate&lt;BR&gt;</description>
+                          <parentID>112</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                        <com.researchit.Agent>
+                          <id>117</id>
+                          <name>Other Pesticides</name>
+                          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+                          <parentID>112</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                        <com.researchit.Agent>
+                          <id>115</id>
+                          <name>Phenoxy Herbicides</name>
+                          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+2,4-D&amp;nbsp;		0 - &amp;lt;1mg/m3 &amp;nbsp;	1 - &amp;lt;10mg/m3 &amp;nbsp;	10mg/m3&amp;nbsp; &lt;BR&gt;</description>
+                          <parentID>112</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                      </agents>
+                      <parentID>63123</parentID>
+                      <interviewID></interviewID>
+                      <jsmStructureQuestionID>41415</jsmStructureQuestionID>
+                      <warning></warning>
+                      <multiple>false</multiple>
+                      <minimised>false</minimised>
+                      <notes>NULL</notes>
+                      <typeID>3</typeID>
+                      <jsmName></jsmName>
+                      <errorMessage></errorMessage>
+                      <viewWithParent>true</viewWithParent>
+                    </com.researchit.Question>
+                  </childQuestions>
+                  <jsmQuestionPossibleAnswerStructureID>63123</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41414</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3722</id>
+                  <name>No</name>
+                  <description>No</description>
+                  <sequence>1</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63126</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41414</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3723</id>
+                  <name>don&apos;t know</name>
+                  <description>don&apos;t know</description>
+                  <sequence>2</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63127</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41414</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+              </possibleAnswers>
+              <agents>
+                <com.researchit.Agent>
+                  <id>93</id>
+                  <name>PCBs</name>
+                  <description>Any of a family of industrial compounds produced by chlorination of biphenyl including all levels of chlorination.</description>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>116</id>
+                  <name>Other Herbicides</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+glyphosate&lt;BR&gt;</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>117</id>
+                  <name>Other Pesticides</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>115</id>
+                  <name>Phenoxy Herbicides</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+2,4-D&amp;nbsp;		0 - &amp;lt;1mg/m3 &amp;nbsp;	1 - &amp;lt;10mg/m3 &amp;nbsp;	10mg/m3&amp;nbsp; &lt;BR&gt;</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+              </agents>
+              <parentID>63119</parentID>
+              <interviewID></interviewID>
+              <jsmStructureQuestionID>41414</jsmStructureQuestionID>
+              <warning></warning>
+              <multiple>false</multiple>
+              <minimised>false</minimised>
+              <notes>NULL</notes>
+              <typeID>1</typeID>
+              <jsmName></jsmName>
+              <errorMessage></errorMessage>
+              <viewWithParent>true</viewWithParent>
+            </com.researchit.Question>
+            <com.researchit.Question>
+              <id>5416</id>
+              <name>Pesticides herbicides type</name>
+              <description>What herbicides did you apply or mix?</description>
+              <jsmID>413</jsmID>
+              <sequence>2</sequence>
+              <possibleAnswers>
+                <com.researchit.PossibleAnswer>
+                  <id>3730</id>
+                  <name>[free text]</name>
+                  <description>[free text]</description>
+                  <sequence>0</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63128</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41417</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3730</id>
+                  <name>[free text]</name>
+                  <description>[free text]</description>
+                  <sequence>1</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63129</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41417</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3730</id>
+                  <name>[free text]</name>
+                  <description>[free text]</description>
+                  <sequence>2</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63130</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41417</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3730</id>
+                  <name>[free text]</name>
+                  <description>[free text]</description>
+                  <sequence>3</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63131</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41417</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3730</id>
+                  <name>[free text]</name>
+                  <description>[free text]</description>
+                  <sequence>4</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63132</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41417</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+              </possibleAnswers>
+              <agents>
+                <com.researchit.Agent>
+                  <id>93</id>
+                  <name>PCBs</name>
+                  <description>Any of a family of industrial compounds produced by chlorination of biphenyl including all levels of chlorination.</description>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>116</id>
+                  <name>Other Herbicides</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+glyphosate&lt;BR&gt;</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>117</id>
+                  <name>Other Pesticides</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>115</id>
+                  <name>Phenoxy Herbicides</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+2,4-D&amp;nbsp;		0 - &amp;lt;1mg/m3 &amp;nbsp;	1 - &amp;lt;10mg/m3 &amp;nbsp;	10mg/m3&amp;nbsp; &lt;BR&gt;</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+              </agents>
+              <parentID>63119</parentID>
+              <interviewID></interviewID>
+              <jsmStructureQuestionID>41417</jsmStructureQuestionID>
+              <warning></warning>
+              <multiple>false</multiple>
+              <minimised>false</minimised>
+              <notes>Please specify up to 5 most frequent types and state how many days per year these were applied.</notes>
+              <typeID>1</typeID>
+              <jsmName></jsmName>
+              <errorMessage></errorMessage>
+              <viewWithParent>true</viewWithParent>
+            </com.researchit.Question>
+          </childQuestions>
+          <jsmQuestionPossibleAnswerStructureID>63119</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41412</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3722</id>
+          <name>No</name>
+          <description>No</description>
+          <sequence>1</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63133</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41412</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3723</id>
+          <name>don&apos;t know</name>
+          <description>don&apos;t know</description>
+          <sequence>2</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63134</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41412</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+      </possibleAnswers>
+      <agents>
+        <com.researchit.Agent>
+          <id>93</id>
+          <name>PCBs</name>
+          <description>Any of a family of industrial compounds produced by chlorination of biphenyl including all levels of chlorination.</description>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>116</id>
+          <name>Other Herbicides</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+glyphosate&lt;BR&gt;</description>
+          <parentID>112</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>117</id>
+          <name>Other Pesticides</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+          <parentID>112</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>115</id>
+          <name>Phenoxy Herbicides</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+2,4-D&amp;nbsp;		0 - &amp;lt;1mg/m3 &amp;nbsp;	1 - &amp;lt;10mg/m3 &amp;nbsp;	10mg/m3&amp;nbsp; &lt;BR&gt;</description>
+          <parentID>112</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+      </agents>
+      <parentID>100</parentID>
+      <interviewID></interviewID>
+      <jsmStructureQuestionID>41412</jsmStructureQuestionID>
+      <warning></warning>
+      <multiple>false</multiple>
+      <minimised>false</minimised>
+      <notes>NULL</notes>
+      <typeID>2</typeID>
+      <jsmName></jsmName>
+      <errorMessage></errorMessage>
+      <viewWithParent>false</viewWithParent>
+    </com.researchit.Question>
+    <com.researchit.Question>
+      <id>5417</id>
+      <name>Pesticides apply insecticides</name>
+      <description>Did you apply insecticides to kill insect pests?</description>
+      <jsmID>413</jsmID>
+      <sequence>1</sequence>
+      <possibleAnswers>
+        <com.researchit.PossibleAnswer>
+          <id>3719</id>
+          <name>Yes</name>
+          <description>Yes</description>
+          <sequence>0</sequence>
+          <jsmName></jsmName>
+          <childQuestions>
+            <com.researchit.Question>
+              <id>5418</id>
+              <name>Pesticides insecticide insect type</name>
+              <description>What insect did you have to kill?</description>
+              <jsmID>413</jsmID>
+              <sequence>0</sequence>
+              <possibleAnswers>
+                <com.researchit.PossibleAnswer>
+                  <id>3730</id>
+                  <name>[free text]</name>
+                  <description>[free text]</description>
+                  <sequence>0</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63136</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41419</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3730</id>
+                  <name>[free text]</name>
+                  <description>[free text]</description>
+                  <sequence>1</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63137</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41419</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3730</id>
+                  <name>[free text]</name>
+                  <description>[free text]</description>
+                  <sequence>2</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63138</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41419</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+              </possibleAnswers>
+              <agents>
+                <com.researchit.Agent>
+                  <id>113</id>
+                  <name>Organochlorines</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+DDT &amp;nbsp;		0 - 0.1mg/m3&amp;nbsp;	0.01 - &amp;lt;1mg/m3&amp;nbsp;	&amp;gt;1mg/m3&amp;nbsp; &lt;BR&gt;Dieldrin&amp;nbsp;		0 - &amp;lt;0.025mg/m3&amp;nbsp;	0.025 - &amp;lt;0.25mg/m3	&amp;gt;0.25mg/m3&lt;BR&gt;</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>114</id>
+                  <name>Organophosphates</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Diazinon&amp;nbsp;		0.001 - &amp;lt;0.01mg/m3	0.001 - &amp;lt;0.01mg/m3	&amp;gt;0.01mg/m3&lt;BR&gt;Fenthion&amp;nbsp;		0.02 - &amp;lt;0.2mg/m3	0.02 - &amp;lt;0.2mg/m3	&amp;gt;0.2mg/m3&lt;BR&gt;</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>117</id>
+                  <name>Other Pesticides</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+              </agents>
+              <parentID>63135</parentID>
+              <interviewID></interviewID>
+              <jsmStructureQuestionID>41419</jsmStructureQuestionID>
+              <warning></warning>
+              <multiple>false</multiple>
+              <minimised>false</minimised>
+              <notes>Please specify up to 3 of the most frequent types.</notes>
+              <typeID>1</typeID>
+              <jsmName></jsmName>
+              <errorMessage></errorMessage>
+              <viewWithParent>true</viewWithParent>
+            </com.researchit.Question>
+            <com.researchit.Question>
+              <id>5419</id>
+              <name>Pesticides mix insecticides</name>
+              <description>Did you mix or load any insectides?</description>
+              <jsmID>413</jsmID>
+              <sequence>1</sequence>
+              <possibleAnswers>
+                <com.researchit.PossibleAnswer>
+                  <id>3719</id>
+                  <name>Yes</name>
+                  <description>Yes</description>
+                  <sequence>0</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions>
+                    <com.researchit.Question>
+                      <id>5109</id>
+                      <name>How many weeks a year?</name>
+                      <description>How many weeks a year?</description>
+                      <jsmID>413</jsmID>
+                      <sequence>0</sequence>
+                      <possibleAnswers>
+                        <com.researchit.PossibleAnswer>
+                          <id>3720</id>
+                          <name>[number 0-52]</name>
+                          <description>[number 0-52]</description>
+                          <sequence>0</sequence>
+                          <jsmName></jsmName>
+                          <childQuestions>
+                            <com.researchit.Question>
+                              <id>5110</id>
+                              <name>hours a week</name>
+                              <description>On average, how many hours a week?</description>
+                              <jsmID>413</jsmID>
+                              <sequence>0</sequence>
+                              <possibleAnswers>
+                                <com.researchit.PossibleAnswer>
+                                  <id>3721</id>
+                                  <name>[number 1-100]</name>
+                                  <description>[number 1-100]</description>
+                                  <sequence>0</sequence>
+                                  <jsmName></jsmName>
+                                  <childQuestions/>
+                                  <jsmQuestionPossibleAnswerStructureID>63141</jsmQuestionPossibleAnswerStructureID>
+                                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                                  <jsmQuestionStructureID>41422</jsmQuestionStructureID>
+                                  <interviewID></interviewID>
+                                  <actualAnswer></actualAnswer>
+                                  <showChildQuestions>true</showChildQuestions>
+                                </com.researchit.PossibleAnswer>
+                              </possibleAnswers>
+                              <agents>
+                                <com.researchit.Agent>
+                                  <id>113</id>
+                                  <name>Organochlorines</name>
+                                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+DDT &amp;nbsp;		0 - 0.1mg/m3&amp;nbsp;	0.01 - &amp;lt;1mg/m3&amp;nbsp;	&amp;gt;1mg/m3&amp;nbsp; &lt;BR&gt;Dieldrin&amp;nbsp;		0 - &amp;lt;0.025mg/m3&amp;nbsp;	0.025 - &amp;lt;0.25mg/m3	&amp;gt;0.25mg/m3&lt;BR&gt;</description>
+                                  <parentID>112</parentID>
+                                  <typeID></typeID>
+                                  <questionAgentID></questionAgentID>
+                                  <studyId></studyId>
+                                </com.researchit.Agent>
+                                <com.researchit.Agent>
+                                  <id>114</id>
+                                  <name>Organophosphates</name>
+                                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Diazinon&amp;nbsp;		0.001 - &amp;lt;0.01mg/m3	0.001 - &amp;lt;0.01mg/m3	&amp;gt;0.01mg/m3&lt;BR&gt;Fenthion&amp;nbsp;		0.02 - &amp;lt;0.2mg/m3	0.02 - &amp;lt;0.2mg/m3	&amp;gt;0.2mg/m3&lt;BR&gt;</description>
+                                  <parentID>112</parentID>
+                                  <typeID></typeID>
+                                  <questionAgentID></questionAgentID>
+                                  <studyId></studyId>
+                                </com.researchit.Agent>
+                                <com.researchit.Agent>
+                                  <id>117</id>
+                                  <name>Other Pesticides</name>
+                                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+                                  <parentID>112</parentID>
+                                  <typeID></typeID>
+                                  <questionAgentID></questionAgentID>
+                                  <studyId></studyId>
+                                </com.researchit.Agent>
+                              </agents>
+                              <parentID>63140</parentID>
+                              <interviewID></interviewID>
+                              <jsmStructureQuestionID>41422</jsmStructureQuestionID>
+                              <warning></warning>
+                              <multiple>false</multiple>
+                              <minimised>false</minimised>
+                              <notes>NULL</notes>
+                              <typeID>3</typeID>
+                              <jsmName></jsmName>
+                              <errorMessage></errorMessage>
+                              <viewWithParent>true</viewWithParent>
+                            </com.researchit.Question>
+                          </childQuestions>
+                          <jsmQuestionPossibleAnswerStructureID>63140</jsmQuestionPossibleAnswerStructureID>
+                          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                          <jsmQuestionStructureID>41421</jsmQuestionStructureID>
+                          <interviewID></interviewID>
+                          <actualAnswer></actualAnswer>
+                          <showChildQuestions>true</showChildQuestions>
+                        </com.researchit.PossibleAnswer>
+                      </possibleAnswers>
+                      <agents>
+                        <com.researchit.Agent>
+                          <id>113</id>
+                          <name>Organochlorines</name>
+                          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+DDT &amp;nbsp;		0 - 0.1mg/m3&amp;nbsp;	0.01 - &amp;lt;1mg/m3&amp;nbsp;	&amp;gt;1mg/m3&amp;nbsp; &lt;BR&gt;Dieldrin&amp;nbsp;		0 - &amp;lt;0.025mg/m3&amp;nbsp;	0.025 - &amp;lt;0.25mg/m3	&amp;gt;0.25mg/m3&lt;BR&gt;</description>
+                          <parentID>112</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                        <com.researchit.Agent>
+                          <id>114</id>
+                          <name>Organophosphates</name>
+                          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Diazinon&amp;nbsp;		0.001 - &amp;lt;0.01mg/m3	0.001 - &amp;lt;0.01mg/m3	&amp;gt;0.01mg/m3&lt;BR&gt;Fenthion&amp;nbsp;		0.02 - &amp;lt;0.2mg/m3	0.02 - &amp;lt;0.2mg/m3	&amp;gt;0.2mg/m3&lt;BR&gt;</description>
+                          <parentID>112</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                        <com.researchit.Agent>
+                          <id>117</id>
+                          <name>Other Pesticides</name>
+                          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+                          <parentID>112</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                      </agents>
+                      <parentID>63139</parentID>
+                      <interviewID></interviewID>
+                      <jsmStructureQuestionID>41421</jsmStructureQuestionID>
+                      <warning></warning>
+                      <multiple>false</multiple>
+                      <minimised>false</minimised>
+                      <notes>NULL</notes>
+                      <typeID>3</typeID>
+                      <jsmName></jsmName>
+                      <errorMessage></errorMessage>
+                      <viewWithParent>true</viewWithParent>
+                    </com.researchit.Question>
+                  </childQuestions>
+                  <jsmQuestionPossibleAnswerStructureID>63139</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41420</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3722</id>
+                  <name>No</name>
+                  <description>No</description>
+                  <sequence>1</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63142</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41420</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3723</id>
+                  <name>don&apos;t know</name>
+                  <description>don&apos;t know</description>
+                  <sequence>2</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63143</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41420</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+              </possibleAnswers>
+              <agents>
+                <com.researchit.Agent>
+                  <id>113</id>
+                  <name>Organochlorines</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+DDT &amp;nbsp;		0 - 0.1mg/m3&amp;nbsp;	0.01 - &amp;lt;1mg/m3&amp;nbsp;	&amp;gt;1mg/m3&amp;nbsp; &lt;BR&gt;Dieldrin&amp;nbsp;		0 - &amp;lt;0.025mg/m3&amp;nbsp;	0.025 - &amp;lt;0.25mg/m3	&amp;gt;0.25mg/m3&lt;BR&gt;</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>114</id>
+                  <name>Organophosphates</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Diazinon&amp;nbsp;		0.001 - &amp;lt;0.01mg/m3	0.001 - &amp;lt;0.01mg/m3	&amp;gt;0.01mg/m3&lt;BR&gt;Fenthion&amp;nbsp;		0.02 - &amp;lt;0.2mg/m3	0.02 - &amp;lt;0.2mg/m3	&amp;gt;0.2mg/m3&lt;BR&gt;</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>117</id>
+                  <name>Other Pesticides</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+              </agents>
+              <parentID>63135</parentID>
+              <interviewID></interviewID>
+              <jsmStructureQuestionID>41420</jsmStructureQuestionID>
+              <warning></warning>
+              <multiple>false</multiple>
+              <minimised>false</minimised>
+              <notes>NULL</notes>
+              <typeID>1</typeID>
+              <jsmName></jsmName>
+              <errorMessage></errorMessage>
+              <viewWithParent>false</viewWithParent>
+            </com.researchit.Question>
+            <com.researchit.Question>
+              <id>5420</id>
+              <name>Pesticides insecticides type</name>
+              <description>What insecticides did you apply or mix?</description>
+              <jsmID>413</jsmID>
+              <sequence>2</sequence>
+              <possibleAnswers>
+                <com.researchit.PossibleAnswer>
+                  <id>3730</id>
+                  <name>[free text]</name>
+                  <description>[free text]</description>
+                  <sequence>0</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63144</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41423</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3730</id>
+                  <name>[free text]</name>
+                  <description>[free text]</description>
+                  <sequence>1</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63145</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41423</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3730</id>
+                  <name>[free text]</name>
+                  <description>[free text]</description>
+                  <sequence>2</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63146</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41423</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3730</id>
+                  <name>[free text]</name>
+                  <description>[free text]</description>
+                  <sequence>3</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63147</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41423</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3730</id>
+                  <name>[free text]</name>
+                  <description>[free text]</description>
+                  <sequence>4</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63148</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41423</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+              </possibleAnswers>
+              <agents>
+                <com.researchit.Agent>
+                  <id>113</id>
+                  <name>Organochlorines</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+DDT &amp;nbsp;		0 - 0.1mg/m3&amp;nbsp;	0.01 - &amp;lt;1mg/m3&amp;nbsp;	&amp;gt;1mg/m3&amp;nbsp; &lt;BR&gt;Dieldrin&amp;nbsp;		0 - &amp;lt;0.025mg/m3&amp;nbsp;	0.025 - &amp;lt;0.25mg/m3	&amp;gt;0.25mg/m3&lt;BR&gt;</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>114</id>
+                  <name>Organophosphates</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Diazinon&amp;nbsp;		0.001 - &amp;lt;0.01mg/m3	0.001 - &amp;lt;0.01mg/m3	&amp;gt;0.01mg/m3&lt;BR&gt;Fenthion&amp;nbsp;		0.02 - &amp;lt;0.2mg/m3	0.02 - &amp;lt;0.2mg/m3	&amp;gt;0.2mg/m3&lt;BR&gt;</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>117</id>
+                  <name>Other Pesticides</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+              </agents>
+              <parentID>63135</parentID>
+              <interviewID></interviewID>
+              <jsmStructureQuestionID>41423</jsmStructureQuestionID>
+              <warning></warning>
+              <multiple>false</multiple>
+              <minimised>false</minimised>
+              <notes>Please specify up to 5 most frequent types and state how many days per year these were applied.</notes>
+              <typeID>1</typeID>
+              <jsmName></jsmName>
+              <errorMessage></errorMessage>
+              <viewWithParent>true</viewWithParent>
+            </com.researchit.Question>
+          </childQuestions>
+          <jsmQuestionPossibleAnswerStructureID>63135</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41418</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3722</id>
+          <name>No</name>
+          <description>No</description>
+          <sequence>1</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63149</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41418</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3723</id>
+          <name>don&apos;t know</name>
+          <description>don&apos;t know</description>
+          <sequence>2</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63150</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41418</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+      </possibleAnswers>
+      <agents>
+        <com.researchit.Agent>
+          <id>113</id>
+          <name>Organochlorines</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+DDT &amp;nbsp;		0 - 0.1mg/m3&amp;nbsp;	0.01 - &amp;lt;1mg/m3&amp;nbsp;	&amp;gt;1mg/m3&amp;nbsp; &lt;BR&gt;Dieldrin&amp;nbsp;		0 - &amp;lt;0.025mg/m3&amp;nbsp;	0.025 - &amp;lt;0.25mg/m3	&amp;gt;0.25mg/m3&lt;BR&gt;</description>
+          <parentID>112</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>114</id>
+          <name>Organophosphates</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Diazinon&amp;nbsp;		0.001 - &amp;lt;0.01mg/m3	0.001 - &amp;lt;0.01mg/m3	&amp;gt;0.01mg/m3&lt;BR&gt;Fenthion&amp;nbsp;		0.02 - &amp;lt;0.2mg/m3	0.02 - &amp;lt;0.2mg/m3	&amp;gt;0.2mg/m3&lt;BR&gt;</description>
+          <parentID>112</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>117</id>
+          <name>Other Pesticides</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+          <parentID>112</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+      </agents>
+      <parentID>100</parentID>
+      <interviewID></interviewID>
+      <jsmStructureQuestionID>41418</jsmStructureQuestionID>
+      <warning></warning>
+      <multiple>false</multiple>
+      <minimised>false</minimised>
+      <notes>NULL</notes>
+      <typeID>1</typeID>
+      <jsmName></jsmName>
+      <errorMessage></errorMessage>
+      <viewWithParent>false</viewWithParent>
+    </com.researchit.Question>
+    <com.researchit.Question>
+      <id>5421</id>
+      <name>Pesticides equipment</name>
+      <description>What type of equipment did you most frequently use to apply the herbicides or insecticides? </description>
+      <jsmID>413</jsmID>
+      <sequence>2</sequence>
+      <possibleAnswers>
+        <com.researchit.PossibleAnswer>
+          <id>3941</id>
+          <name>backpack sprayer</name>
+          <description>backpack sprayer</description>
+          <sequence>0</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63151</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41424</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3780</id>
+          <name>Truck, tractor or other vehicle with handheld sprayer</name>
+          <description>Truck, tractor or other vehicle with handheld sprayer</description>
+          <sequence>1</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63152</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41424</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3942</id>
+          <name>truck, tractor or other vehicle with airblast sprayer</name>
+          <description>truck, tractor or other vehicle with airblast sprayer</description>
+          <sequence>2</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63153</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41424</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3943</id>
+          <name>truck, tractor or other vehicle with boom in back</name>
+          <description>truck, tractor or other vehicle with boom in back</description>
+          <sequence>3</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63154</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41424</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3944</id>
+          <name>truck, tractor or other vehicle with boom in front</name>
+          <description>truck, tractor or other vehicle with boom in front</description>
+          <sequence>4</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63155</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41424</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3784</id>
+          <name>Fogger/mist blower</name>
+          <description>Fogger/mist blower</description>
+          <sequence>5</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63156</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41424</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3785</id>
+          <name>Plane</name>
+          <description>Plane</description>
+          <sequence>6</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63157</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41424</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3786</id>
+          <name>Irrigation water</name>
+          <description>Irrigation water</description>
+          <sequence>7</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63158</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41424</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3787</id>
+          <name>Injection into soil</name>
+          <description>Injection into soil</description>
+          <sequence>8</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63159</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41424</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3743</id>
+          <name>Other</name>
+          <description>Other</description>
+          <sequence>9</sequence>
+          <jsmName></jsmName>
+          <childQuestions>
+            <com.researchit.Question>
+              <id>5422</id>
+              <name>Pesticides equipment other</name>
+              <description>Please describe.</description>
+              <jsmID>413</jsmID>
+              <sequence>0</sequence>
+              <possibleAnswers>
+                <com.researchit.PossibleAnswer>
+                  <id>3730</id>
+                  <name>[free text]</name>
+                  <description>[free text]</description>
+                  <sequence>0</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63161</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41425</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+              </possibleAnswers>
+              <agents>
+                <com.researchit.Agent>
+                  <id>93</id>
+                  <name>PCBs</name>
+                  <description>Any of a family of industrial compounds produced by chlorination of biphenyl including all levels of chlorination.</description>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>113</id>
+                  <name>Organochlorines</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+DDT &amp;nbsp;		0 - 0.1mg/m3&amp;nbsp;	0.01 - &amp;lt;1mg/m3&amp;nbsp;	&amp;gt;1mg/m3&amp;nbsp; &lt;BR&gt;Dieldrin&amp;nbsp;		0 - &amp;lt;0.025mg/m3&amp;nbsp;	0.025 - &amp;lt;0.25mg/m3	&amp;gt;0.25mg/m3&lt;BR&gt;</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>114</id>
+                  <name>Organophosphates</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Diazinon&amp;nbsp;		0.001 - &amp;lt;0.01mg/m3	0.001 - &amp;lt;0.01mg/m3	&amp;gt;0.01mg/m3&lt;BR&gt;Fenthion&amp;nbsp;		0.02 - &amp;lt;0.2mg/m3	0.02 - &amp;lt;0.2mg/m3	&amp;gt;0.2mg/m3&lt;BR&gt;</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>116</id>
+                  <name>Other Herbicides</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+glyphosate&lt;BR&gt;</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>117</id>
+                  <name>Other Pesticides</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>115</id>
+                  <name>Phenoxy Herbicides</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+2,4-D&amp;nbsp;		0 - &amp;lt;1mg/m3 &amp;nbsp;	1 - &amp;lt;10mg/m3 &amp;nbsp;	10mg/m3&amp;nbsp; &lt;BR&gt;</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+              </agents>
+              <parentID>63160</parentID>
+              <interviewID></interviewID>
+              <jsmStructureQuestionID>41425</jsmStructureQuestionID>
+              <warning></warning>
+              <multiple>false</multiple>
+              <minimised>false</minimised>
+              <notes>NULL</notes>
+              <typeID>1</typeID>
+              <jsmName></jsmName>
+              <errorMessage></errorMessage>
+              <viewWithParent>true</viewWithParent>
+            </com.researchit.Question>
+          </childQuestions>
+          <jsmQuestionPossibleAnswerStructureID>63160</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41424</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3723</id>
+          <name>don&apos;t know</name>
+          <description>don&apos;t know</description>
+          <sequence>10</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63162</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41424</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+      </possibleAnswers>
+      <agents>
+        <com.researchit.Agent>
+          <id>93</id>
+          <name>PCBs</name>
+          <description>Any of a family of industrial compounds produced by chlorination of biphenyl including all levels of chlorination.</description>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>113</id>
+          <name>Organochlorines</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+DDT &amp;nbsp;		0 - 0.1mg/m3&amp;nbsp;	0.01 - &amp;lt;1mg/m3&amp;nbsp;	&amp;gt;1mg/m3&amp;nbsp; &lt;BR&gt;Dieldrin&amp;nbsp;		0 - &amp;lt;0.025mg/m3&amp;nbsp;	0.025 - &amp;lt;0.25mg/m3	&amp;gt;0.25mg/m3&lt;BR&gt;</description>
+          <parentID>112</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>114</id>
+          <name>Organophosphates</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Diazinon&amp;nbsp;		0.001 - &amp;lt;0.01mg/m3	0.001 - &amp;lt;0.01mg/m3	&amp;gt;0.01mg/m3&lt;BR&gt;Fenthion&amp;nbsp;		0.02 - &amp;lt;0.2mg/m3	0.02 - &amp;lt;0.2mg/m3	&amp;gt;0.2mg/m3&lt;BR&gt;</description>
+          <parentID>112</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>116</id>
+          <name>Other Herbicides</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+glyphosate&lt;BR&gt;</description>
+          <parentID>112</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>117</id>
+          <name>Other Pesticides</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+          <parentID>112</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>115</id>
+          <name>Phenoxy Herbicides</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+2,4-D&amp;nbsp;		0 - &amp;lt;1mg/m3 &amp;nbsp;	1 - &amp;lt;10mg/m3 &amp;nbsp;	10mg/m3&amp;nbsp; &lt;BR&gt;</description>
+          <parentID>112</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+      </agents>
+      <parentID>100</parentID>
+      <interviewID></interviewID>
+      <jsmStructureQuestionID>41424</jsmStructureQuestionID>
+      <warning></warning>
+      <multiple>false</multiple>
+      <minimised>false</minimised>
+      <notes>choose one</notes>
+      <typeID>1</typeID>
+      <jsmName></jsmName>
+      <errorMessage></errorMessage>
+      <viewWithParent>false</viewWithParent>
+    </com.researchit.Question>
+    <com.researchit.Question>
+      <id>5423</id>
+      <name>Pesticides protective clothing</name>
+      <description>What clothing did you usually wear while mixing or applying herbicides or insecticides?</description>
+      <jsmID>413</jsmID>
+      <sequence>3</sequence>
+      <possibleAnswers>
+        <com.researchit.PossibleAnswer>
+          <id>3945</id>
+          <name>a long-sleeved shirt</name>
+          <description>a long-sleeved shirt</description>
+          <sequence>0</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63163</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41426</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3946</id>
+          <name>a short sleeved shirt or t-shirt</name>
+          <description>a short sleeved shirt or t-shirt</description>
+          <sequence>1</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63164</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41426</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3746</id>
+          <name>Long trousers</name>
+          <description>Long trousers</description>
+          <sequence>2</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63165</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41426</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3947</id>
+          <name>shorts</name>
+          <description>shorts</description>
+          <sequence>3</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63166</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41426</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3948</id>
+          <name>leather gloves</name>
+          <description>leather gloves</description>
+          <sequence>4</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63167</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41426</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3949</id>
+          <name>rubber or other gloves</name>
+          <description>rubber or other gloves</description>
+          <sequence>5</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63168</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41426</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3950</id>
+          <name>mask or respirator</name>
+          <description>mask or respirator</description>
+          <sequence>6</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63169</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41426</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3951</id>
+          <name>apron</name>
+          <description>apron</description>
+          <sequence>7</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63170</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41426</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3748</id>
+          <name>Boots</name>
+          <description>Boots</description>
+          <sequence>8</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63171</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41426</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3952</id>
+          <name>rubber suits</name>
+          <description>rubber suits</description>
+          <sequence>9</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63172</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41426</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3953</id>
+          <name>other protective clothing</name>
+          <description>other protective clothing</description>
+          <sequence>10</sequence>
+          <jsmName></jsmName>
+          <childQuestions>
+            <com.researchit.Question>
+              <id>5424</id>
+              <name>Pesticides protective clothing other</name>
+              <description>Please describe.</description>
+              <jsmID>413</jsmID>
+              <sequence>0</sequence>
+              <possibleAnswers>
+                <com.researchit.PossibleAnswer>
+                  <id>3730</id>
+                  <name>[free text]</name>
+                  <description>[free text]</description>
+                  <sequence>0</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63174</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41427</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+              </possibleAnswers>
+              <agents>
+                <com.researchit.Agent>
+                  <id>93</id>
+                  <name>PCBs</name>
+                  <description>Any of a family of industrial compounds produced by chlorination of biphenyl including all levels of chlorination.</description>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>113</id>
+                  <name>Organochlorines</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+DDT &amp;nbsp;		0 - 0.1mg/m3&amp;nbsp;	0.01 - &amp;lt;1mg/m3&amp;nbsp;	&amp;gt;1mg/m3&amp;nbsp; &lt;BR&gt;Dieldrin&amp;nbsp;		0 - &amp;lt;0.025mg/m3&amp;nbsp;	0.025 - &amp;lt;0.25mg/m3	&amp;gt;0.25mg/m3&lt;BR&gt;</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>114</id>
+                  <name>Organophosphates</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Diazinon&amp;nbsp;		0.001 - &amp;lt;0.01mg/m3	0.001 - &amp;lt;0.01mg/m3	&amp;gt;0.01mg/m3&lt;BR&gt;Fenthion&amp;nbsp;		0.02 - &amp;lt;0.2mg/m3	0.02 - &amp;lt;0.2mg/m3	&amp;gt;0.2mg/m3&lt;BR&gt;</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>116</id>
+                  <name>Other Herbicides</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+glyphosate&lt;BR&gt;</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>117</id>
+                  <name>Other Pesticides</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>115</id>
+                  <name>Phenoxy Herbicides</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+2,4-D&amp;nbsp;		0 - &amp;lt;1mg/m3 &amp;nbsp;	1 - &amp;lt;10mg/m3 &amp;nbsp;	10mg/m3&amp;nbsp; &lt;BR&gt;</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+              </agents>
+              <parentID>63173</parentID>
+              <interviewID></interviewID>
+              <jsmStructureQuestionID>41427</jsmStructureQuestionID>
+              <warning></warning>
+              <multiple>false</multiple>
+              <minimised>false</minimised>
+              <notes>NULL</notes>
+              <typeID>1</typeID>
+              <jsmName></jsmName>
+              <errorMessage></errorMessage>
+              <viewWithParent>true</viewWithParent>
+            </com.researchit.Question>
+          </childQuestions>
+          <jsmQuestionPossibleAnswerStructureID>63173</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41426</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+      </possibleAnswers>
+      <agents>
+        <com.researchit.Agent>
+          <id>93</id>
+          <name>PCBs</name>
+          <description>Any of a family of industrial compounds produced by chlorination of biphenyl including all levels of chlorination.</description>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>113</id>
+          <name>Organochlorines</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+DDT &amp;nbsp;		0 - 0.1mg/m3&amp;nbsp;	0.01 - &amp;lt;1mg/m3&amp;nbsp;	&amp;gt;1mg/m3&amp;nbsp; &lt;BR&gt;Dieldrin&amp;nbsp;		0 - &amp;lt;0.025mg/m3&amp;nbsp;	0.025 - &amp;lt;0.25mg/m3	&amp;gt;0.25mg/m3&lt;BR&gt;</description>
+          <parentID>112</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>114</id>
+          <name>Organophosphates</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Diazinon&amp;nbsp;		0.001 - &amp;lt;0.01mg/m3	0.001 - &amp;lt;0.01mg/m3	&amp;gt;0.01mg/m3&lt;BR&gt;Fenthion&amp;nbsp;		0.02 - &amp;lt;0.2mg/m3	0.02 - &amp;lt;0.2mg/m3	&amp;gt;0.2mg/m3&lt;BR&gt;</description>
+          <parentID>112</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>116</id>
+          <name>Other Herbicides</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+glyphosate&lt;BR&gt;</description>
+          <parentID>112</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>117</id>
+          <name>Other Pesticides</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+          <parentID>112</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>115</id>
+          <name>Phenoxy Herbicides</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+2,4-D&amp;nbsp;		0 - &amp;lt;1mg/m3 &amp;nbsp;	1 - &amp;lt;10mg/m3 &amp;nbsp;	10mg/m3&amp;nbsp; &lt;BR&gt;</description>
+          <parentID>112</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+      </agents>
+      <parentID>100</parentID>
+      <interviewID></interviewID>
+      <jsmStructureQuestionID>41426</jsmStructureQuestionID>
+      <warning></warning>
+      <multiple>true</multiple>
+      <minimised>false</minimised>
+      <notes>NULL</notes>
+      <typeID>1</typeID>
+      <jsmName></jsmName>
+      <errorMessage></errorMessage>
+      <viewWithParent>false</viewWithParent>
+    </com.researchit.Question>
+    <com.researchit.Question>
+      <id>5425</id>
+      <name>Pesticides work clothes washing</name>
+      <description>When you mixed or applied herbicides or insecticides, for how many days did you wear the same work clothes before washing them?</description>
+      <jsmID>413</jsmID>
+      <sequence>4</sequence>
+      <possibleAnswers>
+        <com.researchit.PossibleAnswer>
+          <id>3721</id>
+          <name>[number 1-100]</name>
+          <description>[number 1-100]</description>
+          <sequence>0</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63175</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41428</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+      </possibleAnswers>
+      <agents>
+        <com.researchit.Agent>
+          <id>93</id>
+          <name>PCBs</name>
+          <description>Any of a family of industrial compounds produced by chlorination of biphenyl including all levels of chlorination.</description>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>113</id>
+          <name>Organochlorines</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+DDT &amp;nbsp;		0 - 0.1mg/m3&amp;nbsp;	0.01 - &amp;lt;1mg/m3&amp;nbsp;	&amp;gt;1mg/m3&amp;nbsp; &lt;BR&gt;Dieldrin&amp;nbsp;		0 - &amp;lt;0.025mg/m3&amp;nbsp;	0.025 - &amp;lt;0.25mg/m3	&amp;gt;0.25mg/m3&lt;BR&gt;</description>
+          <parentID>112</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>114</id>
+          <name>Organophosphates</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Diazinon&amp;nbsp;		0.001 - &amp;lt;0.01mg/m3	0.001 - &amp;lt;0.01mg/m3	&amp;gt;0.01mg/m3&lt;BR&gt;Fenthion&amp;nbsp;		0.02 - &amp;lt;0.2mg/m3	0.02 - &amp;lt;0.2mg/m3	&amp;gt;0.2mg/m3&lt;BR&gt;</description>
+          <parentID>112</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>116</id>
+          <name>Other Herbicides</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+glyphosate&lt;BR&gt;</description>
+          <parentID>112</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>117</id>
+          <name>Other Pesticides</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+          <parentID>112</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>115</id>
+          <name>Phenoxy Herbicides</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+2,4-D&amp;nbsp;		0 - &amp;lt;1mg/m3 &amp;nbsp;	1 - &amp;lt;10mg/m3 &amp;nbsp;	10mg/m3&amp;nbsp; &lt;BR&gt;</description>
+          <parentID>112</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+      </agents>
+      <parentID>100</parentID>
+      <interviewID></interviewID>
+      <jsmStructureQuestionID>41428</jsmStructureQuestionID>
+      <warning></warning>
+      <multiple>false</multiple>
+      <minimised>false</minimised>
+      <notes>NULL</notes>
+      <typeID>1</typeID>
+      <jsmName></jsmName>
+      <errorMessage></errorMessage>
+      <viewWithParent>false</viewWithParent>
+    </com.researchit.Question>
+    <com.researchit.Question>
+      <id>5426</id>
+      <name>Pesticides fumigants</name>
+      <description>Did you apply fumigants to kill insects on stored crops? </description>
+      <jsmID>413</jsmID>
+      <sequence>5</sequence>
+      <possibleAnswers>
+        <com.researchit.PossibleAnswer>
+          <id>3719</id>
+          <name>Yes</name>
+          <description>Yes</description>
+          <sequence>0</sequence>
+          <jsmName></jsmName>
+          <childQuestions>
+            <com.researchit.Question>
+              <id>5427</id>
+              <name>Pesticides fumigants insect type</name>
+              <description>What insect did you have to kill?</description>
+              <jsmID>413</jsmID>
+              <sequence>0</sequence>
+              <possibleAnswers>
+                <com.researchit.PossibleAnswer>
+                  <id>3730</id>
+                  <name>[free text]</name>
+                  <description>[free text]</description>
+                  <sequence>0</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63177</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41430</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3730</id>
+                  <name>[free text]</name>
+                  <description>[free text]</description>
+                  <sequence>1</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63178</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41430</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+              </possibleAnswers>
+              <agents>
+                <com.researchit.Agent>
+                  <id>117</id>
+                  <name>Other Pesticides</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+              </agents>
+              <parentID>63176</parentID>
+              <interviewID></interviewID>
+              <jsmStructureQuestionID>41430</jsmStructureQuestionID>
+              <warning></warning>
+              <multiple>false</multiple>
+              <minimised>false</minimised>
+              <notes>Please specify up to the two most frequent.</notes>
+              <typeID>1</typeID>
+              <jsmName></jsmName>
+              <errorMessage></errorMessage>
+              <viewWithParent>true</viewWithParent>
+            </com.researchit.Question>
+            <com.researchit.Question>
+              <id>5428</id>
+              <name>Pesticides fumigants type</name>
+              <description>What fumigants did you apply or mix?</description>
+              <jsmID>413</jsmID>
+              <sequence>1</sequence>
+              <possibleAnswers>
+                <com.researchit.PossibleAnswer>
+                  <id>3730</id>
+                  <name>[free text]</name>
+                  <description>[free text]</description>
+                  <sequence>0</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions>
+                    <com.researchit.Question>
+                      <id>5109</id>
+                      <name>How many weeks a year?</name>
+                      <description>How many weeks a year?</description>
+                      <jsmID>413</jsmID>
+                      <sequence>0</sequence>
+                      <possibleAnswers>
+                        <com.researchit.PossibleAnswer>
+                          <id>3720</id>
+                          <name>[number 0-52]</name>
+                          <description>[number 0-52]</description>
+                          <sequence>0</sequence>
+                          <jsmName></jsmName>
+                          <childQuestions>
+                            <com.researchit.Question>
+                              <id>5110</id>
+                              <name>hours a week</name>
+                              <description>On average, how many hours a week?</description>
+                              <jsmID>413</jsmID>
+                              <sequence>0</sequence>
+                              <possibleAnswers>
+                                <com.researchit.PossibleAnswer>
+                                  <id>3721</id>
+                                  <name>[number 1-100]</name>
+                                  <description>[number 1-100]</description>
+                                  <sequence>0</sequence>
+                                  <jsmName></jsmName>
+                                  <childQuestions/>
+                                  <jsmQuestionPossibleAnswerStructureID>63181</jsmQuestionPossibleAnswerStructureID>
+                                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                                  <jsmQuestionStructureID>41433</jsmQuestionStructureID>
+                                  <interviewID></interviewID>
+                                  <actualAnswer></actualAnswer>
+                                  <showChildQuestions>true</showChildQuestions>
+                                </com.researchit.PossibleAnswer>
+                              </possibleAnswers>
+                              <agents>
+                                <com.researchit.Agent>
+                                  <id>117</id>
+                                  <name>Other Pesticides</name>
+                                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+                                  <parentID>112</parentID>
+                                  <typeID></typeID>
+                                  <questionAgentID></questionAgentID>
+                                  <studyId></studyId>
+                                </com.researchit.Agent>
+                              </agents>
+                              <parentID>63180</parentID>
+                              <interviewID></interviewID>
+                              <jsmStructureQuestionID>41433</jsmStructureQuestionID>
+                              <warning></warning>
+                              <multiple>false</multiple>
+                              <minimised>false</minimised>
+                              <notes>NULL</notes>
+                              <typeID>3</typeID>
+                              <jsmName></jsmName>
+                              <errorMessage></errorMessage>
+                              <viewWithParent>true</viewWithParent>
+                            </com.researchit.Question>
+                          </childQuestions>
+                          <jsmQuestionPossibleAnswerStructureID>63180</jsmQuestionPossibleAnswerStructureID>
+                          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                          <jsmQuestionStructureID>41432</jsmQuestionStructureID>
+                          <interviewID></interviewID>
+                          <actualAnswer></actualAnswer>
+                          <showChildQuestions>true</showChildQuestions>
+                        </com.researchit.PossibleAnswer>
+                      </possibleAnswers>
+                      <agents>
+                        <com.researchit.Agent>
+                          <id>117</id>
+                          <name>Other Pesticides</name>
+                          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+                          <parentID>112</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                      </agents>
+                      <parentID>63179</parentID>
+                      <interviewID></interviewID>
+                      <jsmStructureQuestionID>41432</jsmStructureQuestionID>
+                      <warning></warning>
+                      <multiple>false</multiple>
+                      <minimised>false</minimised>
+                      <notes>NULL</notes>
+                      <typeID>3</typeID>
+                      <jsmName></jsmName>
+                      <errorMessage></errorMessage>
+                      <viewWithParent>true</viewWithParent>
+                    </com.researchit.Question>
+                  </childQuestions>
+                  <jsmQuestionPossibleAnswerStructureID>63179</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41431</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3730</id>
+                  <name>[free text]</name>
+                  <description>[free text]</description>
+                  <sequence>1</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions>
+                    <com.researchit.Question>
+                      <id>5109</id>
+                      <name>How many weeks a year?</name>
+                      <description>How many weeks a year?</description>
+                      <jsmID>413</jsmID>
+                      <sequence>0</sequence>
+                      <possibleAnswers>
+                        <com.researchit.PossibleAnswer>
+                          <id>3720</id>
+                          <name>[number 0-52]</name>
+                          <description>[number 0-52]</description>
+                          <sequence>0</sequence>
+                          <jsmName></jsmName>
+                          <childQuestions>
+                            <com.researchit.Question>
+                              <id>5110</id>
+                              <name>hours a week</name>
+                              <description>On average, how many hours a week?</description>
+                              <jsmID>413</jsmID>
+                              <sequence>0</sequence>
+                              <possibleAnswers>
+                                <com.researchit.PossibleAnswer>
+                                  <id>3721</id>
+                                  <name>[number 1-100]</name>
+                                  <description>[number 1-100]</description>
+                                  <sequence>0</sequence>
+                                  <jsmName></jsmName>
+                                  <childQuestions/>
+                                  <jsmQuestionPossibleAnswerStructureID>63184</jsmQuestionPossibleAnswerStructureID>
+                                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                                  <jsmQuestionStructureID>41435</jsmQuestionStructureID>
+                                  <interviewID></interviewID>
+                                  <actualAnswer></actualAnswer>
+                                  <showChildQuestions>true</showChildQuestions>
+                                </com.researchit.PossibleAnswer>
+                              </possibleAnswers>
+                              <agents>
+                                <com.researchit.Agent>
+                                  <id>117</id>
+                                  <name>Other Pesticides</name>
+                                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+                                  <parentID>112</parentID>
+                                  <typeID></typeID>
+                                  <questionAgentID></questionAgentID>
+                                  <studyId></studyId>
+                                </com.researchit.Agent>
+                              </agents>
+                              <parentID>63183</parentID>
+                              <interviewID></interviewID>
+                              <jsmStructureQuestionID>41435</jsmStructureQuestionID>
+                              <warning></warning>
+                              <multiple>false</multiple>
+                              <minimised>false</minimised>
+                              <notes>NULL</notes>
+                              <typeID>3</typeID>
+                              <jsmName></jsmName>
+                              <errorMessage></errorMessage>
+                              <viewWithParent>true</viewWithParent>
+                            </com.researchit.Question>
+                          </childQuestions>
+                          <jsmQuestionPossibleAnswerStructureID>63183</jsmQuestionPossibleAnswerStructureID>
+                          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                          <jsmQuestionStructureID>41434</jsmQuestionStructureID>
+                          <interviewID></interviewID>
+                          <actualAnswer></actualAnswer>
+                          <showChildQuestions>true</showChildQuestions>
+                        </com.researchit.PossibleAnswer>
+                      </possibleAnswers>
+                      <agents>
+                        <com.researchit.Agent>
+                          <id>117</id>
+                          <name>Other Pesticides</name>
+                          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+                          <parentID>112</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                      </agents>
+                      <parentID>63182</parentID>
+                      <interviewID></interviewID>
+                      <jsmStructureQuestionID>41434</jsmStructureQuestionID>
+                      <warning></warning>
+                      <multiple>false</multiple>
+                      <minimised>false</minimised>
+                      <notes>NULL</notes>
+                      <typeID>3</typeID>
+                      <jsmName></jsmName>
+                      <errorMessage></errorMessage>
+                      <viewWithParent>true</viewWithParent>
+                    </com.researchit.Question>
+                  </childQuestions>
+                  <jsmQuestionPossibleAnswerStructureID>63182</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41431</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+              </possibleAnswers>
+              <agents>
+                <com.researchit.Agent>
+                  <id>117</id>
+                  <name>Other Pesticides</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+              </agents>
+              <parentID>63176</parentID>
+              <interviewID></interviewID>
+              <jsmStructureQuestionID>41431</jsmStructureQuestionID>
+              <warning></warning>
+              <multiple>false</multiple>
+              <minimised>false</minimised>
+              <notes>Please specify up to the two most frequent types used. </notes>
+              <typeID>1</typeID>
+              <jsmName></jsmName>
+              <errorMessage></errorMessage>
+              <viewWithParent>true</viewWithParent>
+            </com.researchit.Question>
+            <com.researchit.Question>
+              <id>5429</id>
+              <name>Pesticides fumigants form</name>
+              <description>What form of fumigant did you apply?</description>
+              <jsmID>413</jsmID>
+              <sequence>2</sequence>
+              <possibleAnswers>
+                <com.researchit.PossibleAnswer>
+                  <id>3954</id>
+                  <name>tablet</name>
+                  <description>tablet</description>
+                  <sequence>0</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63185</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41436</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3801</id>
+                  <name>Liquid</name>
+                  <description>Liquid</description>
+                  <sequence>1</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63186</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41436</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3955</id>
+                  <name>gaseous</name>
+                  <description>gaseous</description>
+                  <sequence>2</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63187</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41436</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3723</id>
+                  <name>don&apos;t know</name>
+                  <description>don&apos;t know</description>
+                  <sequence>3</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63188</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41436</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+              </possibleAnswers>
+              <agents>
+                <com.researchit.Agent>
+                  <id>117</id>
+                  <name>Other Pesticides</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+              </agents>
+              <parentID>63176</parentID>
+              <interviewID></interviewID>
+              <jsmStructureQuestionID>41436</jsmStructureQuestionID>
+              <warning></warning>
+              <multiple>true</multiple>
+              <minimised>false</minimised>
+              <notes>NULL</notes>
+              <typeID>1</typeID>
+              <jsmName></jsmName>
+              <errorMessage></errorMessage>
+              <viewWithParent>true</viewWithParent>
+            </com.researchit.Question>
+            <com.researchit.Question>
+              <id>5430</id>
+              <name>Pesticides fumigants apply</name>
+              <description>How did you apply it?</description>
+              <jsmID>413</jsmID>
+              <sequence>3</sequence>
+              <possibleAnswers>
+                <com.researchit.PossibleAnswer>
+                  <id>3730</id>
+                  <name>[free text]</name>
+                  <description>[free text]</description>
+                  <sequence>0</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63189</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41437</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3723</id>
+                  <name>don&apos;t know</name>
+                  <description>don&apos;t know</description>
+                  <sequence>1</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63190</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41437</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+              </possibleAnswers>
+              <agents>
+                <com.researchit.Agent>
+                  <id>117</id>
+                  <name>Other Pesticides</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+              </agents>
+              <parentID>63176</parentID>
+              <interviewID></interviewID>
+              <jsmStructureQuestionID>41437</jsmStructureQuestionID>
+              <warning></warning>
+              <multiple>false</multiple>
+              <minimised>false</minimised>
+              <notes>NULL</notes>
+              <typeID>1</typeID>
+              <jsmName></jsmName>
+              <errorMessage></errorMessage>
+              <viewWithParent>true</viewWithParent>
+            </com.researchit.Question>
+          </childQuestions>
+          <jsmQuestionPossibleAnswerStructureID>63176</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41429</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3722</id>
+          <name>No</name>
+          <description>No</description>
+          <sequence>1</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63191</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41429</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3723</id>
+          <name>don&apos;t know</name>
+          <description>don&apos;t know</description>
+          <sequence>2</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63192</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41429</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+      </possibleAnswers>
+      <agents>
+        <com.researchit.Agent>
+          <id>117</id>
+          <name>Other Pesticides</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+          <parentID>112</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+      </agents>
+      <parentID>100</parentID>
+      <interviewID></interviewID>
+      <jsmStructureQuestionID>41429</jsmStructureQuestionID>
+      <warning></warning>
+      <multiple>false</multiple>
+      <minimised>false</minimised>
+      <notes>NULL</notes>
+      <typeID>1</typeID>
+      <jsmName></jsmName>
+      <errorMessage></errorMessage>
+      <viewWithParent>false</viewWithParent>
+    </com.researchit.Question>
+    <com.researchit.Question>
+      <id>5431</id>
+      <name>Pesticides fungicides</name>
+      <description>Did you apply fungicides to kill fungus or moulds?</description>
+      <jsmID>413</jsmID>
+      <sequence>6</sequence>
+      <possibleAnswers>
+        <com.researchit.PossibleAnswer>
+          <id>3719</id>
+          <name>Yes</name>
+          <description>Yes</description>
+          <sequence>0</sequence>
+          <jsmName></jsmName>
+          <childQuestions>
+            <com.researchit.Question>
+              <id>5432</id>
+              <name>Pesticides fungicides fungus type</name>
+              <description>What fungus did you have to kill?</description>
+              <jsmID>413</jsmID>
+              <sequence>0</sequence>
+              <possibleAnswers>
+                <com.researchit.PossibleAnswer>
+                  <id>3730</id>
+                  <name>[free text]</name>
+                  <description>[free text]</description>
+                  <sequence>0</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63194</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41439</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3730</id>
+                  <name>[free text]</name>
+                  <description>[free text]</description>
+                  <sequence>1</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63195</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41439</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+              </possibleAnswers>
+              <agents>
+                <com.researchit.Agent>
+                  <id>117</id>
+                  <name>Other Pesticides</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+              </agents>
+              <parentID>63193</parentID>
+              <interviewID></interviewID>
+              <jsmStructureQuestionID>41439</jsmStructureQuestionID>
+              <warning></warning>
+              <multiple>false</multiple>
+              <minimised>false</minimised>
+              <notes>Please specify up to the two most frequent killed.</notes>
+              <typeID>1</typeID>
+              <jsmName></jsmName>
+              <errorMessage></errorMessage>
+              <viewWithParent>true</viewWithParent>
+            </com.researchit.Question>
+            <com.researchit.Question>
+              <id>5433</id>
+              <name>Pesticides fungicides mix</name>
+              <description>Did you mix or load any fungicides to kill fungus or moulds?</description>
+              <jsmID>413</jsmID>
+              <sequence>1</sequence>
+              <possibleAnswers>
+                <com.researchit.PossibleAnswer>
+                  <id>3719</id>
+                  <name>Yes</name>
+                  <description>Yes</description>
+                  <sequence>0</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions>
+                    <com.researchit.Question>
+                      <id>5109</id>
+                      <name>How many weeks a year?</name>
+                      <description>How many weeks a year?</description>
+                      <jsmID>413</jsmID>
+                      <sequence>0</sequence>
+                      <possibleAnswers>
+                        <com.researchit.PossibleAnswer>
+                          <id>3720</id>
+                          <name>[number 0-52]</name>
+                          <description>[number 0-52]</description>
+                          <sequence>0</sequence>
+                          <jsmName></jsmName>
+                          <childQuestions>
+                            <com.researchit.Question>
+                              <id>5110</id>
+                              <name>hours a week</name>
+                              <description>On average, how many hours a week?</description>
+                              <jsmID>413</jsmID>
+                              <sequence>0</sequence>
+                              <possibleAnswers>
+                                <com.researchit.PossibleAnswer>
+                                  <id>3721</id>
+                                  <name>[number 1-100]</name>
+                                  <description>[number 1-100]</description>
+                                  <sequence>0</sequence>
+                                  <jsmName></jsmName>
+                                  <childQuestions/>
+                                  <jsmQuestionPossibleAnswerStructureID>63198</jsmQuestionPossibleAnswerStructureID>
+                                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                                  <jsmQuestionStructureID>41442</jsmQuestionStructureID>
+                                  <interviewID></interviewID>
+                                  <actualAnswer></actualAnswer>
+                                  <showChildQuestions>true</showChildQuestions>
+                                </com.researchit.PossibleAnswer>
+                              </possibleAnswers>
+                              <agents>
+                                <com.researchit.Agent>
+                                  <id>117</id>
+                                  <name>Other Pesticides</name>
+                                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+                                  <parentID>112</parentID>
+                                  <typeID></typeID>
+                                  <questionAgentID></questionAgentID>
+                                  <studyId></studyId>
+                                </com.researchit.Agent>
+                              </agents>
+                              <parentID>63197</parentID>
+                              <interviewID></interviewID>
+                              <jsmStructureQuestionID>41442</jsmStructureQuestionID>
+                              <warning></warning>
+                              <multiple>false</multiple>
+                              <minimised>false</minimised>
+                              <notes>NULL</notes>
+                              <typeID>3</typeID>
+                              <jsmName></jsmName>
+                              <errorMessage></errorMessage>
+                              <viewWithParent>true</viewWithParent>
+                            </com.researchit.Question>
+                          </childQuestions>
+                          <jsmQuestionPossibleAnswerStructureID>63197</jsmQuestionPossibleAnswerStructureID>
+                          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                          <jsmQuestionStructureID>41441</jsmQuestionStructureID>
+                          <interviewID></interviewID>
+                          <actualAnswer></actualAnswer>
+                          <showChildQuestions>true</showChildQuestions>
+                        </com.researchit.PossibleAnswer>
+                      </possibleAnswers>
+                      <agents>
+                        <com.researchit.Agent>
+                          <id>117</id>
+                          <name>Other Pesticides</name>
+                          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+                          <parentID>112</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                      </agents>
+                      <parentID>63196</parentID>
+                      <interviewID></interviewID>
+                      <jsmStructureQuestionID>41441</jsmStructureQuestionID>
+                      <warning></warning>
+                      <multiple>false</multiple>
+                      <minimised>false</minimised>
+                      <notes>NULL</notes>
+                      <typeID>3</typeID>
+                      <jsmName></jsmName>
+                      <errorMessage></errorMessage>
+                      <viewWithParent>true</viewWithParent>
+                    </com.researchit.Question>
+                  </childQuestions>
+                  <jsmQuestionPossibleAnswerStructureID>63196</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41440</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3722</id>
+                  <name>No</name>
+                  <description>No</description>
+                  <sequence>1</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63199</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41440</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3723</id>
+                  <name>don&apos;t know</name>
+                  <description>don&apos;t know</description>
+                  <sequence>2</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>63200</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>41440</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+              </possibleAnswers>
+              <agents>
+                <com.researchit.Agent>
+                  <id>117</id>
+                  <name>Other Pesticides</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+                  <parentID>112</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+              </agents>
+              <parentID>63193</parentID>
+              <interviewID></interviewID>
+              <jsmStructureQuestionID>41440</jsmStructureQuestionID>
+              <warning></warning>
+              <multiple>false</multiple>
+              <minimised>false</minimised>
+              <notes>NULL</notes>
+              <typeID>1</typeID>
+              <jsmName></jsmName>
+              <errorMessage></errorMessage>
+              <viewWithParent>true</viewWithParent>
+            </com.researchit.Question>
+          </childQuestions>
+          <jsmQuestionPossibleAnswerStructureID>63193</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41438</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3722</id>
+          <name>No</name>
+          <description>No</description>
+          <sequence>1</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63201</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41438</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3723</id>
+          <name>don&apos;t know</name>
+          <description>don&apos;t know</description>
+          <sequence>2</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>63202</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>41438</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+      </possibleAnswers>
+      <agents>
+        <com.researchit.Agent>
+          <id>117</id>
+          <name>Other Pesticides</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+          <parentID>112</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+      </agents>
+      <parentID>100</parentID>
+      <interviewID></interviewID>
+      <jsmStructureQuestionID>41438</jsmStructureQuestionID>
+      <warning></warning>
+      <multiple>false</multiple>
+      <minimised>false</minimised>
+      <notes>NULL</notes>
+      <typeID>1</typeID>
+      <jsmName></jsmName>
+      <errorMessage></errorMessage>
+      <viewWithParent>false</viewWithParent>
+    </com.researchit.Question>
+  </questions>
+  <possibleAnswers>
+    <com.researchit.PossibleAnswer>
+      <id>3719</id>
+      <name>Yes</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63119</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3722</id>
+      <name>No</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63133</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3723</id>
+      <name>don&apos;t know</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63134</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63120</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63121</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63122</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3719</id>
+      <name>Yes</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63123</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3722</id>
+      <name>No</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63126</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3723</id>
+      <name>don&apos;t know</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63127</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3720</id>
+      <name>[number 0-52]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63124</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3721</id>
+      <name>[number 1-100]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63125</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63128</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63129</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63130</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63131</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63132</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3719</id>
+      <name>Yes</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63135</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3722</id>
+      <name>No</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63149</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3723</id>
+      <name>don&apos;t know</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63150</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63136</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63137</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63138</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3719</id>
+      <name>Yes</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63139</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3722</id>
+      <name>No</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63142</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3723</id>
+      <name>don&apos;t know</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63143</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3720</id>
+      <name>[number 0-52]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63140</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3721</id>
+      <name>[number 1-100]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63141</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63144</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63145</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63146</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63147</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63148</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3941</id>
+      <name>backpack sprayer</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63151</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3780</id>
+      <name>Truck, tractor or other vehicle with handheld sprayer</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63152</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3942</id>
+      <name>truck, tractor or other vehicle with airblast sprayer</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63153</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3943</id>
+      <name>truck, tractor or other vehicle with boom in back</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63154</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3944</id>
+      <name>truck, tractor or other vehicle with boom in front</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63155</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3784</id>
+      <name>Fogger/mist blower</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63156</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3785</id>
+      <name>Plane</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63157</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3786</id>
+      <name>Irrigation water</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63158</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3787</id>
+      <name>Injection into soil</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63159</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3743</id>
+      <name>Other</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63160</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3723</id>
+      <name>don&apos;t know</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63162</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63161</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3945</id>
+      <name>a long-sleeved shirt</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63163</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3946</id>
+      <name>a short sleeved shirt or t-shirt</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63164</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3746</id>
+      <name>Long trousers</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63165</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3947</id>
+      <name>shorts</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63166</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3948</id>
+      <name>leather gloves</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63167</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3949</id>
+      <name>rubber or other gloves</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63168</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3950</id>
+      <name>mask or respirator</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63169</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3951</id>
+      <name>apron</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63170</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3748</id>
+      <name>Boots</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63171</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3952</id>
+      <name>rubber suits</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63172</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3953</id>
+      <name>other protective clothing</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63173</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63174</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3721</id>
+      <name>[number 1-100]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63175</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3719</id>
+      <name>Yes</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63176</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3722</id>
+      <name>No</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63191</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3723</id>
+      <name>don&apos;t know</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63192</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63177</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63178</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63179</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63182</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3720</id>
+      <name>[number 0-52]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63180</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3721</id>
+      <name>[number 1-100]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63181</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3720</id>
+      <name>[number 0-52]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63183</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3721</id>
+      <name>[number 1-100]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63184</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3954</id>
+      <name>tablet</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63185</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3801</id>
+      <name>Liquid</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63186</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3955</id>
+      <name>gaseous</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63187</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3723</id>
+      <name>don&apos;t know</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63188</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63189</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3723</id>
+      <name>don&apos;t know</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63190</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3719</id>
+      <name>Yes</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63193</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3722</id>
+      <name>No</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63201</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3723</id>
+      <name>don&apos;t know</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63202</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63194</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3730</id>
+      <name>[free text]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63195</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3719</id>
+      <name>Yes</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63196</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3722</id>
+      <name>No</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63199</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3723</id>
+      <name>don&apos;t know</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63200</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3720</id>
+      <name>[number 0-52]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63197</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3721</id>
+      <name>[number 1-100]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>63198</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+  </possibleAnswers>
+  <agents>
+    <com.researchit.Agent>
+      <id>93</id>
+      <name>PCBs</name>
+      <description>Any of a family of industrial compounds produced by chlorination of biphenyl including all levels of chlorination.</description>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+    <com.researchit.Agent>
+      <id>113</id>
+      <name>Organochlorines</name>
+      <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+DDT &amp;nbsp;		0 - 0.1mg/m3&amp;nbsp;	0.01 - &amp;lt;1mg/m3&amp;nbsp;	&amp;gt;1mg/m3&amp;nbsp; &lt;BR&gt;Dieldrin&amp;nbsp;		0 - &amp;lt;0.025mg/m3&amp;nbsp;	0.025 - &amp;lt;0.25mg/m3	&amp;gt;0.25mg/m3&lt;BR&gt;</description>
+      <parentID>112</parentID>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+    <com.researchit.Agent>
+      <id>114</id>
+      <name>Organophosphates</name>
+      <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Diazinon&amp;nbsp;		0.001 - &amp;lt;0.01mg/m3	0.001 - &amp;lt;0.01mg/m3	&amp;gt;0.01mg/m3&lt;BR&gt;Fenthion&amp;nbsp;		0.02 - &amp;lt;0.2mg/m3	0.02 - &amp;lt;0.2mg/m3	&amp;gt;0.2mg/m3&lt;BR&gt;</description>
+      <parentID>112</parentID>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+    <com.researchit.Agent>
+      <id>115</id>
+      <name>Phenoxy Herbicides</name>
+      <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+2,4-D&amp;nbsp;		0 - &amp;lt;1mg/m3 &amp;nbsp;	1 - &amp;lt;10mg/m3 &amp;nbsp;	10mg/m3&amp;nbsp; &lt;BR&gt;</description>
+      <parentID>112</parentID>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+    <com.researchit.Agent>
+      <id>116</id>
+      <name>Other Herbicides</name>
+      <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+glyphosate&lt;BR&gt;</description>
+      <parentID>112</parentID>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+    <com.researchit.Agent>
+      <id>117</id>
+      <name>Other Pesticides</name>
+      <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+carbamates&#xd;
+pyrethrins</description>
+      <parentID>112</parentID>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+  </agents>
+  <rules>
+    <com.researchit.expert.ExpertRule>
+      <id>33445</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>32983</id>
+          <name>Pesticides_apply_herbicides-Yes</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>38156</id>
+              <name></name>
+              <description></description>
+              <factId>32983</factId>
+              <questionId>5413</questionId>
+              <answerId>3719</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>93</agentId>
+      <jsmId>413</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>33446</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>32984</id>
+          <name>Pesticides_apply_insecticides-Yes</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>38157</id>
+              <name></name>
+              <description></description>
+              <factId>32984</factId>
+              <questionId>5417</questionId>
+              <answerId>3719</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>113</agentId>
+      <jsmId>413</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>33447</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>32985</id>
+          <name>Pesticides_apply_insecticides-Yes</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>38158</id>
+              <name></name>
+              <description></description>
+              <factId>32985</factId>
+              <questionId>5417</questionId>
+              <answerId>3719</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>114</agentId>
+      <jsmId>413</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>33448</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>32986</id>
+          <name>Pesticides_apply_herbicides-Yes</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>38159</id>
+              <name></name>
+              <description></description>
+              <factId>32986</factId>
+              <questionId>5413</questionId>
+              <answerId>3719</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>115</agentId>
+      <jsmId>413</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>33449</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>32987</id>
+          <name>Pesticides_apply_herbicides-Yes</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>38160</id>
+              <name></name>
+              <description></description>
+              <factId>32987</factId>
+              <questionId>5413</questionId>
+              <answerId>3719</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>116</agentId>
+      <jsmId>413</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>33450</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>32988</id>
+          <name>Pesticides_apply_herbicides-Yes</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>38161</id>
+              <name></name>
+              <description></description>
+              <factId>32988</factId>
+              <questionId>5413</questionId>
+              <answerId>3719</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>117</agentId>
+      <jsmId>413</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>33451</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>32989</id>
+          <name>Pesticides_apply_insecticides-Yes</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>38162</id>
+              <name></name>
+              <description></description>
+              <factId>32989</factId>
+              <questionId>5417</questionId>
+              <answerId>3719</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>117</agentId>
+      <jsmId>413</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>2</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>33452</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>32990</id>
+          <name>Pesticides_fumigants-Yes</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>38163</id>
+              <name></name>
+              <description></description>
+              <factId>32990</factId>
+              <questionId>5426</questionId>
+              <answerId>3719</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>117</agentId>
+      <jsmId>413</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>3</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>33453</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>32991</id>
+          <name>Pesticides_fungicides-Yes</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>38164</id>
+              <name></name>
+              <description></description>
+              <factId>32991</factId>
+              <questionId>5431</questionId>
+              <answerId>3719</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>117</agentId>
+      <jsmId>413</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>4</sequence>
+    </com.researchit.expert.ExpertRule>
+  </rules>
+  <interviewStartNote>NULL</interviewStartNote>
+  <interviewEndNote>NULL</interviewEndNote>
+  <questionCount>-1</questionCount>
+  <possibleAnswerCount>-1</possibleAnswerCount>
+  <associateModule>true</associateModule>
+  <readOnly>false</readOnly>
+  <credits>NULL</credits>
+  <jobHistoryAssessedCount>-1</jobHistoryAssessedCount>
+  <jsmTypeId>0</jsmTypeId>
+  <comments></comments>
+  <searchCount>0</searchCount>
+  <jsmAssociates></jsmAssociates>
+  <forumLink></forumLink>
+  <studyId></studyId>
+</jsm>

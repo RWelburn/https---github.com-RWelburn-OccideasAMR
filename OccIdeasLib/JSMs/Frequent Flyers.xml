@@ -1,0 +1,2768 @@
+<jsm>
+  <id>426</id>
+  <name>Frequent Flyers</name>
+  <description>Fly for business reasons</description>
+  <questions>
+    <com.researchit.Question>
+      <id>5891</id>
+      <name>Frequent Flyers Flights/Month</name>
+      <description>How many flights a month did you usually undertake for work?</description>
+      <jsmID>426</jsmID>
+      <sequence>0</sequence>
+      <possibleAnswers>
+        <com.researchit.PossibleAnswer>
+          <id>4223</id>
+          <name>1-2</name>
+          <description>1-2</description>
+          <sequence>0</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>64367</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42055</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>4224</id>
+          <name>3-5</name>
+          <description>3-5</description>
+          <sequence>1</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>64368</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42055</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>4225</id>
+          <name>5-7</name>
+          <description>5-7</description>
+          <sequence>2</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>64369</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42055</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>4226</id>
+          <name>8 or more</name>
+          <description>8 or more</description>
+          <sequence>3</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>64370</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42055</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+      </possibleAnswers>
+      <agents>
+        <com.researchit.Agent>
+          <id>140</id>
+          <name>Ionizing radiation</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Ionizing radiation	&amp;lt;2 mSv&amp;nbsp;		2-20 mSv&amp;nbsp;		&amp;gt;20 mSv&lt;BR&gt;</description>
+          <parentID>207</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>305</id>
+          <name>Alcohol and CD</name>
+          <description>&lt;not set&gt;</description>
+          <parentID>299</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>304</id>
+          <name>Diet and CD</name>
+          <description>&lt;not set&gt;</description>
+          <parentID>299</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>300</id>
+          <name>Light at night</name>
+          <description>&lt;not set&gt;</description>
+          <parentID>299</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>301</id>
+          <name>Phase shift</name>
+          <description>&lt;not set&gt;</description>
+          <parentID>299</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>306</id>
+          <name>Physical activity and CD</name>
+          <description>&lt;not set&gt;</description>
+          <parentID>299</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>302</id>
+          <name>Sleep disturbances</name>
+          <description>&lt;not set&gt;</description>
+          <parentID>299</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>307</id>
+          <name>Vit D and CD</name>
+          <description>&lt;not set&gt;</description>
+          <parentID>299</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+      </agents>
+      <parentID>100</parentID>
+      <interviewID></interviewID>
+      <jsmStructureQuestionID>42055</jsmStructureQuestionID>
+      <warning></warning>
+      <multiple>false</multiple>
+      <minimised>false</minimised>
+      <notes>NULL</notes>
+      <typeID>1</typeID>
+      <jsmName></jsmName>
+      <errorMessage></errorMessage>
+      <viewWithParent>false</viewWithParent>
+    </com.researchit.Question>
+    <com.researchit.Question>
+      <id>5892</id>
+      <name>Frequent Flyers Time Difference</name>
+      <description>Did you ever have more than 2 hours time difference between your departure and arrival locations?</description>
+      <jsmID>426</jsmID>
+      <sequence>1</sequence>
+      <possibleAnswers>
+        <com.researchit.PossibleAnswer>
+          <id>3719</id>
+          <name>Yes</name>
+          <description>Yes</description>
+          <sequence>0</sequence>
+          <jsmName></jsmName>
+          <childQuestions>
+            <com.researchit.Question>
+              <id>5893</id>
+              <name>Frequent Flyers Flights Month</name>
+              <description>How many flights a month was there more than 2 hours time difference between your departure and arrival locations?</description>
+              <jsmID>426</jsmID>
+              <sequence>0</sequence>
+              <possibleAnswers>
+                <com.researchit.PossibleAnswer>
+                  <id>4223</id>
+                  <name>1-2</name>
+                  <description>1-2</description>
+                  <sequence>0</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>64372</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42057</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>4224</id>
+                  <name>3-5</name>
+                  <description>3-5</description>
+                  <sequence>1</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>64373</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42057</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>4225</id>
+                  <name>5-7</name>
+                  <description>5-7</description>
+                  <sequence>2</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>64374</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42057</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>4226</id>
+                  <name>8 or more</name>
+                  <description>8 or more</description>
+                  <sequence>3</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>64375</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42057</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+              </possibleAnswers>
+              <agents>
+                <com.researchit.Agent>
+                  <id>305</id>
+                  <name>Alcohol and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>304</id>
+                  <name>Diet and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>300</id>
+                  <name>Light at night</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>301</id>
+                  <name>Phase shift</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>306</id>
+                  <name>Physical activity and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>302</id>
+                  <name>Sleep disturbances</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>307</id>
+                  <name>Vit D and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+              </agents>
+              <parentID>64371</parentID>
+              <interviewID></interviewID>
+              <jsmStructureQuestionID>42057</jsmStructureQuestionID>
+              <warning></warning>
+              <multiple>false</multiple>
+              <minimised>false</minimised>
+              <notes>NULL</notes>
+              <typeID>1</typeID>
+              <jsmName></jsmName>
+              <errorMessage></errorMessage>
+              <viewWithParent>false</viewWithParent>
+            </com.researchit.Question>
+            <com.researchit.Question>
+              <id>5894</id>
+              <name>Frequent Flyer Travel Class</name>
+              <description>What class did you normally travel in?</description>
+              <jsmID>426</jsmID>
+              <sequence>1</sequence>
+              <possibleAnswers>
+                <com.researchit.PossibleAnswer>
+                  <id>4227</id>
+                  <name>First Class</name>
+                  <description>First Class</description>
+                  <sequence>0</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>64376</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42058</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>4228</id>
+                  <name>Business Class</name>
+                  <description>Business Class</description>
+                  <sequence>1</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>64377</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42058</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>4229</id>
+                  <name>Economy Class</name>
+                  <description>Economy Class</description>
+                  <sequence>2</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>64378</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42058</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+              </possibleAnswers>
+              <agents>
+                <com.researchit.Agent>
+                  <id>305</id>
+                  <name>Alcohol and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>304</id>
+                  <name>Diet and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>300</id>
+                  <name>Light at night</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>301</id>
+                  <name>Phase shift</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>306</id>
+                  <name>Physical activity and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>302</id>
+                  <name>Sleep disturbances</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>307</id>
+                  <name>Vit D and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+              </agents>
+              <parentID>64371</parentID>
+              <interviewID></interviewID>
+              <jsmStructureQuestionID>42058</jsmStructureQuestionID>
+              <warning></warning>
+              <multiple>false</multiple>
+              <minimised>false</minimised>
+              <notes>NULL</notes>
+              <typeID>1</typeID>
+              <jsmName></jsmName>
+              <errorMessage></errorMessage>
+              <viewWithParent>false</viewWithParent>
+            </com.researchit.Question>
+            <com.researchit.Question>
+              <id>5895</id>
+              <name>Frequent Flyer Months You Fly</name>
+              <description>In which months did you mainly fly?</description>
+              <jsmID>426</jsmID>
+              <sequence>2</sequence>
+              <possibleAnswers>
+                <com.researchit.PossibleAnswer>
+                  <id>4230</id>
+                  <name>All year round</name>
+                  <description>All year round</description>
+                  <sequence>0</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>64379</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42059</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>4231</id>
+                  <name>January to March</name>
+                  <description>January to March</description>
+                  <sequence>1</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>64380</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42059</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>4232</id>
+                  <name>April to June</name>
+                  <description>April to June</description>
+                  <sequence>2</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>64381</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42059</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>4233</id>
+                  <name>July to September</name>
+                  <description>July to September</description>
+                  <sequence>3</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>64382</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42059</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>4234</id>
+                  <name>October to December</name>
+                  <description>October to December</description>
+                  <sequence>4</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>64383</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42059</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+              </possibleAnswers>
+              <agents>
+                <com.researchit.Agent>
+                  <id>305</id>
+                  <name>Alcohol and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>304</id>
+                  <name>Diet and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>300</id>
+                  <name>Light at night</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>301</id>
+                  <name>Phase shift</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>306</id>
+                  <name>Physical activity and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>302</id>
+                  <name>Sleep disturbances</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>307</id>
+                  <name>Vit D and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+              </agents>
+              <parentID>64371</parentID>
+              <interviewID></interviewID>
+              <jsmStructureQuestionID>42059</jsmStructureQuestionID>
+              <warning></warning>
+              <multiple>true</multiple>
+              <minimised>false</minimised>
+              <notes>NULL</notes>
+              <typeID>1</typeID>
+              <jsmName></jsmName>
+              <errorMessage></errorMessage>
+              <viewWithParent>false</viewWithParent>
+            </com.researchit.Question>
+            <com.researchit.Question>
+              <id>5896</id>
+              <name>Frequent Flyers Sleep in Plane</name>
+              <description>On long haul flights, how well did you sleep while on the plane?</description>
+              <jsmID>426</jsmID>
+              <sequence>3</sequence>
+              <possibleAnswers>
+                <com.researchit.PossibleAnswer>
+                  <id>4235</id>
+                  <name>Very well</name>
+                  <description>Very well</description>
+                  <sequence>0</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>64384</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42060</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3898</id>
+                  <name>Well</name>
+                  <description>Well</description>
+                  <sequence>1</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>64385</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42060</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>4236</id>
+                  <name>Not very well</name>
+                  <description>Not very well</description>
+                  <sequence>2</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>64386</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42060</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3862</id>
+                  <name>extremely badly</name>
+                  <description>extremely badly</description>
+                  <sequence>3</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>64387</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42060</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+              </possibleAnswers>
+              <agents>
+                <com.researchit.Agent>
+                  <id>305</id>
+                  <name>Alcohol and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>304</id>
+                  <name>Diet and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>300</id>
+                  <name>Light at night</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>301</id>
+                  <name>Phase shift</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>306</id>
+                  <name>Physical activity and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>302</id>
+                  <name>Sleep disturbances</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>307</id>
+                  <name>Vit D and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+              </agents>
+              <parentID>64371</parentID>
+              <interviewID></interviewID>
+              <jsmStructureQuestionID>42060</jsmStructureQuestionID>
+              <warning></warning>
+              <multiple>false</multiple>
+              <minimised>false</minimised>
+              <notes>NULL</notes>
+              <typeID>1</typeID>
+              <jsmName></jsmName>
+              <errorMessage></errorMessage>
+              <viewWithParent>false</viewWithParent>
+            </com.researchit.Question>
+            <com.researchit.Question>
+              <id>5897</id>
+              <name>Frequent Flyer melatonin</name>
+              <description>Did you ever take melatonin when travelling?</description>
+              <jsmID>426</jsmID>
+              <sequence>4</sequence>
+              <possibleAnswers>
+                <com.researchit.PossibleAnswer>
+                  <id>3719</id>
+                  <name>Yes</name>
+                  <description>Yes</description>
+                  <sequence>0</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions>
+                    <com.researchit.Question>
+                      <id>5898</id>
+                      <name>Freq flyer melatonin yrs</name>
+                      <description>How many years?</description>
+                      <jsmID>426</jsmID>
+                      <sequence>0</sequence>
+                      <possibleAnswers>
+                        <com.researchit.PossibleAnswer>
+                          <id>3721</id>
+                          <name>[number 1-100]</name>
+                          <description>[number 1-100]</description>
+                          <sequence>0</sequence>
+                          <jsmName></jsmName>
+                          <childQuestions/>
+                          <jsmQuestionPossibleAnswerStructureID>64389</jsmQuestionPossibleAnswerStructureID>
+                          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                          <jsmQuestionStructureID>42062</jsmQuestionStructureID>
+                          <interviewID></interviewID>
+                          <actualAnswer></actualAnswer>
+                          <showChildQuestions>true</showChildQuestions>
+                        </com.researchit.PossibleAnswer>
+                      </possibleAnswers>
+                      <agents>
+                        <com.researchit.Agent>
+                          <id>305</id>
+                          <name>Alcohol and CD</name>
+                          <description>&lt;not set&gt;</description>
+                          <parentID>299</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                        <com.researchit.Agent>
+                          <id>304</id>
+                          <name>Diet and CD</name>
+                          <description>&lt;not set&gt;</description>
+                          <parentID>299</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                        <com.researchit.Agent>
+                          <id>300</id>
+                          <name>Light at night</name>
+                          <description>&lt;not set&gt;</description>
+                          <parentID>299</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                        <com.researchit.Agent>
+                          <id>301</id>
+                          <name>Phase shift</name>
+                          <description>&lt;not set&gt;</description>
+                          <parentID>299</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                        <com.researchit.Agent>
+                          <id>306</id>
+                          <name>Physical activity and CD</name>
+                          <description>&lt;not set&gt;</description>
+                          <parentID>299</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                        <com.researchit.Agent>
+                          <id>302</id>
+                          <name>Sleep disturbances</name>
+                          <description>&lt;not set&gt;</description>
+                          <parentID>299</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                        <com.researchit.Agent>
+                          <id>307</id>
+                          <name>Vit D and CD</name>
+                          <description>&lt;not set&gt;</description>
+                          <parentID>299</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                      </agents>
+                      <parentID>64388</parentID>
+                      <interviewID></interviewID>
+                      <jsmStructureQuestionID>42062</jsmStructureQuestionID>
+                      <warning></warning>
+                      <multiple>false</multiple>
+                      <minimised>false</minimised>
+                      <notes>NULL</notes>
+                      <typeID>1</typeID>
+                      <jsmName></jsmName>
+                      <errorMessage></errorMessage>
+                      <viewWithParent>true</viewWithParent>
+                    </com.researchit.Question>
+                    <com.researchit.Question>
+                      <id>5899</id>
+                      <name>Freq flyer melatonin month</name>
+                      <description>How many times a month?</description>
+                      <jsmID>426</jsmID>
+                      <sequence>1</sequence>
+                      <possibleAnswers>
+                        <com.researchit.PossibleAnswer>
+                          <id>3721</id>
+                          <name>[number 1-100]</name>
+                          <description>[number 1-100]</description>
+                          <sequence>0</sequence>
+                          <jsmName></jsmName>
+                          <childQuestions/>
+                          <jsmQuestionPossibleAnswerStructureID>64390</jsmQuestionPossibleAnswerStructureID>
+                          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                          <jsmQuestionStructureID>42063</jsmQuestionStructureID>
+                          <interviewID></interviewID>
+                          <actualAnswer></actualAnswer>
+                          <showChildQuestions>true</showChildQuestions>
+                        </com.researchit.PossibleAnswer>
+                      </possibleAnswers>
+                      <agents>
+                        <com.researchit.Agent>
+                          <id>305</id>
+                          <name>Alcohol and CD</name>
+                          <description>&lt;not set&gt;</description>
+                          <parentID>299</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                        <com.researchit.Agent>
+                          <id>304</id>
+                          <name>Diet and CD</name>
+                          <description>&lt;not set&gt;</description>
+                          <parentID>299</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                        <com.researchit.Agent>
+                          <id>300</id>
+                          <name>Light at night</name>
+                          <description>&lt;not set&gt;</description>
+                          <parentID>299</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                        <com.researchit.Agent>
+                          <id>301</id>
+                          <name>Phase shift</name>
+                          <description>&lt;not set&gt;</description>
+                          <parentID>299</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                        <com.researchit.Agent>
+                          <id>306</id>
+                          <name>Physical activity and CD</name>
+                          <description>&lt;not set&gt;</description>
+                          <parentID>299</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                        <com.researchit.Agent>
+                          <id>302</id>
+                          <name>Sleep disturbances</name>
+                          <description>&lt;not set&gt;</description>
+                          <parentID>299</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                        <com.researchit.Agent>
+                          <id>307</id>
+                          <name>Vit D and CD</name>
+                          <description>&lt;not set&gt;</description>
+                          <parentID>299</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                      </agents>
+                      <parentID>64388</parentID>
+                      <interviewID></interviewID>
+                      <jsmStructureQuestionID>42063</jsmStructureQuestionID>
+                      <warning></warning>
+                      <multiple>false</multiple>
+                      <minimised>false</minimised>
+                      <notes>NULL</notes>
+                      <typeID>1</typeID>
+                      <jsmName></jsmName>
+                      <errorMessage></errorMessage>
+                      <viewWithParent>true</viewWithParent>
+                    </com.researchit.Question>
+                  </childQuestions>
+                  <jsmQuestionPossibleAnswerStructureID>64388</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42061</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3722</id>
+                  <name>No</name>
+                  <description>No</description>
+                  <sequence>1</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>64391</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42061</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+              </possibleAnswers>
+              <agents>
+                <com.researchit.Agent>
+                  <id>305</id>
+                  <name>Alcohol and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>304</id>
+                  <name>Diet and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>300</id>
+                  <name>Light at night</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>301</id>
+                  <name>Phase shift</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>306</id>
+                  <name>Physical activity and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>302</id>
+                  <name>Sleep disturbances</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>307</id>
+                  <name>Vit D and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+              </agents>
+              <parentID>64371</parentID>
+              <interviewID></interviewID>
+              <jsmStructureQuestionID>42061</jsmStructureQuestionID>
+              <warning></warning>
+              <multiple>false</multiple>
+              <minimised>false</minimised>
+              <notes>NULL</notes>
+              <typeID>1</typeID>
+              <jsmName></jsmName>
+              <errorMessage></errorMessage>
+              <viewWithParent>false</viewWithParent>
+            </com.researchit.Question>
+            <com.researchit.Question>
+              <id>5900</id>
+              <name>Frequent Flyer South/North Pole</name>
+              <description>Did you ever fly over the South or North poles?</description>
+              <jsmID>426</jsmID>
+              <sequence>5</sequence>
+              <possibleAnswers>
+                <com.researchit.PossibleAnswer>
+                  <id>3719</id>
+                  <name>Yes</name>
+                  <description>Yes</description>
+                  <sequence>0</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions>
+                    <com.researchit.Question>
+                      <id>5901</id>
+                      <name>Frequent Flyers Flights/Months</name>
+                      <description>How many flights a month did you usually fly over the South or North poles?</description>
+                      <jsmID>426</jsmID>
+                      <sequence>0</sequence>
+                      <possibleAnswers>
+                        <com.researchit.PossibleAnswer>
+                          <id>4237</id>
+                          <name>Fewer than 1 per month</name>
+                          <description>Fewer than 1 per month</description>
+                          <sequence>0</sequence>
+                          <jsmName></jsmName>
+                          <childQuestions/>
+                          <jsmQuestionPossibleAnswerStructureID>64393</jsmQuestionPossibleAnswerStructureID>
+                          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                          <jsmQuestionStructureID>42065</jsmQuestionStructureID>
+                          <interviewID></interviewID>
+                          <actualAnswer></actualAnswer>
+                          <showChildQuestions>true</showChildQuestions>
+                        </com.researchit.PossibleAnswer>
+                        <com.researchit.PossibleAnswer>
+                          <id>4223</id>
+                          <name>1-2</name>
+                          <description>1-2</description>
+                          <sequence>1</sequence>
+                          <jsmName></jsmName>
+                          <childQuestions/>
+                          <jsmQuestionPossibleAnswerStructureID>64394</jsmQuestionPossibleAnswerStructureID>
+                          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                          <jsmQuestionStructureID>42065</jsmQuestionStructureID>
+                          <interviewID></interviewID>
+                          <actualAnswer></actualAnswer>
+                          <showChildQuestions>true</showChildQuestions>
+                        </com.researchit.PossibleAnswer>
+                        <com.researchit.PossibleAnswer>
+                          <id>4224</id>
+                          <name>3-5</name>
+                          <description>3-5</description>
+                          <sequence>2</sequence>
+                          <jsmName></jsmName>
+                          <childQuestions/>
+                          <jsmQuestionPossibleAnswerStructureID>64395</jsmQuestionPossibleAnswerStructureID>
+                          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                          <jsmQuestionStructureID>42065</jsmQuestionStructureID>
+                          <interviewID></interviewID>
+                          <actualAnswer></actualAnswer>
+                          <showChildQuestions>true</showChildQuestions>
+                        </com.researchit.PossibleAnswer>
+                        <com.researchit.PossibleAnswer>
+                          <id>4225</id>
+                          <name>5-7</name>
+                          <description>5-7</description>
+                          <sequence>3</sequence>
+                          <jsmName></jsmName>
+                          <childQuestions/>
+                          <jsmQuestionPossibleAnswerStructureID>64396</jsmQuestionPossibleAnswerStructureID>
+                          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                          <jsmQuestionStructureID>42065</jsmQuestionStructureID>
+                          <interviewID></interviewID>
+                          <actualAnswer></actualAnswer>
+                          <showChildQuestions>true</showChildQuestions>
+                        </com.researchit.PossibleAnswer>
+                        <com.researchit.PossibleAnswer>
+                          <id>4226</id>
+                          <name>8 or more</name>
+                          <description>8 or more</description>
+                          <sequence>4</sequence>
+                          <jsmName></jsmName>
+                          <childQuestions/>
+                          <jsmQuestionPossibleAnswerStructureID>64397</jsmQuestionPossibleAnswerStructureID>
+                          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                          <jsmQuestionStructureID>42065</jsmQuestionStructureID>
+                          <interviewID></interviewID>
+                          <actualAnswer></actualAnswer>
+                          <showChildQuestions>true</showChildQuestions>
+                        </com.researchit.PossibleAnswer>
+                      </possibleAnswers>
+                      <agents>
+                        <com.researchit.Agent>
+                          <id>140</id>
+                          <name>Ionizing radiation</name>
+                          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Ionizing radiation	&amp;lt;2 mSv&amp;nbsp;		2-20 mSv&amp;nbsp;		&amp;gt;20 mSv&lt;BR&gt;</description>
+                          <parentID>207</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                        <com.researchit.Agent>
+                          <id>305</id>
+                          <name>Alcohol and CD</name>
+                          <description>&lt;not set&gt;</description>
+                          <parentID>299</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                        <com.researchit.Agent>
+                          <id>304</id>
+                          <name>Diet and CD</name>
+                          <description>&lt;not set&gt;</description>
+                          <parentID>299</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                        <com.researchit.Agent>
+                          <id>300</id>
+                          <name>Light at night</name>
+                          <description>&lt;not set&gt;</description>
+                          <parentID>299</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                        <com.researchit.Agent>
+                          <id>301</id>
+                          <name>Phase shift</name>
+                          <description>&lt;not set&gt;</description>
+                          <parentID>299</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                        <com.researchit.Agent>
+                          <id>306</id>
+                          <name>Physical activity and CD</name>
+                          <description>&lt;not set&gt;</description>
+                          <parentID>299</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                        <com.researchit.Agent>
+                          <id>302</id>
+                          <name>Sleep disturbances</name>
+                          <description>&lt;not set&gt;</description>
+                          <parentID>299</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                        <com.researchit.Agent>
+                          <id>307</id>
+                          <name>Vit D and CD</name>
+                          <description>&lt;not set&gt;</description>
+                          <parentID>299</parentID>
+                          <typeID></typeID>
+                          <questionAgentID></questionAgentID>
+                          <studyId></studyId>
+                        </com.researchit.Agent>
+                      </agents>
+                      <parentID>64392</parentID>
+                      <interviewID></interviewID>
+                      <jsmStructureQuestionID>42065</jsmStructureQuestionID>
+                      <warning></warning>
+                      <multiple>false</multiple>
+                      <minimised>false</minimised>
+                      <notes>NULL</notes>
+                      <typeID>1</typeID>
+                      <jsmName></jsmName>
+                      <errorMessage></errorMessage>
+                      <viewWithParent>false</viewWithParent>
+                    </com.researchit.Question>
+                  </childQuestions>
+                  <jsmQuestionPossibleAnswerStructureID>64392</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42064</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3722</id>
+                  <name>No</name>
+                  <description>No</description>
+                  <sequence>1</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>64398</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42064</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+              </possibleAnswers>
+              <agents>
+                <com.researchit.Agent>
+                  <id>140</id>
+                  <name>Ionizing radiation</name>
+                  <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Ionizing radiation	&amp;lt;2 mSv&amp;nbsp;		2-20 mSv&amp;nbsp;		&amp;gt;20 mSv&lt;BR&gt;</description>
+                  <parentID>207</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>305</id>
+                  <name>Alcohol and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>304</id>
+                  <name>Diet and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>300</id>
+                  <name>Light at night</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>301</id>
+                  <name>Phase shift</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>306</id>
+                  <name>Physical activity and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>302</id>
+                  <name>Sleep disturbances</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>307</id>
+                  <name>Vit D and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+              </agents>
+              <parentID>64371</parentID>
+              <interviewID></interviewID>
+              <jsmStructureQuestionID>42064</jsmStructureQuestionID>
+              <warning></warning>
+              <multiple>false</multiple>
+              <minimised>false</minimised>
+              <notes>NULL</notes>
+              <typeID>1</typeID>
+              <jsmName></jsmName>
+              <errorMessage></errorMessage>
+              <viewWithParent>false</viewWithParent>
+            </com.researchit.Question>
+            <com.researchit.Question>
+              <id>5902</id>
+              <name>Frequent Flyers Time to Rest</name>
+              <description>Did you feel that you had sufficient time to rest and adjust after your trips?</description>
+              <jsmID>426</jsmID>
+              <sequence>6</sequence>
+              <possibleAnswers>
+                <com.researchit.PossibleAnswer>
+                  <id>4238</id>
+                  <name>Usually</name>
+                  <description>Usually</description>
+                  <sequence>0</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>64399</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42066</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3865</id>
+                  <name>sometimes</name>
+                  <description>sometimes</description>
+                  <sequence>1</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>64400</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42066</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3866</id>
+                  <name>rarely</name>
+                  <description>rarely</description>
+                  <sequence>2</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>64401</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42066</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+              </possibleAnswers>
+              <agents>
+                <com.researchit.Agent>
+                  <id>305</id>
+                  <name>Alcohol and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>304</id>
+                  <name>Diet and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>300</id>
+                  <name>Light at night</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>301</id>
+                  <name>Phase shift</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>306</id>
+                  <name>Physical activity and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>302</id>
+                  <name>Sleep disturbances</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>307</id>
+                  <name>Vit D and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+              </agents>
+              <parentID>64371</parentID>
+              <interviewID></interviewID>
+              <jsmStructureQuestionID>42066</jsmStructureQuestionID>
+              <warning></warning>
+              <multiple>false</multiple>
+              <minimised>false</minimised>
+              <notes>NULL</notes>
+              <typeID>1</typeID>
+              <jsmName></jsmName>
+              <errorMessage></errorMessage>
+              <viewWithParent>false</viewWithParent>
+            </com.researchit.Question>
+            <com.researchit.Question>
+              <id>5903</id>
+              <name>Frequent Flyers Coping Long Journeys</name>
+              <description>In comparison to other people your age, how would you rate your coping with long air journeys?</description>
+              <jsmID>426</jsmID>
+              <sequence>7</sequence>
+              <possibleAnswers>
+                <com.researchit.PossibleAnswer>
+                  <id>4239</id>
+                  <name>Much better than most other people</name>
+                  <description>Much better than most other people</description>
+                  <sequence>0</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>64402</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42067</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>4240</id>
+                  <name>Better than most other people</name>
+                  <description>Better than most other people</description>
+                  <sequence>1</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>64403</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42067</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>3897</id>
+                  <name>About the same as others</name>
+                  <description>About the same as others</description>
+                  <sequence>2</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>64404</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42067</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>4241</id>
+                  <name>Worse than other people</name>
+                  <description>Worse than other people</description>
+                  <sequence>3</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>64405</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42067</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+                <com.researchit.PossibleAnswer>
+                  <id>4242</id>
+                  <name>Much worse than other people</name>
+                  <description>Much worse than other people</description>
+                  <sequence>4</sequence>
+                  <jsmName></jsmName>
+                  <childQuestions/>
+                  <jsmQuestionPossibleAnswerStructureID>64406</jsmQuestionPossibleAnswerStructureID>
+                  <frozenPossibleAnswerID></frozenPossibleAnswerID>
+                  <jsmQuestionStructureID>42067</jsmQuestionStructureID>
+                  <interviewID></interviewID>
+                  <actualAnswer></actualAnswer>
+                  <showChildQuestions>true</showChildQuestions>
+                </com.researchit.PossibleAnswer>
+              </possibleAnswers>
+              <agents>
+                <com.researchit.Agent>
+                  <id>305</id>
+                  <name>Alcohol and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>304</id>
+                  <name>Diet and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>300</id>
+                  <name>Light at night</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>301</id>
+                  <name>Phase shift</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>306</id>
+                  <name>Physical activity and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>302</id>
+                  <name>Sleep disturbances</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+                <com.researchit.Agent>
+                  <id>307</id>
+                  <name>Vit D and CD</name>
+                  <description>&lt;not set&gt;</description>
+                  <parentID>299</parentID>
+                  <typeID></typeID>
+                  <questionAgentID></questionAgentID>
+                  <studyId></studyId>
+                </com.researchit.Agent>
+              </agents>
+              <parentID>64371</parentID>
+              <interviewID></interviewID>
+              <jsmStructureQuestionID>42067</jsmStructureQuestionID>
+              <warning></warning>
+              <multiple>false</multiple>
+              <minimised>false</minimised>
+              <notes>NULL</notes>
+              <typeID>1</typeID>
+              <jsmName></jsmName>
+              <errorMessage></errorMessage>
+              <viewWithParent>false</viewWithParent>
+            </com.researchit.Question>
+          </childQuestions>
+          <jsmQuestionPossibleAnswerStructureID>64371</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42056</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+        <com.researchit.PossibleAnswer>
+          <id>3722</id>
+          <name>No</name>
+          <description>No</description>
+          <sequence>1</sequence>
+          <jsmName></jsmName>
+          <childQuestions/>
+          <jsmQuestionPossibleAnswerStructureID>64407</jsmQuestionPossibleAnswerStructureID>
+          <frozenPossibleAnswerID></frozenPossibleAnswerID>
+          <jsmQuestionStructureID>42056</jsmQuestionStructureID>
+          <interviewID></interviewID>
+          <actualAnswer></actualAnswer>
+          <showChildQuestions>true</showChildQuestions>
+        </com.researchit.PossibleAnswer>
+      </possibleAnswers>
+      <agents>
+        <com.researchit.Agent>
+          <id>140</id>
+          <name>Ionizing radiation</name>
+          <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Ionizing radiation	&amp;lt;2 mSv&amp;nbsp;		2-20 mSv&amp;nbsp;		&amp;gt;20 mSv&lt;BR&gt;</description>
+          <parentID>207</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>305</id>
+          <name>Alcohol and CD</name>
+          <description>&lt;not set&gt;</description>
+          <parentID>299</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>304</id>
+          <name>Diet and CD</name>
+          <description>&lt;not set&gt;</description>
+          <parentID>299</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>300</id>
+          <name>Light at night</name>
+          <description>&lt;not set&gt;</description>
+          <parentID>299</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>301</id>
+          <name>Phase shift</name>
+          <description>&lt;not set&gt;</description>
+          <parentID>299</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>306</id>
+          <name>Physical activity and CD</name>
+          <description>&lt;not set&gt;</description>
+          <parentID>299</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>302</id>
+          <name>Sleep disturbances</name>
+          <description>&lt;not set&gt;</description>
+          <parentID>299</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+        <com.researchit.Agent>
+          <id>307</id>
+          <name>Vit D and CD</name>
+          <description>&lt;not set&gt;</description>
+          <parentID>299</parentID>
+          <typeID></typeID>
+          <questionAgentID></questionAgentID>
+          <studyId></studyId>
+        </com.researchit.Agent>
+      </agents>
+      <parentID>100</parentID>
+      <interviewID></interviewID>
+      <jsmStructureQuestionID>42056</jsmStructureQuestionID>
+      <warning></warning>
+      <multiple>false</multiple>
+      <minimised>false</minimised>
+      <notes>NULL</notes>
+      <typeID>1</typeID>
+      <jsmName></jsmName>
+      <errorMessage></errorMessage>
+      <viewWithParent>false</viewWithParent>
+    </com.researchit.Question>
+  </questions>
+  <possibleAnswers>
+    <com.researchit.PossibleAnswer>
+      <id>4223</id>
+      <name>1-2</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64367</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4224</id>
+      <name>3-5</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64368</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4225</id>
+      <name>5-7</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64369</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4226</id>
+      <name>8 or more</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64370</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3719</id>
+      <name>Yes</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64371</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3722</id>
+      <name>No</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64407</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4223</id>
+      <name>1-2</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64372</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4224</id>
+      <name>3-5</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64373</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4225</id>
+      <name>5-7</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64374</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4226</id>
+      <name>8 or more</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64375</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4227</id>
+      <name>First Class</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64376</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4228</id>
+      <name>Business Class</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64377</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4229</id>
+      <name>Economy Class</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64378</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4230</id>
+      <name>All year round</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64379</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4231</id>
+      <name>January to March</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64380</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4232</id>
+      <name>April to June</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64381</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4233</id>
+      <name>July to September</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64382</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4234</id>
+      <name>October to December</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64383</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4235</id>
+      <name>Very well</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64384</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3898</id>
+      <name>Well</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64385</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4236</id>
+      <name>Not very well</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64386</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3862</id>
+      <name>extremely badly</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64387</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3719</id>
+      <name>Yes</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64388</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3722</id>
+      <name>No</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64391</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3721</id>
+      <name>[number 1-100]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64389</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3721</id>
+      <name>[number 1-100]</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64390</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3719</id>
+      <name>Yes</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64392</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3722</id>
+      <name>No</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64398</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4237</id>
+      <name>Fewer than 1 per month</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64393</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4223</id>
+      <name>1-2</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64394</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4224</id>
+      <name>3-5</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64395</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4225</id>
+      <name>5-7</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64396</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4226</id>
+      <name>8 or more</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64397</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4238</id>
+      <name>Usually</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64399</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3865</id>
+      <name>sometimes</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64400</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3866</id>
+      <name>rarely</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64401</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4239</id>
+      <name>Much better than most other people</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64402</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4240</id>
+      <name>Better than most other people</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64403</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>3897</id>
+      <name>About the same as others</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64404</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4241</id>
+      <name>Worse than other people</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64405</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+    <com.researchit.PossibleAnswer>
+      <id>4242</id>
+      <name>Much worse than other people</name>
+      <description></description>
+      <sequence></sequence>
+      <jsmName></jsmName>
+      <jsmQuestionPossibleAnswerStructureID>64406</jsmQuestionPossibleAnswerStructureID>
+      <frozenPossibleAnswerID></frozenPossibleAnswerID>
+      <jsmQuestionStructureID></jsmQuestionStructureID>
+      <interviewID></interviewID>
+      <actualAnswer></actualAnswer>
+      <showChildQuestions>true</showChildQuestions>
+    </com.researchit.PossibleAnswer>
+  </possibleAnswers>
+  <agents>
+    <com.researchit.Agent>
+      <id>140</id>
+      <name>Ionizing radiation</name>
+      <description>			TLV-TWA Exposure levels&#xd;
+Examples		Low		Medium		High&#xd;
+Ionizing radiation	&amp;lt;2 mSv&amp;nbsp;		2-20 mSv&amp;nbsp;		&amp;gt;20 mSv&lt;BR&gt;</description>
+      <parentID>207</parentID>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+    <com.researchit.Agent>
+      <id>300</id>
+      <name>Light at night</name>
+      <description>&lt;not set&gt;</description>
+      <parentID>299</parentID>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+    <com.researchit.Agent>
+      <id>301</id>
+      <name>Phase shift</name>
+      <description>&lt;not set&gt;</description>
+      <parentID>299</parentID>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+    <com.researchit.Agent>
+      <id>302</id>
+      <name>Sleep disturbances</name>
+      <description>&lt;not set&gt;</description>
+      <parentID>299</parentID>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+    <com.researchit.Agent>
+      <id>304</id>
+      <name>Diet and CD</name>
+      <description>&lt;not set&gt;</description>
+      <parentID>299</parentID>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+    <com.researchit.Agent>
+      <id>305</id>
+      <name>Alcohol and CD</name>
+      <description>&lt;not set&gt;</description>
+      <parentID>299</parentID>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+    <com.researchit.Agent>
+      <id>306</id>
+      <name>Physical activity and CD</name>
+      <description>&lt;not set&gt;</description>
+      <parentID>299</parentID>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+    <com.researchit.Agent>
+      <id>307</id>
+      <name>Vit D and CD</name>
+      <description>&lt;not set&gt;</description>
+      <parentID>299</parentID>
+      <typeID></typeID>
+      <questionAgentID></questionAgentID>
+      <studyId></studyId>
+    </com.researchit.Agent>
+  </agents>
+  <rules>
+    <com.researchit.expert.ExpertRule>
+      <id>34629</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>34272</id>
+          <name>Frequent_Flyer_South/North_Pole-Yes</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>39550</id>
+              <name></name>
+              <description></description>
+              <factId>34272</factId>
+              <questionId>5900</questionId>
+              <answerId>3719</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>140</agentId>
+      <jsmId>426</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>34630</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>34273</id>
+          <name>Frequent_Flyers_Time_Difference-Yes</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>39551</id>
+              <name></name>
+              <description></description>
+              <factId>34273</factId>
+              <questionId>5892</questionId>
+              <answerId>3719</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>300</agentId>
+      <jsmId>426</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>34631</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>34274</id>
+          <name>Frequent_Flyers_Time_Difference-Yes</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>39552</id>
+              <name></name>
+              <description></description>
+              <factId>34274</factId>
+              <questionId>5892</questionId>
+              <answerId>3719</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>301</agentId>
+      <jsmId>426</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>34632</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>34275</id>
+          <name>Frequent_Flyers_Time_Difference-Yes</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>39553</id>
+              <name></name>
+              <description></description>
+              <factId>34275</factId>
+              <questionId>5892</questionId>
+              <answerId>3719</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>302</agentId>
+      <jsmId>426</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>34633</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>34276</id>
+          <name>Frequent_Flyers_Flights/Month-8_or_more</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>39554</id>
+              <name></name>
+              <description></description>
+              <factId>34276</factId>
+              <questionId>5891</questionId>
+              <answerId>4226</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>302</agentId>
+      <jsmId>426</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>2</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>34634</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>34277</id>
+          <name>Frequent_Flyers_Flights/Month-5-7</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>39555</id>
+              <name></name>
+              <description></description>
+              <factId>34277</factId>
+              <questionId>5891</questionId>
+              <answerId>4225</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>302</agentId>
+      <jsmId>426</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>3</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>34635</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>34278</id>
+          <name>Frequent_Flyers_Time_Difference-Yes</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>39556</id>
+              <name></name>
+              <description></description>
+              <factId>34278</factId>
+              <questionId>5892</questionId>
+              <answerId>3719</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>304</agentId>
+      <jsmId>426</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>34636</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>34279</id>
+          <name>Frequent_Flyers_Time_Difference-Yes</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>39557</id>
+              <name></name>
+              <description></description>
+              <factId>34279</factId>
+              <questionId>5892</questionId>
+              <answerId>3719</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>305</agentId>
+      <jsmId>426</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>34637</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>34280</id>
+          <name>Frequent_Flyers_Flights/Month-8_or_more</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>39558</id>
+              <name></name>
+              <description></description>
+              <factId>34280</factId>
+              <questionId>5891</questionId>
+              <answerId>4226</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>305</agentId>
+      <jsmId>426</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>2</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>34638</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>34281</id>
+          <name>Frequent_Flyers_Flights/Month-5-7</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>39559</id>
+              <name></name>
+              <description></description>
+              <factId>34281</factId>
+              <questionId>5891</questionId>
+              <answerId>4225</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>305</agentId>
+      <jsmId>426</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>3</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>34639</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>34282</id>
+          <name>Frequent_Flyers_Time_Difference-Yes</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>39560</id>
+              <name></name>
+              <description></description>
+              <factId>34282</factId>
+              <questionId>5892</questionId>
+              <answerId>3719</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>306</agentId>
+      <jsmId>426</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+    <com.researchit.expert.ExpertRule>
+      <id>34640</id>
+      <name></name>
+      <description></description>
+      <typeId>1</typeId>
+      <levelTypeId>11</levelTypeId>
+      <weight>0</weight>
+      <facts>
+        <com.researchit.expert.ExpertFact>
+          <id>34283</id>
+          <name>Frequent_Flyers_Time_Difference-Yes</name>
+          <description>&amp;lt;not set&amp;gt;</description>
+          <factRequirements>
+            <com.researchit.expert.ExpertFactRequirement>
+              <id>39561</id>
+              <name></name>
+              <description></description>
+              <factId>34283</factId>
+              <questionId>5892</questionId>
+              <answerId>3719</answerId>
+              <type></type>
+              <jobHistoryAttribute>NULL</jobHistoryAttribute>
+              <jobHistoryValue>NULL</jobHistoryValue>
+              <condition>NULL</condition>
+            </com.researchit.expert.ExpertFactRequirement>
+          </factRequirements>
+        </com.researchit.expert.ExpertFact>
+      </facts>
+      <agentId>307</agentId>
+      <jsmId>426</jsmId>
+      <frequencyWeeksQId>0</frequencyWeeksQId>
+      <frequencyHoursQId>0</frequencyHoursQId>
+      <sequence>1</sequence>
+    </com.researchit.expert.ExpertRule>
+  </rules>
+  <interviewStartNote>NULL</interviewStartNote>
+  <interviewEndNote>NULL</interviewEndNote>
+  <questionCount>-1</questionCount>
+  <possibleAnswerCount>-1</possibleAnswerCount>
+  <associateModule>false</associateModule>
+  <readOnly>false</readOnly>
+  <credits>Lin Fritschi, Jen Girschik, Alicia Authelet</credits>
+  <jobHistoryAssessedCount>-1</jobHistoryAssessedCount>
+  <jsmTypeId>0</jsmTypeId>
+  <comments></comments>
+  <searchCount>0</searchCount>
+  <jsmAssociates></jsmAssociates>
+  <forumLink></forumLink>
+  <studyId></studyId>
+</jsm>

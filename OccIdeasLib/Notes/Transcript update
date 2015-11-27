@@ -1,0 +1,1 @@
+ALTER TABLE `occideasMeso`.`participant` ADD COLUMN `transcript_sent` VARCHAR(3)  DEFAULT 'No' AFTER `amr_ref_id`;

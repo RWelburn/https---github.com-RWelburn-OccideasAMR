@@ -1,0 +1,350 @@
+
+a:link {text-decoration: none; color: lightgrey;}
+a:visited {text-decoration: none; color: lightgrey;}
+a:hover {text-decoration: underline; color: red;}
+a:active {text-decoration: none; color: lightgrey;}
+
+.imglink a span{
+visibility:hidden;/* hide message initially*/
+position:absolute;
+width:250px;
+padding:5px;
+background:lightgrey;
+color:blue;
+z-index:5;
+}
+
+.imglink a span.a{
+top:0px;
+left:150px;
+}
+
+.imglink a span.b{
+top:0px;
+left:150px;
+}
+
+.imglink a span.c{
+top:0px;
+left:150px;
+}
+
+.imglink a span.d{
+top:0px;
+left:150px;
+}
+.imglink a span.e{
+top:0px;
+left:150px;
+}
+.imglink a span.f{
+top:0px;
+left:150px;
+}
+
+.imglink a:link {text-decoration: none; color: red;}
+.imglink a:visited {text-decoration: none; color: white;}
+.imglink a:hover {text-decoration: none;}
+
+.imglink a:hover{visibility:visible}/* ie bug needed to make span show*/
+.imglink a:hover span{visibility:visible;}/* reveal image*/
+
+.imglink  a:active {text-decoration: none; color: white;}
+
+#login {
+border:solid 0px;
+height:100px;
+width:150px;
+position:absolute;
+background-color:lightgrey;
+top:150px;
+left:30px;
+padding:10px;
+}
+#wiki {
+border:solid 0px;
+height:80px;
+width:150px;
+position:absolute;
+background-color:lightgrey;
+top:300px;
+left:30px;
+padding:10px;
+font-family:arial;
+font-size:10pt;
+}
+#navigation {
+border:solid 0px;
+height:400px;
+width:100px;
+position:absolute;
+top:150px;
+left:30px
+}
+#maindiv {
+	width:100%;
+	height:90px;
+	text-align:center;
+	border:solid 0px;
+}
+#titlediv {
+	border-bottom:solid lightblue 1px;
+	width:100%;
+}
+#footerdiv {
+	border:solid 0px;
+	height:20px;
+	width:100%;
+	position:absolute;
+	bottom:10px;
+	clear:both;
+}
+#centrediv {
+	background:white;
+	border:solid 0px;
+	height:350px;
+	width:350px;
+	position:absolute;
+	top:150px;
+	left:320px
+
+}
+#occideasdiv {
+	background:white;
+	position:absolute;
+	left:150px;
+	top:0px;
+	text-align:center;
+	border:solid 0px;
+	height:100px;
+	width:100px;
+}
+#participantdiv {
+	background:white;
+	position:absolute;
+	left:350px;
+	top:200px;
+	text-align:center;
+	border:solid 0px;
+	height:100px;
+	width:100px;
+}
+#biospecimendiv {
+	background:white;
+	position:absolute;
+	left:-50px;
+	top:200px;
+	text-align:center;
+	border:solid 0px;
+	height:100px;
+	width:100px;
+}
+#studycaldiv {
+	background:white;
+	position:absolute;
+	left:275px;
+	top:425px;
+	text-align:center;
+	border:solid 0px;
+	height:100px;
+	width:100px;
+}
+#docstorediv {
+	background:white;
+	position:absolute;
+	left:50px;
+	top:425px;;
+	text-align:center;
+	border:solid 0px;
+	height:100px;
+	width:100px;
+}
+#studymgrdiv {
+	background:white;
+	position:absolute;
+	left:125px;
+	top:200px;
+	text-align:center;
+	border:solid 0px;
+	height:150px;
+	width:150px;
+}
+#rightside {
+border:solid 0px;
+height:400px;
+width:150px;
+position:absolute;
+top:150px;
+right:30px;
+      font-family:arial;
+}
+#biospecimencount {
+	border:solid 0px;
+	height:400px;
+	width:150px;
+	position:absolute;
+	top:300px;
+	left:30px;
+    font-family:arial;
+    font-size:8pt;
+}
+img.occideasimage {
+	height:100px;
+	width:100px;
+	border:0px
+}
+img.occideasimagebig {
+	height:150px;
+	width:150px;
+	border:0px
+}
+h3 {
+font-family:arial;
+color:blue;
+font-size:12pt;
+}
+#headline {
+font-size:10pt;
+}
+
+#headline a{
+color:blue;
+}
+span p {
+font-family:arial;
+font-size:10pt;
+text-align:left;
+font-weight:normal;
+}
+
+
+.imgnavigation a span{
+visibility:hidden;/* hide message initially*/
+position:absolute;
+width:250px;
+padding:5px;
+background:lightgrey;
+color:blue;
+z-index:5;
+}
+
+.imgnavigation a span.a{
+top:0px;
+left:150px;
+}
+
+.imgnavigation a span.b{
+top:0px;
+left:150px;
+}
+
+.imgnavigation a span.c{
+top:0px;
+left:150px;
+}
+
+.imgnavigation a span.d{
+top:0px;
+left:150px;
+}
+.imgnavigation a span.e{
+top:0px;
+left:150px;
+}
+.imgnavigation a span.f{
+top:0px;
+left:150px;
+}
+
+.imgnavigation a:link {text-decoration: none; color: red;}
+.imgnavigation a:visited {text-decoration: none; color: white;}
+.imgnavigation a:hover {text-decoration: none;}
+
+.imgnavigation a:hover{visibility:visible}/* ie bug needed to make span show*/
+.imgnavigation a:hover span{visibility:visible;}/* reveal image*/
+
+.imgnavigation  a:active {text-decoration: none; color: white;}
+
+#occideasnavdiv {
+	background:white;
+	position:absolute;
+	left:150px;
+	top:425px;
+	text-align:center;
+	border:solid 0px;
+	height:100px;
+	width:100px;
+}
+#participantnavdiv {
+	background:white;
+	position:absolute;
+	left:350px;
+	top:425px;
+	text-align:center;
+	border:solid 0px;
+	height:100px;
+	width:100px;
+}
+#biospecimennavdiv {
+	background:white;
+	position:absolute;
+	left:-50px;
+	top:425px;
+	text-align:center;
+	border:solid 0px;
+	height:100px;
+	width:100px;
+}
+#studycalnavdiv {
+	background:white;
+	position:absolute;
+	left:275px;
+	top:425px;
+	text-align:center;
+	border:solid 0px;
+	height:100px;
+	width:100px;
+}
+#docstorenavdiv {
+	background:white;
+	position:absolute;
+	left:50px;
+	top:425px;;
+	text-align:center;
+	border:solid 0px;
+	height:100px;
+	width:100px;
+}
+#calendardiv {
+	background:white;
+	position:absolute;
+	left:210px;
+	top:120px;;
+	text-align:center;
+	border:solid 0px;
+	height:300px;
+	width:400px;
+	z-align:6;
+}
+#studiesdiv {
+	color:grey;
+	border:solid 0px;
+	height:100px;
+	width:200px;
+	position:absolute;
+	top:150px;
+	right:30px;
+    font-family:arial;
+    font-size:8pt;
+}
+#studydiv {
+	border:solid 0px;
+	height:300px;
+	width:200px;
+	position:absolute;
+	top:280px;
+	right:30px;
+	font-family:arial;
+	font-size:6pt;
+	color:grey;
+}

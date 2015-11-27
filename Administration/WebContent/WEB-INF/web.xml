@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>
+	Administration</display-name>
+	<welcome-file-list>
+		<welcome-file>main.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>AdminValidationServlet</servlet-name>
+		<servlet-class>com.researchit.servlets.AdminValidationServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminValidationServlet</servlet-name>
+		<url-pattern>/AdminValidationServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AdminServlet</servlet-name>
+		<servlet-class>com.researchit.servlets.AdminServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminServlet</servlet-name>
+		<url-pattern>/AdminServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AdminControlServlet</servlet-name>
+		<servlet-class>com.researchit.servlets.AdminControlServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminControlServlet</servlet-name>
+		<url-pattern>/AdminControlServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+	<description>
+	</description>
+	<display-name>ImageStream</display-name>
+	<servlet-name>ImageStream</servlet-name>
+	<servlet-class>com.researchit.servlets.ImageStream</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ImageStream</servlet-name>
+		<url-pattern>/ImageStream</url-pattern>
+	</servlet-mapping>
+</web-app>
